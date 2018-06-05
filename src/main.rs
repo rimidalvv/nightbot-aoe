@@ -7,6 +7,7 @@ extern crate reqwest;
 mod voobly;
 mod request;
 
+use std::env;
 use std::sync::RwLock;
 
 use rocket::{
@@ -14,8 +15,6 @@ use rocket::{
 };
 
 use voobly::VooblyApi;
-
-const VOOBLY_API_KEY: &'static str = env!("VOOBLY_API_KEY");
 
 #[derive(FromForm)]
 struct VooblyUser {
@@ -56,7 +55,8 @@ fn elo(api_lock: State<RwLock<VooblyApi>>, user: VooblyUser) -> Option<String> {
 }
 
 fn main() {
-	let api = VooblyApi::new(VOOBLY_API_KEY.trim());
+	let api_key = env::var("VOOBLY_API_KEY").unwrap();
+	let api = VooblyApi::new(api_key);
 	let api_lock = RwLock::new(api);
 	
 	rocket::ignite()
