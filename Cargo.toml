@@ -1,0 +1,9 @@
+[package]
+name = "voobly-ext"
+version = "0.1.0"
+authors = ["Johannes Boczek <johannes.boczek@web.de>"]
+
+[dependencies]
+rocket = "*"
+rocket_codegen = "*"
+reqwest = "*"
