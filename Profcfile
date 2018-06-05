@@ -1,1 +1,1 @@
-web: ./target/release/voobly-ext
+web: ROCKET_PORT=$PORT ./target/release/voobly-ext
