@@ -15,7 +15,7 @@ use rocket::{
 
 use voobly::VooblyApi;
 
-const VOOBLY_API_KEY: &'static str = include_str!("../voobly_api_key");
+const VOOBLY_API_KEY: &'static str = env!("VOOBLY_API_KEY");
 
 #[derive(FromForm)]
 struct VooblyUser {
