@@ -1,4 +1,8 @@
 use std::collections::HashMap;
+use std::time::{
+	Instant,
+	Duration
+};
 
 use request;
 
@@ -7,7 +11,8 @@ use request;
  */
 pub struct VooblyApi {
 	key: String,
-	id_cache: HashMap<String, (String, String)>
+	id_cache: HashMap<String, (String, String)>,
+	elo_cache: HashMap<String, (String, Instant)>
 }
 
 impl VooblyApi {
@@ -16,13 +21,16 @@ impl VooblyApi {
 	pub const DM_1_V_1: &'static str = "163";
 	pub const DM_TG: &'static str = "162";
 	
+	const ELO_CACHE_DURATION: Duration = Duration::from_secs(60);
+	
 	/*
 	 * Creates a new struct with the given API key.
 	 */
 	pub fn new<S>(key: S) -> Self where S: Into<String> {
 		VooblyApi {
 			key: key.into(),
-			id_cache: HashMap::new()
+			id_cache: HashMap::new(),
+			elo_cache: HashMap::new()
 		}
 	}
 	
@@ -53,13 +61,27 @@ impl VooblyApi {
 	
 	/*
 	 * Fetches user elo by the given user id.
+	 * Caches the elo for a certain amount of time.
 	 */
-	pub fn elo<S, T>(&self, id: S, ladder: T) -> Option<String> where S: AsRef<str>, T: AsRef<str> {
-		let url = format!("http://www.voobly.com/api/ladder/{}?key={}&uid={}", ladder.as_ref(), self.key, id.as_ref());
+	pub fn elo<S, T>(&mut self, id: S, ladder: T) -> Option<String> where S: AsRef<str>, T: AsRef<str> {
+		let id = id.as_ref();
+		
+		if let Some((elo, timestamp)) = self.elo_cache.remove(id) {
+			if timestamp.elapsed() < Self::ELO_CACHE_DURATION {
+				self.elo_cache.insert(id.to_string(), (elo.clone(), timestamp));
+				
+				return Some(elo);
+			}
+		}
+		
+		let url = format!("http://www.voobly.com/api/ladder/{}?key={}&uid={}", ladder.as_ref(), self.key, id);
 		let response = request::get(&url)?;
 		let response = parse_response(&response);
-		let elo = response.get("rating")
-			.map(ToString::to_string);
+		let elo = response.get("rating").map(ToString::to_string);
+		
+		if let Some(elo) = elo.clone() {
+			self.elo_cache.insert(id.to_string(), (elo, Instant::now()));
+		}
 		
 		elo
 	}
