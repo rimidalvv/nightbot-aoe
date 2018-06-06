@@ -12,7 +12,7 @@ use request;
 pub struct VooblyApi {
 	key: String,
 	id_cache: HashMap<String, (String, String)>,
-	elo_cache: HashMap<String, (String, Instant)>
+	elo_cache: HashMap<(String, String), (String, Instant)>
 }
 
 impl VooblyApi {
@@ -65,22 +65,24 @@ impl VooblyApi {
 	 */
 	pub fn elo<S, T>(&mut self, id: S, ladder: T) -> Option<String> where S: AsRef<str>, T: AsRef<str> {
 		let id = id.as_ref();
+		let ladder = ladder.as_ref();
+		let id_ladder_tuple = (id.to_string(), ladder.to_string());
 		
-		if let Some((elo, timestamp)) = self.elo_cache.remove(id) {
+		if let Some((elo, timestamp)) = self.elo_cache.remove(&id_ladder_tuple) {
 			if timestamp.elapsed() < Self::ELO_CACHE_DURATION {
-				self.elo_cache.insert(id.to_string(), (elo.clone(), timestamp));
+				self.elo_cache.insert(id_ladder_tuple, (elo.clone(), timestamp));
 				
 				return Some(elo);
 			}
 		}
 		
-		let url = format!("http://www.voobly.com/api/ladder/{}?key={}&uid={}", ladder.as_ref(), self.key, id);
+		let url = format!("http://www.voobly.com/api/ladder/{}?key={}&uid={}", ladder, self.key, id);
 		let response = request::get(&url)?;
 		let response = parse_response(&response);
 		let elo = response.get("rating").map(ToString::to_string);
 		
 		if let Some(elo) = elo.clone() {
-			self.elo_cache.insert(id.to_string(), (elo, Instant::now()));
+			self.elo_cache.insert(id_ladder_tuple, (elo, Instant::now()));
 		}
 		
 		elo
