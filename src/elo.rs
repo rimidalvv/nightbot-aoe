@@ -45,15 +45,7 @@ impl<'a, 'r> FromRequest<'a, 'r> for NightbotHeaderFields {
 			
 			Outcome::Success(nightbot_headers)
 		} else {
-			if !cfg!(debug_assertions) {
-				Outcome::Failure((Status::Forbidden, ()))
-			} else {
-				Outcome::Success(NightbotHeaderFields {
-					response_url: String::from("[Nightbot callback URL]"),
-					user: Some(String::from("[Nightbot user]")),
-					channel: String::from("[Nightbot channel]")
-				})
-			}
+			Outcome::Failure((Status::Forbidden, ()))
 		}
 	}
 }
@@ -99,8 +91,9 @@ fn elo_response<S>(api: &mut VooblyApi, passed_name: S, info: VooblyEloRequestIn
 pub fn elo(api_lock: State<RwLock<VooblyApi>>, voobly_user: String, info: VooblyEloRequestInfo, nightbot_headers: NightbotHeaderFields) -> Option<String> {
 	let mut api = api_lock.write().unwrap();
 	let response = if let Some((elo, name, name_guessed, ladder_canonical)) = elo_response(&mut api, &voobly_user, info) {
-		let mention = if let Some(user) = nightbot_headers.user {
-			format!("@{}: ", user)
+		let user_name = nightbot_headers.user.and_then(|user_params| parse_nightbot_user_param(user_params, "displayName"));
+		let mention = if let Some(user_name) = user_name {
+			format!("@{}: ", user_name)
 		} else {
 			String::new()
 		};
@@ -120,4 +113,21 @@ pub fn elo(api_lock: State<RwLock<VooblyApi>>, voobly_user: String, info: Voobly
 	};
 	
 	Some(response)
+}
+
+fn parse_nightbot_user_param<S, T>(params: S, key: T) -> Option<String> where S: AsRef<str>, T: AsRef<str> {
+	let params = params.as_ref();
+	let target_key = key.as_ref();
+	
+	for kv_pair in params.split("&") {
+		let mut kv = kv_pair.split("=").take(2);
+		let key = kv.next();
+		let val = kv.next();
+		
+		if key == Some(target_key) {
+			return val.map(ToString::to_string);
+		}
+	}
+	
+	None
 }
