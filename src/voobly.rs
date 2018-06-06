@@ -2,6 +2,9 @@ use std::collections::HashMap;
 
 use request;
 
+/*
+ * The Voobly API struct.
+ */
 pub struct VooblyApi {
 	key: String,
 	id_cache: HashMap<String, (String, String)>
@@ -13,6 +16,9 @@ impl VooblyApi {
 	pub const DM_1_V_1: &'static str = "163";
 	pub const DM_TG: &'static str = "162";
 	
+	/*
+	 * Creates a new struct with the given API key.
+	 */
 	pub fn new<S>(key: S) -> Self where S: Into<String> {
 		VooblyApi {
 			key: key.into(),
@@ -20,6 +26,9 @@ impl VooblyApi {
 		}
 	}
 	
+	/*
+	 * Fetches user display name and id by the given name.
+	 */
 	pub fn user_info<S>(&mut self, name: S) -> Option<(String, String)> where S: AsRef<str> {
 		let name = name.as_ref();
 		
@@ -42,6 +51,9 @@ impl VooblyApi {
 		Some((id, actual_name))
 	}
 	
+	/*
+	 * Fetches user elo by the given user id.
+	 */
 	pub fn elo<S, T>(&self, id: S, ladder: T) -> Option<String> where S: AsRef<str>, T: AsRef<str> {
 		let url = format!("http://www.voobly.com/api/ladder/{}?key={}&uid={}", ladder.as_ref(), self.key, id.as_ref());
 		let response = request::get(&url)?;
@@ -53,6 +65,13 @@ impl VooblyApi {
 	}
 }
 
+/*
+ * Parses these weird Voobly responses into a map.
+ * Responses look like this:
+ * 
+ * key1,key2,key3
+ * val1,val2,val3
+ */
 fn parse_response(response: &str) -> HashMap<&str, &str> {
 	let mut map = HashMap::new();
 	let mut lines = response.lines().take(2);

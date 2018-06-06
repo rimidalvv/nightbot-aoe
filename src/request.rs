@@ -4,6 +4,9 @@ use reqwest::{
 	Response
 };
 
+/*
+ * Dead simple HTTP GET request.
+ */
 pub fn get<U>(url: U) -> Option<String> where U: IntoUrl {
 	let client = Client::new();
 	
