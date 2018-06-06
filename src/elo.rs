@@ -1,6 +1,15 @@
 use std::sync::RwLock;
 
-use rocket::State;
+use rocket::{
+	State,
+	Request,
+	request::{
+		FromRequest,
+		Outcome as RequestOutcome
+	},
+	outcome::Outcome,
+	http::Status
+};
 
 use voobly::VooblyApi;
 
@@ -11,6 +20,43 @@ use voobly::VooblyApi;
 pub struct VooblyEloRequestInfo {
 	name: Option<String>,
 	ladder: Option<String>
+}
+
+/*
+ * The header fields Nightbot passes with each request.
+ */
+pub struct NightbotHeaderFields {
+	response_url: String,
+	user: Option<String>,
+	channel: String,
+}
+
+impl<'a, 'r> FromRequest<'a, 'r> for NightbotHeaderFields {
+	type Error = ();
+	
+	fn from_request(request: &'a Request<'r>) -> RequestOutcome<Self, Self::Error> {
+		let headers = request.headers();
+		
+		if let (Some(response_url), Some(channel)) = (headers.get_one("Nightbot-Response-Url"), headers.get_one("Nightbot-Channel")) {
+			let nightbot_headers = NightbotHeaderFields {
+				response_url: response_url.to_string(),
+				user: headers.get_one("Nightbot-User").map(ToString::to_string),
+				channel: channel.to_string()
+			};
+			
+			Outcome::Success(nightbot_headers)
+		} else {
+			if !cfg!(debug_assertions) {
+				Outcome::Failure((Status::Forbidden, ()))
+			} else {
+				Outcome::Success(NightbotHeaderFields {
+					response_url: String::from("Sample URL"),
+					user: Some(String::from("Sample user")),
+					channel: String::from("Sample channel")
+				})
+			}
+		}
+	}
 }
 
 /*
@@ -48,23 +94,27 @@ fn elo_response(api: &mut VooblyApi, info: VooblyEloRequestInfo) -> Option<(Opti
  * Constructs a response based on the result of the request to the Voobly API.
  * api_lock is the Voobly API struct kept persistent between requests by Rocket.
  * info are the query parameters (name and ladder). They might be None or empty.
+ * Only accepts the request if the Nightbot headers are present.
  */
 #[get("/elo?<info>")]
-pub fn elo(api_lock: State<RwLock<VooblyApi>>, info: VooblyEloRequestInfo) -> Option<String> {
+pub fn elo(api_lock: State<RwLock<VooblyApi>>, info: VooblyEloRequestInfo, nightbot_headers: NightbotHeaderFields) -> Option<String> {
 	let mut api = api_lock.write().unwrap();
 	let response = if let Some((elo, name, name_guessed, ladder_canonical)) = elo_response(&mut api, info) {
-		if let Some(elo) = elo {
-			if !name_guessed {
-				format!("{} is rated {} in {}.", name, elo, ladder_canonical)
-			} else {
-				format!("Did you mean {}? They're rated {} in {}.", name, elo, ladder_canonical)
-			}
+		let mention = if let Some(user) = nightbot_headers.user {
+			format!("@{}: ", user)
 		} else {
-			if !name_guessed {
-				format!("{} is not rated in {}.", name, ladder_canonical)
-			} else {
-				format!("Did you mean {}? They're not rated in {}.", name, ladder_canonical)
-			}
+			String::new()
+		};
+		let correction = if name_guessed {
+			format!("Did you mean {}?", name)
+		} else {
+			String::new()
+		};
+		
+		if let Some(elo) = elo {
+			format!("{}{}{} is rated {} in {}.", mention, correction, name, elo, ladder_canonical)
+		} else {
+			format!("{}{}{} is not rated in {}.", mention, correction, name, ladder_canonical)
 		}
 	} else {
 		String::from("That user doesn't exist.")
