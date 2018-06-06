@@ -18,7 +18,6 @@ use voobly::VooblyApi;
  */
 #[derive(FromForm)]
 pub struct VooblyEloRequestInfo {
-	name: Option<String>,
 	ladder: Option<String>
 }
 
@@ -50,9 +49,9 @@ impl<'a, 'r> FromRequest<'a, 'r> for NightbotHeaderFields {
 				Outcome::Failure((Status::Forbidden, ()))
 			} else {
 				Outcome::Success(NightbotHeaderFields {
-					response_url: String::from("Sample URL"),
-					user: Some(String::from("Sample user")),
-					channel: String::from("Sample channel")
+					response_url: String::from("[Nightbot callback URL]"),
+					user: Some(String::from("[Nightbot user]")),
+					channel: String::from("[Nightbot channel]")
 				})
 			}
 		}
@@ -79,11 +78,11 @@ fn parse_ladder(info: &VooblyEloRequestInfo) -> (String, String) {
  * If the player is not rated, Some(None, ..., ..., ...) is returned.
  * Voobly has a small tolerance for misspelled names. If the name didn't exist and Voobly guessed it, name_guessed is true.
  */
-fn elo_response(api: &mut VooblyApi, info: VooblyEloRequestInfo) -> Option<(Option<String>, String, bool, String)> {
+fn elo_response<S>(api: &mut VooblyApi, passed_name: S, info: VooblyEloRequestInfo) -> Option<(Option<String>, String, bool, String)> where S: AsRef<str> {
+	let passed_name = passed_name.as_ref();
 	let (ladder, ladder_canonical) = parse_ladder(&info);
-	let passed_name = info.name?;
-	let (id, name) = api.user_info(&passed_name)?;
-	let name_guessed = !name.eq_ignore_ascii_case(&passed_name);
+	let (id, name) = api.user_info(passed_name)?;
+	let name_guessed = !name.eq_ignore_ascii_case(passed_name);
 	let elo = api.elo(id, ladder);
 	
 	Some((elo, name, name_guessed, ladder_canonical))
@@ -93,13 +92,13 @@ fn elo_response(api: &mut VooblyApi, info: VooblyEloRequestInfo) -> Option<(Opti
  * Request handler for the elo resource.
  * Constructs a response based on the result of the request to the Voobly API.
  * api_lock is the Voobly API struct kept persistent between requests by Rocket.
- * info are the query parameters (name and ladder). They might be None or empty.
+ * info are the query parameters (ladder). They might be None or empty.
  * Only accepts the request if the Nightbot headers are present.
  */
-#[get("/elo?<info>")]
-pub fn elo(api_lock: State<RwLock<VooblyApi>>, info: VooblyEloRequestInfo, nightbot_headers: NightbotHeaderFields) -> Option<String> {
+#[get("/elo/<voobly_user>?<info>")]
+pub fn elo(api_lock: State<RwLock<VooblyApi>>, voobly_user: String, info: VooblyEloRequestInfo, nightbot_headers: NightbotHeaderFields) -> Option<String> {
 	let mut api = api_lock.write().unwrap();
-	let response = if let Some((elo, name, name_guessed, ladder_canonical)) = elo_response(&mut api, info) {
+	let response = if let Some((elo, name, name_guessed, ladder_canonical)) = elo_response(&mut api, &voobly_user, info) {
 		let mention = if let Some(user) = nightbot_headers.user {
 			format!("@{}: ", user)
 		} else {
