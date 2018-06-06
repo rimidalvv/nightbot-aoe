@@ -8,6 +8,11 @@ pub struct VooblyApi {
 }
 
 impl VooblyApi {
+	pub const RM_1_V_1: &'static str = "131";
+	pub const RM_TG: &'static str = "132";
+	pub const DM_1_V_1: &'static str = "163";
+	pub const DM_TG: &'static str = "162";
+	
 	pub fn new<S>(key: S) -> Self where S: Into<String> {
 		VooblyApi {
 			key: key.into(),
@@ -37,8 +42,8 @@ impl VooblyApi {
 		Some((id, actual_name))
 	}
 	
-	pub fn elo<S>(&self, id: S) -> Option<String> where S: AsRef<str> {
-		let url = format!("http://www.voobly.com/api/ladder/131?key={}&uid={}", self.key, id.as_ref());
+	pub fn elo<S, T>(&self, id: S, ladder: T) -> Option<String> where S: AsRef<str>, T: AsRef<str> {
+		let url = format!("http://www.voobly.com/api/ladder/{}?key={}&uid={}", ladder.as_ref(), self.key, id.as_ref());
 		let response = request::get(&url)?;
 		let response = parse_response(&response);
 		let elo = response.get("rating")
