@@ -98,7 +98,7 @@ pub fn elo(api_lock: State<RwLock<VooblyApi>>, voobly_user: String, info: Voobly
 			String::new()
 		};
 		let correction = if name_guessed {
-			format!("Did you mean {}?", name)
+			format!("Did you mean {}? ", name)
 		} else {
 			String::new()
 		};
