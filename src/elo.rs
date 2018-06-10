@@ -90,13 +90,13 @@ fn elo_response<S>(api: &mut VooblyApi, passed_name: S, info: VooblyEloRequestIn
 #[get("/elo/<voobly_user>?<info>")]
 pub fn elo(api_lock: State<RwLock<VooblyApi>>, voobly_user: String, info: VooblyEloRequestInfo, nightbot_headers: NightbotHeaderFields) -> Option<String> {
 	let mut api = api_lock.write().unwrap();
+	let user_name = nightbot_headers.user.and_then(|user_params| parse_nightbot_user_param(user_params, "displayName"));
+	let mention = if let Some(user_name) = user_name {
+		format!("@{}: ", user_name)
+	} else {
+		String::new()
+	};
 	let response = if let Some((elo, name, name_guessed, ladder_canonical)) = elo_response(&mut api, &voobly_user, info) {
-		let user_name = nightbot_headers.user.and_then(|user_params| parse_nightbot_user_param(user_params, "displayName"));
-		let mention = if let Some(user_name) = user_name {
-			format!("@{}: ", user_name)
-		} else {
-			String::new()
-		};
 		let correction = if name_guessed {
 			format!("Did you mean {}? ", name)
 		} else {
@@ -109,7 +109,7 @@ pub fn elo(api_lock: State<RwLock<VooblyApi>>, voobly_user: String, info: Voobly
 			format!("{}{}{} is not rated in {}.", mention, correction, name, ladder_canonical)
 		}
 	} else {
-		String::from("That user doesn't exist.")
+		format!("{}That user doesn't exist.", mention)
 	};
 	
 	Some(response)
