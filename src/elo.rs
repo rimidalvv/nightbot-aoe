@@ -1,16 +1,8 @@
 use std::sync::RwLock;
 
-use rocket::{
-	State,
-	Request,
-	request::{
-		FromRequest,
-		Outcome as RequestOutcome
-	},
-	outcome::Outcome,
-	http::Status
-};
+use rocket::State;
 
+use ::NightbotHeaderFields;
 use voobly::VooblyApi;
 
 /*
@@ -19,35 +11,6 @@ use voobly::VooblyApi;
 #[derive(FromForm)]
 pub struct VooblyEloRequestInfo {
 	ladder: Option<String>
-}
-
-/*
- * The header fields Nightbot passes with each request.
- */
-pub struct NightbotHeaderFields {
-	response_url: String,
-	user: Option<String>,
-	channel: String,
-}
-
-impl<'a, 'r> FromRequest<'a, 'r> for NightbotHeaderFields {
-	type Error = ();
-	
-	fn from_request(request: &'a Request<'r>) -> RequestOutcome<Self, Self::Error> {
-		let headers = request.headers();
-		
-		if let (Some(response_url), Some(channel)) = (headers.get_one("Nightbot-Response-Url"), headers.get_one("Nightbot-Channel")) {
-			let nightbot_headers = NightbotHeaderFields {
-				response_url: response_url.to_string(),
-				user: headers.get_one("Nightbot-User").map(ToString::to_string),
-				channel: channel.to_string()
-			};
-			
-			Outcome::Success(nightbot_headers)
-		} else {
-			Outcome::Failure((Status::Forbidden, ()))
-		}
-	}
 }
 
 /*
@@ -88,9 +51,9 @@ fn elo_response<S>(api: &mut VooblyApi, passed_name: S, info: VooblyEloRequestIn
  * Only accepts the request if the Nightbot headers are present.
  */
 #[get("/elo/<voobly_user>?<info>")]
-pub fn elo(api_lock: State<RwLock<VooblyApi>>, voobly_user: String, info: VooblyEloRequestInfo, nightbot_headers: NightbotHeaderFields) -> Option<String> {
+pub fn elo(api_lock: State<RwLock<VooblyApi>>, voobly_user: String, info: VooblyEloRequestInfo, nightbot_headers: NightbotHeaderFields) -> String {
 	let mut api = api_lock.write().unwrap();
-	let user_name = nightbot_headers.user.and_then(|user_params| parse_nightbot_user_param(user_params, "displayName"));
+	let user_name = nightbot_headers.user.and_then(|user_params| ::parse_nightbot_user_param(user_params, "displayName"));
 	let mention = if let Some(user_name) = user_name {
 		format!("@{}: ", user_name)
 	} else {
@@ -112,22 +75,5 @@ pub fn elo(api_lock: State<RwLock<VooblyApi>>, voobly_user: String, info: Voobly
 		format!("{}That user doesn't exist.", mention)
 	};
 	
-	Some(response)
-}
-
-fn parse_nightbot_user_param<S, T>(params: S, key: T) -> Option<String> where S: AsRef<str>, T: AsRef<str> {
-	let params = params.as_ref();
-	let target_key = key.as_ref();
-	
-	for kv_pair in params.split("&") {
-		let mut kv = kv_pair.split("=").take(2);
-		let key = kv.next();
-		let val = kv.next();
-		
-		if key == Some(target_key) {
-			return val.map(ToString::to_string);
-		}
-	}
-	
-	None
+	response
 }

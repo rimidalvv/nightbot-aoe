@@ -7,3 +7,6 @@ authors = ["Johannes Boczek <johannes.boczek@web.de>"]
 rocket = "*"
 rocket_codegen = "*"
 reqwest = "*"
+serde_json = "*"
+serde = "*"
+serde_derive = "*"
