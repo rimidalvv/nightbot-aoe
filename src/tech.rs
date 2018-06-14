@@ -23,7 +23,13 @@ pub fn tech(data_lock: State<RwLock<GameData>>, name: String, nightbot_headers: 
 	let tech = data.techs.iter().filter(|t| shrink(&t.name).eq_ignore_ascii_case(&shrink(&name))).next();
 	
 	if let Some(tech) = tech {
-		format!("{}{} ({}) costs {}, takes {} to research.", mention, tech.name, tech.type_name, tech.cost, tech.time)
+		let description = if !tech.for_what.is_empty() && tech.for_what != "-" {
+			format!(" Upgrades: {}.", tech.for_what)
+		} else {
+			String::new()
+		};
+		
+		format!("{}{} ({}) costs {}, takes {} to research.{}", mention, tech.name, tech.type_name, tech.cost, tech.time, description)
 	} else {
 		format!("{}That tech does not exist.", mention)
 	}

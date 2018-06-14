@@ -109,7 +109,8 @@ pub struct Unit {
 	pub time: String,
 	pub fr: String,//???
 	pub ad: String,//???
-	pub mr: String,//Movement speed?
+	#[serde(rename = "mr")]
+	pub movement_speed: String,
 	#[serde(rename = "los")]
 	pub line_of_sight: String,
 	pub hp: String,
