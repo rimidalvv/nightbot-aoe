@@ -8174,7 +8174,7 @@
 		"game_version": "a",
 		"age": "3",
 		"cost": "700F 400G",
-		"for": "Portuguese gunpowder units affected by Ballistics, projectiles move tiles faster: Hand cannoneer/organ gun 5.5 -> 6.0, (elite) cannon galleon 1.95 -> 2.45, Bombard Cannon 4 -> 4.2, Bombard Tower 3 -> 3.2",
+		"for": "Portuguese gunpowder units affected by Ballistics, projectiles move faster: Hand Cannoneer / Organ Gun 5.5 -> 6.0, (Elite) Cannon Galleon 1.95 -> 2.45, Bombard Cannon 4 -> 4.2, Bombard Tower 3 -> 3.2",
 		"time": "0:40",
 		"available_to": [
 			"Portuguese"
