@@ -74,29 +74,23 @@ pub struct GatheringData {
 }
 
 #[derive(Serialize, Deserialize)]
-#[allow(non_snake_case)]
 pub struct Tech {
 	#[serde(rename = "type")]
 	pub type_name: String,
 	pub name: String,
-	#[serde(rename = "ver")]
 	pub game_version: String,
 	pub age: String,
 	pub cost: String,
+	pub extra: Option<Map<String, Value>>,
 	#[serde(rename = "for")]
 	pub for_what: String,
 	pub time: String,
-	#[serde(rename = "civb")]
-	pub civ_bonus: Option<Map<String, Value>>,
-	pub t: String,//Save as "avail"?
-	#[serde(rename = "avail")]
-	pub available_to: Option<Vec<String>>,
-	#[serde(rename = "noavail")]
-	pub not_available_to: Option<Vec<String>>
+	pub civ_boni: Option<Map<String, Value>>,
+	pub available_to: Vec<String>,
+	pub not_available_to: Vec<String>
 }
 
 #[derive(Serialize, Deserialize)]
-#[allow(non_snake_case)]
 pub struct Unit {
 	#[serde(rename = "type")]
 	pub kind: String,
