@@ -32,12 +32,12 @@ fn fetch_tech_data<S>(data: &GameData, name: S) -> Option<String> where S: AsRef
 }
 
 fn fetch_civ_has_tech<S, T>(data: &GameData, tech_name: S, civ: T) -> CivTechResult where S: AsRef<str>, T: AsRef<str> {
-	let civ = civ.as_ref().to_uppercase();
+	let civ = civ.as_ref();
 	let tech = data.tech_by_name(tech_name);
 	
 	if let Some(tech) = tech {
-		let civ_name = tech.available_to.iter().filter(|c| c.to_uppercase() == civ).next();
-		let civ_name_2 = tech.not_available_to.iter().filter(|c| c.to_uppercase() == civ).next();
+		let civ_name = tech.available_to.iter().filter(|c| c.eq_ignore_ascii_case(civ)).next();
+		let civ_name_2 = tech.not_available_to.iter().filter(|c| c.eq_ignore_ascii_case(civ)).next();
 		
 		if let Some(civ_name) = civ_name {
 			CivTechResult::Yes(tech.name.clone(), civ_name.to_string())
