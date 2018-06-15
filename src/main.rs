@@ -33,7 +33,6 @@ use data::GameData;
 
 const BUILDING_DATA: &'static str = include_str!("../res/data/buildings.json");
 const CIV_DATA: &'static str = include_str!("../res/data/civs.json");
-const GATHERING_DATA: &'static str = include_str!("../res/data/gathering.json");
 const TECH_DATA: &'static str = include_str!("../res/data/techs.json");
 const UNIT_DATA: &'static str = include_str!("../res/data/units.json");
 
@@ -83,7 +82,7 @@ fn main() {
 	let api_key = env::var("VOOBLY_API_KEY").unwrap();
 	let api = VooblyApi::new(api_key);
 	let api = RwLock::new(api);
-	let data = GameData::new(BUILDING_DATA, CIV_DATA, GATHERING_DATA, TECH_DATA, UNIT_DATA);
+	let data = GameData::new(BUILDING_DATA, CIV_DATA, TECH_DATA, UNIT_DATA);
 	let data = RwLock::new(data);
 	
 	rocket::ignite()

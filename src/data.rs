@@ -10,7 +10,6 @@ use serde_json::{
 pub struct GameData {
 	pub buildings: Vec<Building>,
 	pub civs: Vec<Civ>,
-	pub gathering_data: Vec<GatheringData>,
 	pub techs: Vec<Tech>,
 	pub units: Vec<Unit>
 }
@@ -65,15 +64,6 @@ pub struct Civ {
 }
 
 #[derive(Serialize, Deserialize)]
-pub struct GatheringData {
-	#[serde(rename = "type")]
-	pub resource: String,
-	pub source: String,
-	pub speed: String,
-	pub note: String
-}
-
-#[derive(Serialize, Deserialize)]
 pub struct Tech {
 	#[serde(rename = "type")]
 	pub type_name: String,
@@ -125,17 +115,15 @@ impl GameData {
 	/*
 	 * Parses the given JSON data into the structs above.
 	 */
-	pub fn new<S, T, U, V, W>(building_data: S, civ_data: T, gathering_data: U, tech_data: V, unit_data: W) -> Self where S: AsRef<str>, T: AsRef<str>, U: AsRef<str>, V: AsRef<str>, W: AsRef<str> {
+	pub fn new<S, T, U, V>(building_data: S, civ_data: T, tech_data: U, unit_data: V) -> Self where S: AsRef<str>, T: AsRef<str>, U: AsRef<str>, V: AsRef<str> {
 		let buildings: Vec<Building> = serde_json::from_str(building_data.as_ref()).expect("Buildings JSON");
 		let civs: Vec<Civ> = serde_json::from_str(civ_data.as_ref()).expect("Civs JSON");
-		let gathering_data: Vec<GatheringData> = serde_json::from_str(gathering_data.as_ref()).expect("Gathering JSON");
 		let techs: Vec<Tech> = serde_json::from_str(tech_data.as_ref()).expect("Tech JSON");
 		let units: Vec<Unit> = serde_json::from_str(unit_data.as_ref()).expect("Unit JSON");
 		
 		GameData {
 			buildings: buildings,
 			civs: civs,
-			gathering_data: gathering_data,
 			techs: techs,
 			units: units
 		}
