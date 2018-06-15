@@ -94,7 +94,7 @@ fn main() {
 	rocket::ignite()
 		.manage(api)
 		.manage(data)
-		.mount("/", routes![elo::elo, tech::tech])
+		.mount("/", routes![elo::elo, tech::tech, tech::tech_with_query_params])
 		.launch();
 }
 

@@ -128,4 +128,14 @@ impl GameData {
 			units: units
 		}
 	}
+	
+	pub fn tech_by_name<S>(&self, name: S) -> Option<&Tech> where S: AsRef<str> {
+		let name = name.as_ref();
+		
+		self.techs.iter().filter(|t| shrink(&t.name).eq_ignore_ascii_case(&shrink(name))).next()
+	}
+}
+
+fn shrink(s: &str) -> String {
+	s.trim().replace(' ', "").replace('-', "")
 }

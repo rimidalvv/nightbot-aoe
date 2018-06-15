@@ -21,7 +21,7 @@ impl VooblyApi {
 	pub const DM_1_V_1: &'static str = "163";
 	pub const DM_TG: &'static str = "162";
 	
-	const ELO_CACHE_DURATION: Duration = Duration::from_secs(60);
+	const ELO_CACHE_DURATION: Duration = Duration::from_secs(180);
 	
 	/*
 	 * Creates a new struct with the given API key.
