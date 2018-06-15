@@ -66,7 +66,7 @@ pub fn tech(data_lock: State<RwLock<GameData>>, name: String, nightbot_headers: 
 	} else {
 		String::new()
 	};
-	let tech_info = fetch_tech_data(&data, &name).unwrap_or(String::from("That tech does not exist"));
+	let tech_info = fetch_tech_data(&data, &name).unwrap_or(String::from("That tech does not exist."));
 	
 	format!("{}{}", mention, tech_info)
 }
