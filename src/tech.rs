@@ -23,7 +23,7 @@ fn fetch_tech_data<S>(data: &GameData, name: S) -> Option<String> where S: AsRef
 	tech.map(|tech| {
 		let unit = data.unit_by_name(&name);
 		let description = if !tech.for_what.is_empty() && unit.is_none() {
-			format!(" For: {}.", tech.for_what)
+			format!(" Effects: {}.", tech.for_what)
 		} else {
 			String::new()
 		};
