@@ -18,10 +18,11 @@ enum CivTechResult {
 }
 
 fn fetch_tech_data<S>(data: &GameData, name: S) -> Option<String> where S: AsRef<str> {
-	let tech = data.tech_by_name(name);
+	let tech = data.tech_by_name(&name);
 	
 	tech.map(|tech| {
-		let description = if !tech.for_what.is_empty() {
+		let unit = data.unit_by_name(&name);
+		let description = if !tech.for_what.is_empty() && unit.is_none() {
 			format!(" For: {}.", tech.for_what)
 		} else {
 			String::new()

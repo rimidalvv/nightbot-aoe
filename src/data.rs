@@ -134,6 +134,12 @@ impl GameData {
 		
 		self.techs.iter().filter(|t| shrink(&t.name).eq_ignore_ascii_case(&shrink(name))).next()
 	}
+	
+	pub fn unit_by_name<S>(&self, name: S) -> Option<&Unit> where S: AsRef<str> {
+		let name = name.as_ref();
+		
+		self.units.iter().filter(|u| shrink(&u.name).eq_ignore_ascii_case(&shrink(name))).next()
+	}
 }
 
 fn shrink(s: &str) -> String {
