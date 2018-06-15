@@ -79,7 +79,13 @@ impl<'a, 'r> FromRequest<'a, 'r> for NightbotHeaderFields {
  * Loads the Voobly API key from the environment variable, creates a Voobly API struct and launches Rocket.
  */
 fn main() {
-	let api_key = env::var("VOOBLY_API_KEY").unwrap();
+	let api_key = if let Ok(api_key) = env::var("VOOBLY_API_KEY") {
+		api_key
+	} else {
+		eprintln!("VOOBLY_API_KEY environment variable not set!");
+		
+		Default::default()
+	};
 	let api = VooblyApi::new(api_key);
 	let api = RwLock::new(api);
 	let data = GameData::new(BUILDING_DATA, CIV_DATA, TECH_DATA, UNIT_DATA);

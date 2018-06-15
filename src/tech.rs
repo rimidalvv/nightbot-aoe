@@ -23,8 +23,8 @@ pub fn tech(data_lock: State<RwLock<GameData>>, name: String, nightbot_headers: 
 	let tech = data.techs.iter().filter(|t| shrink(&t.name).eq_ignore_ascii_case(&shrink(&name))).next();
 	
 	if let Some(tech) = tech {
-		let description = if !tech.for_what.is_empty() && tech.for_what != "-" {
-			format!(" Upgrades: {}.", tech.for_what)
+		let description = if !tech.for_what.is_empty() {
+			format!(" For: {}.", tech.for_what)
 		} else {
 			String::new()
 		};
