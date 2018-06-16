@@ -75,7 +75,7 @@ pub fn create_response<S>(response: S, nightbot_headers: &NightbotHeaderFields) 
 	let user_name = nightbot_headers.user.as_ref().and_then(|user_param| {
 		let mut params = parse_nightbot_user_param(user_param);
 		
-		params.remove("display_name")
+		params.remove("displayName")
 	});
 	let mention = if let Some(user_name) = user_name {
 		format!("@{}: ", user_name)
