@@ -2,7 +2,7 @@ use std::sync::RwLock;
 
 use rocket::State;
 
-use ::NightbotHeaderFields;
+use util::{self, NightbotHeaderFields};
 use data::GameData;
 
 #[derive(FromForm)]
@@ -61,15 +61,13 @@ fn fetch_civ_has_tech<S, T>(data: &GameData, tech_name: S, civ: T) -> CivTechRes
 #[get("/tech/<name>")]
 pub fn tech(data_lock: State<RwLock<GameData>>, name: String, nightbot_headers: NightbotHeaderFields) -> String {
 	let data = data_lock.read().unwrap();
-	let user_name = nightbot_headers.user.and_then(|user_params| ::parse_nightbot_user_param(user_params, "displayName"));
-	let mention = if let Some(user_name) = user_name {
-		format!("@{}: ", user_name)
+	let tech_info = if let Some(tech_info) = fetch_tech_data(&data, &name) {
+		tech_info
 	} else {
-		String::new()
+		String::from("That tech does not exist.")
 	};
-	let tech_info = fetch_tech_data(&data, &name).unwrap_or(String::from("That tech does not exist."));
 	
-	format!("{}{}", mention, tech_info)
+	util::create_response(tech_info, &nightbot_headers)
 }
 
 /*
@@ -81,12 +79,6 @@ pub fn tech(data_lock: State<RwLock<GameData>>, name: String, nightbot_headers: 
 #[get("/tech/<name>?<civ>")]
 pub fn tech_with_query_params(data_lock: State<RwLock<GameData>>, name: String, civ: CivRequestInfo, nightbot_headers: NightbotHeaderFields) -> String {
 	let data = data_lock.read().unwrap();
-	let user_name = nightbot_headers.user.and_then(|user_params| ::parse_nightbot_user_param(user_params, "displayName"));
-	let mention = if let Some(user_name) = user_name {
-		format!("@{}: ", user_name)
-	} else {
-		String::new()
-	};
 	
 	let tech_info = match fetch_civ_has_tech(&data, &name, &civ.civ) {
 		CivTechResult::Yes(tech, civ) => format!("{} do have {}!", civ, tech),
@@ -95,5 +87,5 @@ pub fn tech_with_query_params(data_lock: State<RwLock<GameData>>, name: String, 
 		CivTechResult::InvalidCiv => String::from("That civ does not exist.")
 	};
 	
-	format!("{}{}", mention, tech_info)
+	util::create_response(tech_info, &nightbot_headers)
 }
