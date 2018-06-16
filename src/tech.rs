@@ -5,11 +5,17 @@ use rocket::State;
 use util::{self, NightbotHeaderFields};
 use data::GameData;
 
+/*
+ * Possible query parameters passed to the tech resource.
+ */
 #[derive(FromForm)]
 pub struct CivRequestInfo {
 	civ: String
 }
 
+/*
+ * Result when checking if a civ has a tech.
+ */
 enum CivTechResult {
 	Yes(String, String),
 	No(String, String),
@@ -17,6 +23,9 @@ enum CivTechResult {
 	InvalidCiv
 }
 
+/*
+ * Fetches the data for the specified tech name.
+ */
 fn fetch_tech_data<S>(data: &GameData, name: S) -> Option<String> where S: AsRef<str> {
 	let tech = data.tech_by_name(&name);
 	
@@ -37,6 +46,9 @@ fn fetch_tech_data<S>(data: &GameData, name: S) -> Option<String> where S: AsRef
 	})
 }
 
+/*
+ * Checks whether the specified civ has a tech or not.
+ */
 fn fetch_civ_has_tech<S, T>(data: &GameData, tech_name: S, civ: T) -> CivTechResult where S: AsRef<str>, T: AsRef<str> {
 	let civ = civ.as_ref();
 	let tech = data.tech_by_name(tech_name);

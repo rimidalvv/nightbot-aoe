@@ -28,6 +28,14 @@ const TECH_DATA: &'static str = include_str!("../res/data/techs.json");
 const UNIT_DATA: &'static str = include_str!("../res/data/units.json");
 
 /*
+ * Nightbot shouldn't complain if the resource doesn't exist.
+ */
+#[error(404)]
+fn not_found() {
+	;
+}
+
+/*
  * Loads the Voobly API key from the environment variable, creates a Voobly API struct and launches Rocket.
  */
 fn main() {
@@ -47,5 +55,6 @@ fn main() {
 		.manage(api)
 		.manage(data)
 		.mount("/", routes![elo::elo, elo::elo_with_query_params, tech::tech, tech::tech_with_query_params])
+		.catch(errors![not_found])
 		.launch();
 }
