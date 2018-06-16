@@ -21,10 +21,14 @@ fn fetch_tech_data<S>(data: &GameData, name: S) -> Option<String> where S: AsRef
 	let tech = data.tech_by_name(&name);
 	
 	tech.map(|tech| {
-		let unit = data.unit_by_name(&name);
-		let building = data.building_by_name(&name);
-		let description = if !tech.for_what.is_empty() && unit.is_none() && building.is_none() {
-			format!(" Effects: {}.", tech.for_what)
+		let description = if !tech.for_what.is_empty() {
+			if let Some(unit) = data.unit_by_name(&tech.for_what) {
+				format!(" Upgrades {}.", unit.name)
+			} else if let Some(building) = data.building_by_name(&tech.for_what) {
+				format!(" Upgrades {}.", building.name)
+			} else {
+				format!(" Effects: {}.", tech.for_what)
+			}
 		} else {
 			String::new()
 		};

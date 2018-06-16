@@ -149,5 +149,11 @@ impl GameData {
 }
 
 fn shrink(s: &str) -> String {
-	s.trim().replace(' ', "").replace('-', "")
+	let mut s = s.trim().replace(' ', "").replace('-', "");
+	
+	if let Some('s') = s.chars().last() {
+		s.pop();
+	}
+	
+	s
 }
