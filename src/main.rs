@@ -5,6 +5,7 @@ extern crate rocket;
 extern crate reqwest;
 extern crate serde_json;
 extern crate serde;
+extern crate url;
 
 #[macro_use]
 extern crate serde_derive;
