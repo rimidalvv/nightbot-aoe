@@ -15,7 +15,11 @@ use data::GameData;
 pub fn unit(data_lock: State<RwLock<GameData>>, name: String, nightbot_headers: NightbotHeaderFields) -> String {
 	let data = data_lock.read().unwrap();
 	let unit_info = if let Some(unit) = data.unit_by_name(&name) {
-		format!("{} ({}) costs {}, has {} HP, {} attack and {} armor.", unit.name, unit.kind, unit.cost, unit.hp, unit.attack, unit.armor)
+		if !unit.range.is_empty() && unit.range != "-" {
+			format!("{} ({}) costs {}, has {} HP, {} attack, {} armor and {} range.", unit.name, unit.kind, unit.cost, unit.hp, unit.attack, unit.armor, unit.range)
+		} else {
+			format!("{} ({}) costs {}, has {} HP, {} attack and {} armor.", unit.name, unit.kind, unit.cost, unit.hp, unit.attack, unit.armor)
+		}
 	} else {
 		String::from("That unit does not exist.")
 	};
