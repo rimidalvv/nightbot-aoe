@@ -16,6 +16,7 @@ mod voobly;
 mod elo;
 mod data;
 mod tech;
+mod unit;
 
 use std::env;
 use std::sync::RwLock;
@@ -55,7 +56,7 @@ fn main() {
 	rocket::ignite()
 		.manage(api)
 		.manage(data)
-		.mount("/", routes![elo::elo, elo::elo_with_query_params, tech::tech, tech::tech_with_query_params])
+		.mount("/", routes![elo::elo, elo::elo_with_query_params, tech::tech, tech::tech_with_query_params, unit::unit])
 		.catch(errors![not_found])
 		.launch();
 }
