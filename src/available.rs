@@ -6,7 +6,7 @@ use util::{self, NightbotHeaderFields};
 use data::GameData;
 
 /*
- * Result when checking if a civ has a tech.
+ * Result when checking if a civ has an entity.
  */
 enum AvailableResult {
 	Yes(String, String),
@@ -15,6 +15,9 @@ enum AvailableResult {
 	InvalidEntity
 }
 
+/*
+ * Return plural form of units / buildings and make it lowercase.
+ */
 fn plural_lowercase(mut s: String) -> String {
 	s = s.to_lowercase();
 	
@@ -38,7 +41,7 @@ fn plural_lowercase(mut s: String) -> String {
 }
 
 /*
- * Checks whether the specified civ has a tech or not.
+ * Checks whether the specified civ has an entity or not.
  */
 fn fetch_civ_has_entity<S, T>(data: &GameData, civ: S, name: T) -> AvailableResult where S: AsRef<str>, T: AsRef<str> {
 	if let Some(unit) = data.unit_by_name(&name) {
