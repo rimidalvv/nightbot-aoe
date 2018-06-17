@@ -530,61 +530,6 @@
 	},
 	{
 		"type": "Barracks",
-		"name": "Eagle Scout",
-		"ver": "f",
-		"age": "0",
-		"cost": "20F 50G",
-		"bt": "0:32 (1:00 in Feudal)",
-		"fr": "2",
-		"ad": "0",
-		"mr": "1.1",
-		"los": "6",
-		"hp": "50",
-		"ra": "-",
-		"at": "4",
-		"ar": "0 / 2",
-		"extra": {
-			"attack bonus": "+8 monks, +3 siege"
-		},
-		"note": "Fast infantry with extensive sight; resists conversion; attack bonus vs. Monks",
-		"available_to": [
-			"Aztecs",
-			"Incas",
-			"Mayans"
-		],
-		"not_available_to": [
-			"Berbers",
-			"Britons",
-			"Burmese",
-			"Byzantines",
-			"Celts",
-			"Chinese",
-			"Ethiopians",
-			"Franks",
-			"Goths",
-			"Huns",
-			"Indians",
-			"Italians",
-			"Japanese",
-			"Khmer",
-			"Koreans",
-			"Magyars",
-			"Malay",
-			"Malians",
-			"Mongols",
-			"Persians",
-			"Portuguese",
-			"Saracens",
-			"Slavs",
-			"Spanish",
-			"Teutons",
-			"Turks",
-			"Vietnamese",
-			"Vikings"
-		]
-	},
-	{
-		"type": "Barracks",
 		"name": "Eagle Warrior",
 		"ver": "c",
 		"age": "2",
@@ -1224,64 +1169,6 @@
 		],
 		"not_available_to": [
 			"Turks"
-		]
-	},
-	{
-		"type": "Stable",
-		"name": "Scout Cavalry",
-		"ver": "k",
-		"age": "0",
-		"cost": "80F",
-		"bt": "0:30",
-		"fr": "2",
-		"ad": "0",
-		"mr": "1.2",
-		"los": "4",
-		"hp": "45",
-		"ra": "-",
-		"at": "3",
-		"ar": "0 / 2",
-		"extra": {
-			"attack bonus": "+6 monks"
-		},
-		"civb": {
-			"Mongols and allies": "+2 LOS +2 search radius"
-		},
-		"note": "Fast with extensive line of sight. Resistant to conversion +2 LOS per age",
-		"available_to": [
-			"Berbers",
-			"Britons",
-			"Burmese",
-			"Byzantines",
-			"Celts",
-			"Chinese",
-			"Ethiopians",
-			"Franks",
-			"Goths",
-			"Huns",
-			"Indians",
-			"Italians",
-			"Japanese",
-			"Khmer",
-			"Koreans",
-			"Magyars",
-			"Malay",
-			"Malians",
-			"Mongols",
-			"Persians",
-			"Portuguese",
-			"Saracens",
-			"Slavs",
-			"Spanish",
-			"Teutons",
-			"Turks",
-			"Vietnamese",
-			"Vikings"
-		],
-		"not_available_to": [
-			"Aztecs",
-			"Incas",
-			"Mayans"
 		]
 	},
 	{
