@@ -54,7 +54,7 @@ fn fetch_elo<S>(api: &mut VooblyApi, passed_name: S, ladder: VooblyLadderInfo) -
 pub fn elo(api_lock: State<RwLock<VooblyApi>>, voobly_user: String, nightbot_headers: NightbotHeaderFields) -> String {
 	let ladder = VooblyLadderInfo { ladder: Some(String::from("rm1v1")) };
 	
-	elo_with_query_params(api_lock, voobly_user, ladder, nightbot_headers)
+	elo_with_ladder(api_lock, voobly_user, ladder, nightbot_headers)
 }
 
 /*
@@ -65,7 +65,7 @@ pub fn elo(api_lock: State<RwLock<VooblyApi>>, voobly_user: String, nightbot_hea
  * Only accepts the request if the Nightbot headers are present.
  */
 #[get("/elo/<voobly_user>?<ladder>")]
-pub fn elo_with_query_params(api_lock: State<RwLock<VooblyApi>>, voobly_user: String, ladder: VooblyLadderInfo, nightbot_headers: NightbotHeaderFields) -> String {
+pub fn elo_with_ladder(api_lock: State<RwLock<VooblyApi>>, voobly_user: String, ladder: VooblyLadderInfo, nightbot_headers: NightbotHeaderFields) -> String {
 	let mut api = api_lock.write().unwrap();
 	let elo_info = if let Some((elo, name, name_guessed, ladder_canonical)) = fetch_elo(&mut api, &voobly_user, ladder) {
 		let correction = if name_guessed {

@@ -81,3 +81,16 @@ pub fn create_response<S>(response: S, nightbot_headers: &NightbotHeaderFields) 
 	
 	format!("{}{}", mention, response.as_ref())
 }
+
+/*
+ * Removes spaces, dashes and leading s' from a string.
+ */
+pub fn shrink(s: &str) -> String {
+	let mut s = s.trim().replace(' ', "").replace('-', "");
+	
+	if let Some('s') = s.chars().last() {
+		s.pop();
+	}
+	
+	s
+}

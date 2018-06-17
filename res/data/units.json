@@ -1,158 +1,5 @@
 [
 	{
-		"type": "Gaia",
-		"name": "Wild Boar",
-		"ver": "k",
-		"age": "0",
-		"cost": "-",
-		"bt": "-",
-		"fr": "2",
-		"ad": "0",
-		"mr": "0.96",
-		"los": "4",
-		"hp": "75",
-		"ra": "-",
-		"at": "7",
-		"ar": "0/0",
-		"note": "Wild boar. In forgotten does extra damage to scouts and eagles.",
-		"extra": {
-			"Food": "340F",
-			"Resource decay": "0.4",
-			"attack bonus": "+4 against eagles, +3 against cavalry"
-		},
-		"t": "animal0 boar gaia melee"
-	},
-	{
-		"type": "Gaia",
-		"name": "Jaguar",
-		"ver": "k",
-		"age": "0",
-		"cost": "-",
-		"bt": "-",
-		"fr": "2",
-		"ad": "0",
-		"mr": "1.05",
-		"los": "12",
-		"hp": "25",
-		"ra": "-",
-		"at": "3",
-		"ar": "0/0",
-		"note": "Wild jaguar. Same as wolf on yucatan and other americas maps.",
-		"extra": {
-			"Moderate-Hardest Difficulty": "12 LOS",
-			"Easiest difficulty": "4 LOS",
-			"Standard difficulty": "6 LOS"
-		},
-		"t": "predator1 jaguar gaia melee"
-	},
-	{
-		"type": "Gaia",
-		"name": "Wolf",
-		"ver": "k",
-		"age": "0",
-		"cost": "-",
-		"bt": "-",
-		"fr": "2",
-		"ad": "0",
-		"mr": "1.05",
-		"los": "12",
-		"hp": "25",
-		"ra": "-",
-		"at": "3",
-		"ar": "0/0",
-		"note": "Wild wolf. no food just kills people. LOS also depends on difficulty.",
-		"extra": {
-			"Moderate-Hardest Difficulty": "12 LOS",
-			"Easiest difficulty": "4 LOS",
-			"Standard difficulty": "6 LOS"
-		},
-		"t": "predator0 wolf gaia melee"
-	},
-	{
-		"type": "Gaia",
-		"name": "Deer",
-		"ver": "k",
-		"age": "0",
-		"cost": "-",
-		"bt": "-",
-		"fr": "-",
-		"ad": "-",
-		"mr": "0.737",
-		"los": "2",
-		"hp": "5",
-		"ra": "-",
-		"at": "-",
-		"ar": "0/0",
-		"note": "Wild deers running around",
-		"extra": {
-			"Food": "140F",
-			"Resource decay": "0.25"
-		},
-		"t": "animal1 deer gaia"
-	},
-	{
-		"type": "Gaia",
-		"name": "Turkey",
-		"ver": "c",
-		"age": "0",
-		"cost": "-",
-		"bt": "-",
-		"fr": "-",
-		"ad": "-",
-		"mr": "0.7",
-		"los": "3",
-		"hp": "7",
-		"ra": "-",
-		"at": "-",
-		"ar": "0/0",
-		"note": "Alternatives to sheep",
-		"extra": {
-			"Food": "100F",
-			"Resource decay": "0.25"
-		},
-		"t": "livestock1 turkey gaia"
-	},
-	{
-		"type": "Gaia",
-		"name": "Sheep",
-		"ver": "k",
-		"age": "0",
-		"cost": "-",
-		"bt": "-",
-		"fr": "-",
-		"ad": "-",
-		"mr": "0.7",
-		"los": "3",
-		"hp": "7",
-		"ra": "-",
-		"at": "-",
-		"ar": "0/0",
-		"note": "Can be picked up by player and used to scout.",
-		"extra": {
-			"Food": "100F",
-			"Resource decay": "0.25"
-		},
-		"t": "livestock0 sheep gaia"
-	},
-	{
-		"type": "Gaia",
-		"name": "Horse",
-		"ver": "k",
-		"age": "0",
-		"cost": "-",
-		"bt": "-",
-		"fr": "-",
-		"ad": "-",
-		"mr": "1.2",
-		"los": "2",
-		"hp": "50",
-		"ra": "-",
-		"at": "-",
-		"ar": "0/0",
-		"note": "Can be used as scout.",
-		"t": "horse gaia"
-	},
-	{
 		"type": "Barracks",
 		"name": "Militia",
 		"ver": "k",
@@ -180,8 +27,7 @@
 			"Malians": "+1 PA/age -> (2 in Feudal, 3 in Castle and 4 in Imperial Age)",
 			"Burmese": "+1 AT/Age"
 		},
-		"t": "swordsman sw0 infantry melee Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -214,7 +60,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Barracks",
@@ -247,8 +93,7 @@
 			"Malians": "+1 PA/age -> (2 in Feudal, 3 in Castle and 4 in Imperial Age)",
 			"Burmese": "+1 AT/Age"
 		},
-		"t": "swordsman sw1 infantry melee Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -281,7 +126,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Barracks",
@@ -314,8 +159,7 @@
 			"Malians": "+1 PA/age -> (3 in Castle and 4 in Imperial Age)",
 			"Burmese": "+1 AT/Age"
 		},
-		"t": "swordsman sw2 infantry melee Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -348,7 +192,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Barracks",
@@ -382,8 +226,7 @@
 			"Malians": "+1 PA/age -> (4 in Imperial Age)",
 			"Burmese": "+1 AT/Age"
 		},
-		"t": "swordsman sw3 infantry melee Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -415,7 +258,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Persians"
 		]
 	},
@@ -451,8 +294,7 @@
 			"Malians": "+1 PA/age -> (4 in Imperial Age)",
 			"Burmese": "+1 AT/Age"
 		},
-		"t": "swordsman sw4 infantry melee Aztecs Berbers Britons Burmese Byzantines Celts Chinese Franks Goths Incas Indians Italians Japanese Koreans Magyars Malians Mongols Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -479,7 +321,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Ethiopians",
 			"Huns",
 			"Khmer",
@@ -519,8 +361,7 @@
 			"Burmese": "+1 AT/Age"
 		},
 		"note": "Medium infantry. Since war elephants are also cavalry, the attack bonus is +30",
-		"t": "spearmen sp0 infantry melee Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -553,7 +394,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Barracks",
@@ -586,8 +427,7 @@
 			"Burmese": "+1 AT/Age"
 		},
 		"note": "Stronger than Spearman. Since war elephants are also cavalry, the attack bonus is +47",
-		"t": "spearmen sp1 infantry melee Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -619,7 +459,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Turks"
 		]
 	},
@@ -652,8 +492,7 @@
 			"Burmese": "+1 AT/Age"
 		},
 		"note": "Stronger than Pikeman. Since war elephants are also cavalry, the attack bonus is +60",
-		"t": "spearmen sp2 infantry melee Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Japanese Khmer Koreans Magyars Malay Mayans Persians Portuguese Slavs Spanish Teutons Vietnamese",
-		"avail": [
+		"available_to": [
 			"Britons",
 			"Burmese",
 			"Byzantines",
@@ -678,7 +517,7 @@
 			"Teutons",
 			"Vietnamese"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Italians",
@@ -708,13 +547,12 @@
 			"attack bonus": "+8 monks, +3 siege"
 		},
 		"note": "Fast infantry with extensive sight; resists conversion; attack bonus vs. Monks",
-		"t": "eagle eg0 infantry melee Aztecs Incas Mayans",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Incas",
 			"Mayans"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Berbers",
 			"Britons",
 			"Burmese",
@@ -769,13 +607,12 @@
 			"Goths allies": "0:29.167 BT (20% faster barracks 1.2 work rate)"
 		},
 		"note": "Fast infantry with extensive sight; resists conversion; attack bonus vs. Monks",
-		"t": "eagle eg2 infantry melee Aztecs Incas Mayans",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Incas",
 			"Mayans"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Berbers",
 			"Britons",
 			"Burmese",
@@ -830,13 +667,12 @@
 			"Goths allies": "0:16.67 BT (20% faster barracks 1.2 work rate)"
 		},
 		"note": "Stronger than Eagle Warrior.",
-		"t": "eagle eg2 infantry melee Aztecs Incas Mayans",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Incas",
 			"Mayans"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Berbers",
 			"Britons",
 			"Burmese",
@@ -899,8 +735,7 @@
 			"Vietnamese": "33 HP in Feudal (10%), 35 HP in Castle (15%) and 36 HP in Imperial Age (20%)"
 		},
 		"note": "Quick and light. Weak at close range; excels at battle from distance.",
-		"t": "archer ar0 archery pierce Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -933,7 +768,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Archery Range",
@@ -967,8 +802,7 @@
 			"Vietnamese": "40 HP in Castle (15%) and 42 HP in Imperial Age (20%)"
 		},
 		"note": "Stronger than archer",
-		"t": "archer ar1 archery pierce Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -1000,7 +834,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Spanish"
 		]
 	},
@@ -1036,8 +870,7 @@
 			"Vietnamese": "48 HP in Imperial Age (20%)"
 		},
 		"note": "Stronger than crossbowman",
-		"t": "archer ar2 archery pierce Aztecs Britons Byzantines Chinese Ethiopians Incas Italians Japanese Koreans Magyars Malay Malians Mayans Mongols Portuguese Saracens Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Britons",
 			"Byzantines",
@@ -1057,7 +890,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Berbers",
 			"Burmese",
 			"Celts",
@@ -1103,8 +936,7 @@
 			"Vietnamese": "58 HP in Castle (15%) and 60 HP in Imperial Age (20%)"
 		},
 		"note": "Fast, with ranged attack. Ideal for hit-and-run attacks.",
-		"t": "cavarcher ca0 cavalry archer pierce Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Indians Italians Japanese Khmer Koreans Magyars Malians Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Berbers",
 			"Britons",
 			"Burmese",
@@ -1133,7 +965,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Incas",
 			"Malay",
@@ -1168,8 +1000,7 @@
 			"Vietnamese": "72 HP in Imperial Age (20%)"
 		},
 		"note": "Stronger than Cavalry Archer.",
-		"t": "cavarcher ca1 cavalry archery pierce Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Indians Japanese Khmer Koreans Magyars Malians Mongols Persians Saracens Slavs Spanish Turks Vietnamese",
-		"avail": [
+		"available_to": [
 			"Berbers",
 			"Britons",
 			"Burmese",
@@ -1194,7 +1025,7 @@
 			"Turks",
 			"Vietnamese"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Incas",
 			"Italians",
@@ -1234,8 +1065,7 @@
 			"Portuguese": "Cost 45F 43G (-15% gold cost)"
 		},
 		"note": "Powerful close attack; inaccurate at range. Attack bonus against spearman +11 in total",
-		"t": "handcannon hc0 gunpowder pierce Berbers Byzantines Franks Goths Indians Italians Japanese Khmer Koreans Malians Persians Portuguese Saracens Spanish Teutons Turks",
-		"avail": [
+		"available_to": [
 			"Berbers",
 			"Byzantines",
 			"Franks",
@@ -1253,7 +1083,7 @@
 			"Teutons",
 			"Turks"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Britons",
 			"Burmese",
@@ -1298,8 +1128,7 @@
 			"Saracens and allies": "+2 attack against buildings"
 		},
 		"note": "Ranged unit equipped with armor vs. archer attacks.",
-		"t": "skirm sk0 archery pierce Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -1332,7 +1161,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Archery Range",
@@ -1361,8 +1190,7 @@
 			"Saracens and allies": "+2 attack against buildings"
 		},
 		"note": "Stronger than skirmisher; Attack bonus against cavalry archers +6 in total (+4 against archers + 2 against cav archers).",
-		"t": "skirm sk1 archery pierce Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -1394,7 +1222,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Turks"
 		]
 	},
@@ -1420,8 +1248,7 @@
 			"Mongols and allies": "+2 LOS +2 search radius"
 		},
 		"note": "Fast with extensive line of sight. Resistant to conversion +2 LOS per age",
-		"t": "scout sc0 cavalry melee Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Berbers",
 			"Britons",
 			"Burmese",
@@ -1451,7 +1278,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Incas",
 			"Mayans"
@@ -1483,8 +1310,7 @@
 			"Franks": "54 HP (+20%)"
 		},
 		"note": "Fast with extensive line of sight. Resistant to conversion +2 LOS per age",
-		"t": "scout sc1 cavalry melee Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Berbers",
 			"Britons",
 			"Burmese",
@@ -1514,7 +1340,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Incas",
 			"Mayans"
@@ -1547,8 +1373,7 @@
 			"Franks": "72 HP (+20%)"
 		},
 		"note": "Stronger than scout cavalry +2 LOS per age",
-		"t": "scout sc2 cavalry melee Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mongols Persians Portuguese Saracens Slavs Spanish Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Berbers",
 			"Britons",
 			"Burmese",
@@ -1577,7 +1402,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Incas",
 			"Mayans",
@@ -1610,8 +1435,7 @@
 			"Berbers": "Cost 68F in Castle Age and 64F in Imperial Age (-15/20% respectively"
 		},
 		"note": "Stronger than light cavalry +2 LOS per age",
-		"t": "scout sc3 cavalry melee Berbers Burmese Byzantines Celts Ethiopians Goths Huns Indians Italians Koreans Magyars Mongols Persians Saracens Slavs Spanish Turks",
-		"avail": [
+		"available_to": [
 			"Berbers",
 			"Burmese",
 			"Byzantines",
@@ -1630,7 +1454,7 @@
 			"Spanish",
 			"Turks"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Britons",
 			"Chinese",
@@ -1670,8 +1494,7 @@
 			"Berbers": "Costs 51F 64G in Castle age (-15% cost), 48F 60G (-20% cost) in Imperial Age"
 		},
 		"note": "Fast and heavy cavalry.",
-		"t": "knight kt0 cavalry melee Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Italians Japanese Khmer Koreans Magyars Malay Malians Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Berbers",
 			"Britons",
 			"Burmese",
@@ -1700,7 +1523,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Incas",
 			"Indians",
@@ -1730,8 +1553,7 @@
 			"Berbers": "Costs 51F 64G in Castle age (-15% cost), 48F 60G (-20% cost) in Imperial Age"
 		},
 		"note": "Stronger than knight",
-		"t": "knight kt1 cavalry melee Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Italians Japanese Khmer Koreans Magyars Malay Malians Mongols Persians Portuguese Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Berbers",
 			"Britons",
 			"Burmese",
@@ -1759,7 +1581,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Incas",
 			"Indians",
@@ -1788,8 +1610,7 @@
 			"Persians and allies": "+2 bonus attack against archers (archers,skirmishers,cavarchers,war wagons)"
 		},
 		"note": "Stronger than cavalier",
-		"t": "knight kt2 cavalry melee Byzantines Celts Franks Huns Magyars Persians Spanish Teutons",
-		"avail": [
+		"available_to": [
 			"Byzantines",
 			"Celts",
 			"Franks",
@@ -1799,7 +1620,7 @@
 			"Spanish",
 			"Teutons"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -1851,8 +1672,7 @@
 			"Berbers": "Costs 47F 51G in Castle age (-15% cost), 44F 48G (-20% cost) in Imperial Age"
 		},
 		"note": "Excels at killing other mounted units. (not classified as cavalry)",
-		"t": "camel cm0 cavalry melee Berbers Byzantines Chinese Ethiopians Indians Malians Mongols Persians Saracens Turks",
-		"avail": [
+		"available_to": [
 			"Berbers",
 			"Byzantines",
 			"Chinese",
@@ -1864,7 +1684,7 @@
 			"Saracens",
 			"Turks"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Britons",
 			"Burmese",
@@ -1915,8 +1735,7 @@
 			"Berbers": "Costs 47F 51G in Castle age (-15% cost), 44F 48G (-20% cost) in Imperial Age"
 		},
 		"note": "Stronger than Camel. Attack bonus vs. cavalry. (not classified as cavalry)",
-		"t": "camel cm1 cavalry melee Berbers Byzantines Chinese Ethiopians Indians Malians Mongols Persians Saracens Turks",
-		"avail": [
+		"available_to": [
 			"Berbers",
 			"Byzantines",
 			"Chinese",
@@ -1928,7 +1747,7 @@
 			"Saracens",
 			"Turks"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Britons",
 			"Burmese",
@@ -1980,8 +1799,7 @@
 			"Portuguese": "Cost 160W 115G (-15% gold cost)"
 		},
 		"note": "Wheeled siege weapon used to attack a small mass of units. Area of effect attack. Can attack ground. Weak vs. close nonranged units. ",
-		"t": "mango ma0 siege weapon melee Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -2014,7 +1832,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Siege Workshop",
@@ -2044,8 +1862,7 @@
 			"Portuguese": "Cost 160W 115G (-15% gold cost)"
 		},
 		"note": "Stronger than mangonel. Can kill trees",
-		"t": "mango ma1 siege weapon melee Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -2076,7 +1893,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Huns",
 			"Turks"
 		]
@@ -2108,8 +1925,7 @@
 			"Slavs": "Cost 136W 115G (-15% bonus)"
 		},
 		"note": "Stronger than onager",
-		"t": "mango ma2 siege weapon melee Aztecs Celts Ethiopians Koreans Malians Mongols Saracens Slavs Teutons",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Celts",
 			"Ethiopians",
@@ -2120,7 +1936,7 @@
 			"Slavs",
 			"Teutons"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Berbers",
 			"Britons",
 			"Burmese",
@@ -2173,8 +1989,7 @@
 			"Khmer ally": "+1 range = 2-9 RA"
 		},
 		"note": "damage to all units in the path",
-		"t": "scorp sc0 siege weapon pierce Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -2207,7 +2022,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Siege Workshop",
@@ -2235,8 +2050,7 @@
 			"Khmer ally": "+1 range = 2-9 RA"
 		},
 		"note": "damage to all units in the path",
-		"t": "scorp sc1 siege weapon pierce Berbers Britons Burmese Celts Chinese Ethiopians Franks Goths Incas Japanese Khmer Magyars Malay Mayans Mongols Persians Slavs Teutons Turks Vikings",
-		"avail": [
+		"available_to": [
 			"Berbers",
 			"Britons",
 			"Burmese",
@@ -2258,7 +2072,7 @@
 			"Turks",
 			"Vikings"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Byzantines",
 			"Huns",
@@ -2300,8 +2114,7 @@
 			"Portuguese": "Cost 160W 64G (-15% gold cost)"
 		},
 		"note": "Slow, lumbering siege weapon used to reduce enemy towns to ruins. The movement rate is affected by the number of infantry units garrisoned (maxiumum of 4 units)",
-		"t": "ram ram0 siege weapon melee Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -2334,7 +2147,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Siege Workshop",
@@ -2364,8 +2177,7 @@
 			"Portuguese": "Cost 160W 64G (-15% gold cost)"
 		},
 		"note": "Stronger than battering ram. Can garrison 5 units. The movement rate is affected by the number of infantry units garrisoned, max speed at 0.75.",
-		"t": "ram ram1 siege weapon melee Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -2398,7 +2210,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Siege Workshop",
@@ -2427,8 +2239,7 @@
 			"Slavs": "Cost 136W 64G (-15% bonus)"
 		},
 		"note": "Stronger than capped ram. The movement rate is affected by the number of infantry units garrisoned (maxiumum of 6 units garrisoned)",
-		"t": "ram ram2 siege weapon melee Aztecs Byzantines Celts Chinese Ethiopians Huns Incas Khmer Mayans Mongols Persians Saracens Slavs Spanish Turks Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Byzantines",
 			"Celts",
@@ -2446,7 +2257,7 @@
 			"Turks",
 			"Vikings"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Berbers",
 			"Britons",
 			"Burmese",
@@ -2494,8 +2305,7 @@
 			"Portuguese": "Cost 225W 191G (-15% gold cost)"
 		},
 		"note": "Powerful mobile anti-building siege weapon.",
-		"t": "bombard siege weapon melee Berbers Burmese Byzantines Ethiopians Franks Goths Indians Italians Khmer Koreans Malay Malians Persians Portuguese Saracens Spanish Teutons Turks Vietnamese",
-		"avail": [
+		"available_to": [
 			"Berbers",
 			"Burmese",
 			"Byzantines",
@@ -2516,7 +2326,7 @@
 			"Turks",
 			"Vietnamese"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Britons",
 			"Celts",
@@ -2560,8 +2370,7 @@
 			"Portuguese": "Cost 200W 170G (-15% gold cost)"
 		},
 		"note": "Powerful siege weapon used to destroy buildings, walls from long distance. Cannot fire on close units. Must be packed to move, unpacked to attack. Can cut paths through forests. Unpack time: 0:11",
-		"t": "trebuchet siege weapon melee Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -2594,7 +2403,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Castle",
@@ -2620,8 +2429,7 @@
 			"Portuguese": "Cost 65F 17G (-15% gold cost)"
 		},
 		"note": "Demolition infantry unit armed with explosives. Bonuses add up - for example against walls and gates: +500 buildings +900 walls = +1400 bonus attack.",
-		"t": "petard ship Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -2654,7 +2462,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Castle",
@@ -2672,8 +2480,7 @@
 		"at": "-",
 		"ar": "0/0",
 		"note": "Cannot be produced, so cost and build time just for the sake of interest.",
-		"t": "king Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -2706,7 +2513,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Unique",
@@ -2731,11 +2538,10 @@
 			"Vikings": "base HP 54, but thanks to viking bonus HP in castle age: 61 in Imperial: 64"
 		},
 		"note": "Viking unique unit. Infantry that slowly heals itself.",
-		"t": "bers0 infantry melee Vikings",
-		"avail": [
+		"available_to": [
 			"Vikings"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -2791,11 +2597,10 @@
 			"Vikings": "base HP 62, but thanks to viking bonus HP in Imperial: 75"
 		},
 		"note": "Viking unique unit. Stronger than Berserk.",
-		"t": "bers1 infantry melee Vikings",
-		"avail": [
+		"available_to": [
 			"Vikings"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -2848,11 +2653,10 @@
 			"armor bonus": "+12 cavalry"
 		},
 		"note": "Byzantine unique unit. Heavily armored cavalry.",
-		"t": "cata0 cavalry melee Byzantines",
-		"avail": [
+		"available_to": [
 			"Byzantines"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -2905,11 +2709,10 @@
 			"armor bonus": "+16 cavalry"
 		},
 		"note": "Byzantine elite unique unit. Heavily armored cavalry.",
-		"t": "cata1 cavalry melee Byzantines",
-		"avail": [
+		"available_to": [
 			"Byzantines"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -2967,11 +2770,10 @@
 			"Magyar ally": "+2 LOS"
 		},
 		"note": "Chinese unique unit. Archer with mediocre range. Shoots a volley of 2 extra arrows with 3 attack.  Because of the multiple arrows, the delay between starts of attacks is more, roughly 3.6.",
-		"t": "chuk0 archery pierce melee Chinese",
-		"avail": [
+		"available_to": [
 			"Chinese"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -3029,11 +2831,10 @@
 			"Magyar ally": "+2 LOS"
 		},
 		"note": "Chinese unique unit. Stronger than Chu Ko Nu. Shoots a volley of 4 extra arrows with 3 attack. Because of the multiple arrows, the delay between starts of attacks is more, roughly 3.75.",
-		"t": "chuk1 archery pierce melee Chinese",
-		"avail": [
+		"available_to": [
 			"Chinese"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -3086,11 +2887,10 @@
 			"accuracy": "65%"
 		},
 		"note": "Spanish unique unit. Mounted Hand Cannoneer. Powerful close attack, but inaccurate at range. (Only archer armor upgrades apply from blacksmith, not range or attack).",
-		"t": "conq0 gunpowder cavalry pierce Spanish",
-		"avail": [
+		"available_to": [
 			"Spanish"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -3143,11 +2943,10 @@
 			"accuracy": "70%"
 		},
 		"note": "Spanish elite unique unit. Mounted Hand Cannoneer. Powerful close attack, but inaccurate at range. (Only archer armor upgrades apply from blacksmith, not range or attack).",
-		"t": "conq1 gunpowder cavalry pierce Spanish",
-		"avail": [
+		"available_to": [
 			"Spanish"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -3202,11 +3001,10 @@
 			"Goths": "+1 against buildings, making it +3; base cost 80F 40G; 0:13.33BT from barracks"
 		},
 		"note": "Gothic unique unit. Infantry with substantial pierce armor; virtually immune to archer fire. Attack bonus vs. buildings, archers.",
-		"t": "husk0 melee infantry Goths",
-		"avail": [
+		"available_to": [
 			"Goths"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -3261,11 +3059,10 @@
 			"Goths": "+1 against buildings (making it +4); base cost 80F 40G; 0:13.33BT from barracks"
 		},
 		"note": "Gothic elite unique unit. Stronger than Huskarl.",
-		"t": "husk1 melee infantry Goths",
-		"avail": [
+		"available_to": [
 			"Goths"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -3320,11 +3117,10 @@
 			"Aztec": "base BT 20, but with aztec bonus 20*0.85 = 17 seconds"
 		},
 		"note": "Aztec unique unit. Attack bonus vs. other infantry. (bonus attacks stack so +12 bonus against eagles)",
-		"t": "jag0 melee infantry Aztecs",
-		"avail": [
+		"available_to": [
 			"Aztecs"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Berbers",
 			"Britons",
 			"Burmese",
@@ -3379,11 +3175,10 @@
 			"Aztec": "base BT 20, but with aztec bonus 20*0.85 = 17 seconds"
 		},
 		"note": "Aztec elite unique unit. Attack bonus vs. other infantry. (bonus attacks stack so +13 bonus against eagles)",
-		"t": "jag1 melee infantry Aztecs",
-		"avail": [
+		"available_to": [
 			"Aztecs"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Berbers",
 			"Britons",
 			"Burmese",
@@ -3439,11 +3234,10 @@
 			"Turks": "base creation time 21 seconds, but the -20% bonus makes it 0:17;<br />Base HP 35, but 25% HP bonus -> 44 HP"
 		},
 		"note": "Turkish unique unit. Hand Cannoneer with longer range and no minimum range.",
-		"t": "janny0 gunpowder pierce Turks",
-		"avail": [
+		"available_to": [
 			"Turks"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -3499,11 +3293,10 @@
 			"Turks": "base creation time 21 seconds, but the -20% bonus makes it 0:17;<br />Base HP 40, but 25% HP bonus -> 50 HP"
 		},
 		"note": "Turkish elite unique unit. Hand Cannoneer with longer range and no minimum range.",
-		"t": "janny1 gunpowder pierce Turks",
-		"avail": [
+		"available_to": [
 			"Turks"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -3561,11 +3354,10 @@
 			"Magyar ally": "+2 LOS"
 		},
 		"note": " British unique unit. Powerful archer with long range.",
-		"t": "longb0 archer pierce archery Britons",
-		"avail": [
+		"available_to": [
 			"Britons"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Burmese",
@@ -3623,11 +3415,10 @@
 			"Magyar ally": "+2 LOS"
 		},
 		"note": " British unique unit. Powerful archer with long range.",
-		"t": "longb1 archer pierce archery Britons",
-		"avail": [
+		"available_to": [
 			"Britons"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Burmese",
@@ -3683,11 +3474,10 @@
 			"Indian ally": "+5 attack vs buildings"
 		},
 		"note": "Saracen unique unit. Camel with hand-to-hand attack at distance. Excels vs. other mounted units.",
-		"t": "mame0 cavalry camel melee Saracens",
-		"avail": [
+		"available_to": [
 			"Saracens"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -3743,11 +3533,10 @@
 			"Indian ally": "+5 attack vs buildings"
 		},
 		"note": "Saracen elite unique unit. Camel with hand-to-hand attack at distance. Excels vs. other mounted units.",
-		"t": "mame1 cavalry camel melee Saracens",
-		"avail": [
+		"available_to": [
 			"Saracens"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -3805,11 +3594,10 @@
 			"Mongols": "Base reload time 2.1, but -20% reload time with mongols"
 		},
 		"note": "Mongol unique unit. Cavalry archer with attack bonus vs. siege weapons. ",
-		"t": "mang0 cavarcher cavalry archer pierce Mongols",
-		"avail": [
+		"available_to": [
 			"Mongols"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -3867,11 +3655,10 @@
 			"Mongols": "Base reload time 2.1, but -20% reload time with mongols"
 		},
 		"note": "Mongol elite unique unit. Cavalry archer with attack bonus vs. siege weapons",
-		"t": "mang1 cavarcher cavalry archer pierce Mongols",
-		"avail": [
+		"available_to": [
 			"Mongols"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -3929,11 +3716,10 @@
 			"Magyar ally": "+2 LOS"
 		},
 		"note": "Mayan unique unit. Strong, fast, well-armored archer with less attack than other archers.",
-		"t": "plum0 archery pierce Mayans",
-		"avail": [
+		"available_to": [
 			"Mayans"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -3991,11 +3777,10 @@
 			"Magyar ally": "+2 LOS"
 		},
 		"note": "Mayan elite unique unit. Strong, fast, well-armored archer with less attack than other archers.",
-		"t": "plum1 archery pierce Mayans",
-		"avail": [
+		"available_to": [
 			"Mayans"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -4051,11 +3836,10 @@
 			"Japanese": "base reload time 1.9, thanks to bonus (-25%) 1.425"
 		},
 		"note": "Japanese unique unit. Infantry with fast attack. Attack bonus vs. other unique units, buildings.",
-		"t": "sam0 infantry melee Japanese",
-		"avail": [
+		"available_to": [
 			"Japanese"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -4111,11 +3895,10 @@
 			"Japanese": "base reload time 1.9, thanks to bonus (-25%) 1.425"
 		},
 		"note": "Japanese elite unique unit. Infantry with fast attack. Attack bonus vs. other unique units, buildings.",
-		"t": "sam1 infantry melee Japanese",
-		"avail": [
+		"available_to": [
 			"Japanese"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -4167,11 +3950,10 @@
 			"attack bonus": "+10 castle, +8 buildings, +12 stone defense, +8 walls and gates"
 		},
 		"note": "Hun unique unit. Cavalry with attack bonus vs. buildings. (Attack bonuses stack - for example +16 against a palisade wall (8 buildings + 8 walls))",
-		"t": "tark0 cavalry melee Huns",
-		"avail": [
+		"available_to": [
 			"Huns"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -4223,11 +4005,10 @@
 			"attack bonus": "+10 castle, +10 buildings, +12 stone defense, +10 walls and gates"
 		},
 		"note": "Hun elite unique unit. Cavalry with attack bonus vs. buildings. (Attack bonuses stack - for example +20 against castles (10+10))",
-		"t": "tark1 cavalry melee Huns",
-		"avail": [
+		"available_to": [
 			"Huns"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -4279,11 +4060,10 @@
 			"attack bonus": "+4 eagles, +4 buildings"
 		},
 		"note": "+4 buildings, +4 eagle warriors ",
-		"t": "teutk0 infantry melee Teutons",
-		"avail": [
+		"available_to": [
 			"Teutons"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -4335,11 +4115,10 @@
 			"attack bonus": "+4 eagles, +4 buildings"
 		},
 		"note": "Teutonic elite unique unit. Infantry with effective armor and slow but powerful attack.",
-		"t": "teutk1 infantry melee Teutons",
-		"avail": [
+		"available_to": [
 			"Teutons"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -4391,11 +4170,10 @@
 			"attack bonus": "+1 eagles, +1 buildings"
 		},
 		"note": "Frankish unique unit. Infantry with ranged attack.",
-		"t": "thra0 infantry melee Franks",
-		"avail": [
+		"available_to": [
 			"Franks"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -4447,11 +4225,10 @@
 			"attack bonus": "+2 eagles, +2 buildings"
 		},
 		"note": "Frankish elite unique unit. Infantry with ranged attack",
-		"t": "thra1 infantry melee Franks",
-		"avail": [
+		"available_to": [
 			"Franks"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -4504,11 +4281,10 @@
 			"blast radius": "0.5"
 		},
 		"note": "Persian unique unit. Slow, powerful, strong, and well-armored cavalry. Does trample damage in a surrounding area (see blast radius).",
-		"t": "ware0 cavalry melee Persians",
-		"avail": [
+		"available_to": [
 			"Persians"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -4561,11 +4337,10 @@
 			"blast radius": "0.5"
 		},
 		"note": "Persian unique unit. Slow, powerful, strong, and well-armored cavalry. Does trample damage in a surrounding area (see blast radius).",
-		"t": "ware1 cavalry melee Persians",
-		"avail": [
+		"available_to": [
 			"Persians"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -4619,11 +4394,10 @@
 			"search radius": "6"
 		},
 		"note": "Korean unique unit. Heavily armored horse-drawn archery unit.",
-		"t": "warw0 cavarcher cavalry archer pierce Koreans",
-		"avail": [
+		"available_to": [
 			"Koreans"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -4677,11 +4451,10 @@
 			"search radius": "7"
 		},
 		"note": "Korean elite unique unit. Heavily armored horse-drawn archery unit.",
-		"t": "warw1 cavarcher cavalry archer pierce Koreans",
-		"avail": [
+		"available_to": [
 			"Koreans"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -4734,11 +4507,10 @@
 			"base movement rate": "1.2, but because of the celts bonus 1.2*1.15 = 1.38"
 		},
 		"note": "Celtic unique unit. Exceptionally quick infantry. Attack bonus vs. buildings.",
-		"t": "woad0 infantry melee Celts",
-		"avail": [
+		"available_to": [
 			"Celts"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -4791,11 +4563,10 @@
 			"base movement rate": "1.2, but because of the celts bonus 1.2*1.15 = 1.38"
 		},
 		"note": "Celtic elite unique unit. Stronger than Woad Raider.",
-		"t": "woad1 infantry melee Celts",
-		"avail": [
+		"available_to": [
 			"Celts"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -4854,8 +4625,7 @@
 			"Portuguese": "66 HP (10% bonus)"
 		},
 		"note": "",
-		"t": "ship0 Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -4888,7 +4658,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Dock",
@@ -4912,8 +4682,7 @@
 			"Berbers": "1.386 movement rate (10% faster)"
 		},
 		"note": "Movement rate 2.00 with caravan. Carry 30% more gold/distance compared to trade cart.",
-		"t": "ship1 Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -4946,7 +4715,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Dock",
@@ -4971,8 +4740,7 @@
 			"Portuguese": "110 HP (10% bonus)"
 		},
 		"note": "Garrison inside 5 (10 with careening, 20 with dry dock). Can carry herdable animals.",
-		"t": "ship2 Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -5005,7 +4773,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Dock",
@@ -5035,8 +4803,7 @@
 			"Berbers": "1.573 movement rate (10% faster)"
 		},
 		"note": "Small, fast ship with weak attack. Used to scout the water and for early attacks on enemy fishing fleets.",
-		"t": "galley0 pierce ship Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -5069,7 +4836,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Dock",
@@ -5099,8 +4866,7 @@
 			"Portuguese": "Cost 90W 26G (-15% gold cost)<br />149 HP (10% bonus)"
 		},
 		"note": "Stronger than Galley.",
-		"t": "galley1 pierce ship Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -5133,7 +4899,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Dock",
@@ -5162,8 +4928,7 @@
 			"Berbers": "1.573 movement rate (10% faster)"
 		},
 		"note": "+11 ships, 4 ram, 8 buildings",
-		"t": "galley2 pierce ship Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Berbers",
 			"Britons",
 			"Burmese",
@@ -5195,7 +4960,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs"
 		]
 	},
@@ -5226,8 +4991,7 @@
 			"Berbers": "1.485 movement rate (10% faster)"
 		},
 		"note": "Spews fire at other ships. Good at sinking galleys. Attack shows pierce attack.",
-		"t": "fire0 pierce melee ship Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -5259,7 +5023,7 @@
 			"Turks",
 			"Vietnamese"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Vikings"
 		]
 	},
@@ -5289,8 +5053,7 @@
 			"Berbers": "1.573 movement rate (10% faster)"
 		},
 		"note": "Spews fire at other ships and fast. Good at sinking galleys. Attack shows pierce attack.",
-		"t": "fire1 pierce melee ship Aztecs Berbers Britons Byzantines Franks Goths Incas Italians Japanese Khmer Koreans Magyars Malay Mayans Mongols Persians Slavs Spanish Teutons",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -5311,7 +5074,7 @@
 			"Spanish",
 			"Teutons"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Burmese",
 			"Celts",
 			"Chinese",
@@ -5354,8 +5117,7 @@
 			"Berbers": "1.76 movement rate (10% faster)"
 		},
 		"note": "Filled with explosives. Self-destructs when used. Pilot near enemy ships and detonate to wrest control of the sea from an entrenched opponent.",
-		"t": "demo0 melee ship Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Berbers",
 			"Britons",
 			"Burmese",
@@ -5386,7 +5148,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Koreans"
 		]
@@ -5420,8 +5182,7 @@
 			"Berbers": "1.76 movement rate (10% faster)"
 		},
 		"note": "Filled with explosives. Self-destructs when used. Pilot near enemy ships and detonate to wrest control of the sea from an entrenched opponent.",
-		"t": "demo1 melee ship Berbers Britons Byzantines Celts Chinese Franks Goths Huns Indians Malians Mayans Mongols Persians Portuguese Saracens Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Berbers",
 			"Britons",
 			"Byzantines",
@@ -5443,7 +5204,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Burmese",
 			"Ethiopians",
@@ -5488,8 +5249,7 @@
 			"Berbers": "1.21 movement rate (10% faster)"
 		},
 		"note": "Long-range warship used to attack targets on shore to establish beachhead. Fires slowly, with minimum range.",
-		"t": "cang0 melee gunpowder ship Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Berbers",
 			"Britons",
 			"Burmese",
@@ -5518,7 +5278,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Huns",
 			"Incas",
@@ -5556,8 +5316,7 @@
 			"Berbers": "1.21 movement rate (10% faster)"
 		},
 		"note": "Long-range warship used to attack targets on shore to establish beachhead. Fires slowly, with minimum range.",
-		"t": "cang1 melee gunpowder ship Berbers Burmese Byzantines Indians Italians Japanese Khmer Malay Persians Portuguese Saracens Spanish Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Berbers",
 			"Burmese",
 			"Byzantines",
@@ -5574,7 +5333,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Britons",
 			"Celts",
@@ -5617,12 +5376,11 @@
 			"Vikings": "Base cost 100W 50G, but -15% cost bonus in Castle -> 85W 43G and -20% bonus in Imperial -> 80W 40G"
 		},
 		"note": "Viking unique unit. Fires multiple arrows. volley of 4 arrows (7-1-1-1). Because of the multiple arrows, the delay between starts of attacks is roughly 3.34.",
-		"t": "longb0 pierce ship unique Berbers Vikings",
-		"avail": [
+		"available_to": [
 			"Berbers",
 			"Vikings"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Britons",
 			"Burmese",
@@ -5678,11 +5436,10 @@
 			"Vikings": "Base cost 100W 50G, but -20% bonus in Imperial -> 80W 40G"
 		},
 		"note": "Viking elite unique unit. Stronger than Longboat. Fires multiple arrows. volley of 4 arrows (8-1-1-1). Because of the multiple arrows, the delay between starts of attacks is roughly 3.34.",
-		"t": "longb1 pierce ship unique Vikings",
-		"avail": [
+		"available_to": [
 			"Vikings"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -5738,11 +5495,10 @@
 			"with Turkish ally": "0:40 BT (-20% team bonus)"
 		},
 		"note": "Korean unique unit. Slow, ironclad battleship used to destroy other ships at close range.",
-		"t": "turtle0 melee ship unique Koreans",
-		"avail": [
+		"available_to": [
 			"Koreans"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -5798,11 +5554,10 @@
 			"with Turkish ally": "0:40 BT (-20% team bonus)"
 		},
 		"note": "Korean elite unique unit. Slow, ironclad battleship used to destroy other ships at close range.",
-		"t": "turtle1 melee ship unique Koreans",
-		"avail": [
+		"available_to": [
 			"Koreans"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -5872,8 +5627,7 @@
 			"Franks": "Foragers work 25% faster (work rate *1.25)"
 		},
 		"note": "Gathers wood, food, stone, gold. Builds and repairs buildings. Also repairs ships, siege weapons.",
-		"t": "vill tc Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -5906,7 +5660,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Monastery",
@@ -5937,8 +5691,7 @@
 			"Portuguese": "Cost 85G (-15% gold cost)"
 		},
 		"note": "Slow and weak. Converts enemy units, ships to your civilization (player color). Heals wounded villagers, military units (except siege weapons)",
-		"t": "monk Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -5971,7 +5724,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Monastery",
@@ -5989,11 +5742,10 @@
 		"at": "0",
 		"ar": "0/0",
 		"note": "mounted monk, affected by bloodlines",
-		"t": "mission Spanish",
-		"avail": [
+		"available_to": [
 			"Spanish"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -6051,8 +5803,7 @@
 			"Portuguese": "Cost 100W 43G (-15% gold cost)"
 		},
 		"note": "Used to trade with other players by land. Carries goods from your Market to another player's Market and brings back gold. The farther the Market, the higher your profit. To trade, click the Trade Cart, then right-click an allied or neutral Market.",
-		"t": "tradecart Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -6085,193 +5836,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
-	},
-	{
-		"type": "Gaia",
-		"name": "Llama",
-		"ver": "f",
-		"age": "0",
-		"cost": "-",
-		"bt": "-",
-		"fr": "-",
-		"ad": "-",
-		"mr": "0.7",
-		"los": "3",
-		"hp": "7",
-		"ra": "-",
-		"at": "-",
-		"ar": "0/0",
-		"note": "Can be picked up by player and used to scout.",
-		"extra": {
-			"Food": "100F",
-			"Resource decay": "0.25 F/s"
-		},
-		"t": "livestock5 llama gaia"
-	},
-	{
-		"type": "Gaia",
-		"name": "Cow",
-		"ver": "f",
-		"age": "0",
-		"cost": "-",
-		"bt": "-",
-		"fr": "-",
-		"ad": "-",
-		"mr": "0.65",
-		"los": "3",
-		"hp": "14",
-		"ra": "-",
-		"at": "-",
-		"ar": "0/0",
-		"note": "Can be picked up by player and used to scout. Moves slower than sheep, but gives +50 food.",
-		"extra": {
-			"Food": "150F",
-			"Resource decay": "0.25 F/s"
-		},
-		"t": "livestock4 cow gaia"
-	},
-	{
-		"type": "Gaia",
-		"name": "Goat",
-		"ver": "f",
-		"age": "0",
-		"cost": "-",
-		"bt": "-",
-		"fr": "-",
-		"ad": "-",
-		"mr": "0.7",
-		"los": "3",
-		"hp": "7",
-		"ra": "-",
-		"at": "-",
-		"ar": "0/0",
-		"note": "Can be picked up by player and used to scout.",
-		"extra": {
-			"Food": "100F",
-			"Resource decay": "0.25 F/s"
-		},
-		"t": "livestock5 goat gaia"
-	},
-	{
-		"type": "Gaia",
-		"name": "Elephant",
-		"ver": "a",
-		"age": "0",
-		"cost": "-",
-		"bt": "-",
-		"fr": "2",
-		"ad": "0",
-		"mr": "0.96",
-		"los": "4",
-		"hp": "75",
-		"ra": "-",
-		"at": "7",
-		"ar": "0/0",
-		"note": "Elephant (similar to wild boar but gives +60 food). Does extra damage against eagles and scouts.",
-		"extra": {
-			"Food": "400F",
-			"Resource decay": "0.4",
-			"attack bonus": "+4 against eagles, +3 against cavalry"
-		},
-		"t": "animal0 boar gaia melee"
-	},
-	{
-		"type": "Gaia",
-		"name": "Zebra",
-		"ver": "a",
-		"age": "0",
-		"cost": "-",
-		"bt": "-",
-		"fr": "-",
-		"ad": "-",
-		"mr": "0.737",
-		"los": "2",
-		"hp": "5",
-		"ra": "-",
-		"at": "-",
-		"ar": "0/0",
-		"note": "Wild zebras running around",
-		"extra": {
-			"Food": "140F",
-			"Resource decay": "0.25"
-		},
-		"t": "animal4 zebra gaia"
-	},
-	{
-		"type": "Gaia",
-		"name": "Ostrich",
-		"ver": "a",
-		"age": "0",
-		"cost": "-",
-		"bt": "-",
-		"fr": "-",
-		"ad": "-",
-		"mr": "0.737",
-		"los": "2",
-		"hp": "5",
-		"ra": "-",
-		"at": "-",
-		"ar": "0/0",
-		"note": "Wild ostriches running around",
-		"extra": {
-			"Food": "140F",
-			"Resource decay": "0.25"
-		},
-		"t": "animal5 ostrich gaia"
-	},
-	{
-		"type": "Gaia",
-		"name": "Camel",
-		"ver": "a",
-		"age": "0",
-		"cost": "-",
-		"bt": "-",
-		"fr": "-",
-		"ad": "-",
-		"mr": "1.2",
-		"los": "2",
-		"hp": "50",
-		"ra": "-",
-		"at": "-",
-		"ar": "0/0",
-		"note": "Can be used as scout.",
-		"t": "camel gaia Berbers Byzantines Chinese Ethiopians Indians Malians Mongols Persians Saracens Turks",
-		"avail": [
-			"Berbers",
-			"Byzantines",
-			"Chinese",
-			"Ethiopians",
-			"Indians",
-			"Malians",
-			"Mongols",
-			"Persians",
-			"Saracens",
-			"Turks"
-		],
-		"noavail": [
-			"Aztecs",
-			"Britons",
-			"Burmese",
-			"Celts",
-			"Franks",
-			"Goths",
-			"Huns",
-			"Incas",
-			"Italians",
-			"Japanese",
-			"Khmer",
-			"Koreans",
-			"Magyars",
-			"Malay",
-			"Mayans",
-			"Portuguese",
-			"Slavs",
-			"Spanish",
-			"Teutons",
-			"Vietnamese",
-			"Vikings"
-		]
+		"not_available_to": []
 	},
 	{
 		"type": "Unique",
@@ -6292,11 +5857,10 @@
 			"attack bonus": "+8 cavalry, +6 camels, +20 elephants"
 		},
 		"note": "Inca unique infantry unit with ranged attack and no projectile.",
-		"t": "kama0 infantry melee Incas",
-		"avail": [
+		"available_to": [
 			"Incas"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -6349,11 +5913,10 @@
 			"search radius": "4"
 		},
 		"note": "Inca elite unique infantry unit with ranged attack and no projectile.",
-		"t": "kama1 infantry melee Incas",
-		"avail": [
+		"available_to": [
 			"Incas"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -6411,11 +5974,10 @@
 			"Magyar ally": "+2 LOS"
 		},
 		"note": "Only available to Incas. Anti-infantry ranged unit",
-		"t": "slinger archery pierce Incas",
-		"avail": [
+		"available_to": [
 			"Incas"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -6470,11 +6032,10 @@
 			"search radius": "6"
 		},
 		"note": "Indian unique unit, Classified as cavalry archer and all bonuses applied against war elephants apply against them as well.",
-		"t": "elea0 elephantarcher war elephant cavarcher cavalry archer pierce Indians",
-		"avail": [
+		"available_to": [
 			"Indians"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -6529,11 +6090,10 @@
 			"search radius": "6"
 		},
 		"note": "Indian elite unique unit, Classified as cavalry archer and all bonuses applied against war elephants apply against them as well.",
-		"t": "elea1 elephantarcher war elephant cavarcher cavalry archer pierce Indians",
-		"avail": [
+		"available_to": [
 			"Indians"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -6591,11 +6151,10 @@
 			"Indians and allies": "+6 attack vs buildings"
 		},
 		"note": "Inly available to Indians. Stronger than Heavy Camel. Attack bonus vs. cavalry. (not classified as cavalry)",
-		"t": "camel cm2 cavalry melee Indians",
-		"avail": [
+		"available_to": [
 			"Indians"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -6653,11 +6212,10 @@
 			"Magyar ally": "+2 LOS"
 		},
 		"note": "Italian slow shooting ranged unique unit with attack bonus against cavalry",
-		"t": "geno0 archer pierce Italians",
-		"avail": [
+		"available_to": [
 			"Italians"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -6715,11 +6273,10 @@
 			"Magyar ally": "+2 LOS"
 		},
 		"note": "Italian ranged elite unique unit with attack bonus against cavalry. Shoots faster than non-elite.",
-		"t": "geno1 archer pierce Italians",
-		"avail": [
+		"available_to": [
 			"Italians"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -6783,11 +6340,10 @@
 			"Portuguese": "Cost 50F 30G (-15% gold bonus)"
 		},
 		"note": "Anti gunpowder infantry. All Italian allies get this in imperial age.",
-		"t": "condo0 archery pierce Italians",
-		"avail": [
+		"available_to": [
 			"Italians"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -6840,11 +6396,10 @@
 			"search radius": "4"
 		},
 		"note": "Magyar unique unit. Similar to hussar with faster build time, attack bonus against siege.",
-		"t": "mahusz0 cavalry melee Magyars",
-		"avail": [
+		"available_to": [
 			"Magyars"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -6897,11 +6452,10 @@
 			"search radius": "5"
 		},
 		"note": "Magyar elite unique unit. Similar to hussar with attack bonus against siege.",
-		"t": "mahusz1 cavalry melee Magyars",
-		"avail": [
+		"available_to": [
 			"Magyars"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -6953,11 +6507,10 @@
 			"search radius": "4"
 		},
 		"note": "Slav Unique unit with strong melee armor and attack.",
-		"t": "boyar0 cavalry melee Slavs",
-		"avail": [
+		"available_to": [
 			"Slavs"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -7009,11 +6562,10 @@
 			"search radius": "4"
 		},
 		"note": "Slav elite Unique unit with strong melee armor and attack.",
-		"t": "boyar1 cavalry melee Slavs",
-		"avail": [
+		"available_to": [
 			"Slavs"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -7069,11 +6621,10 @@
 			"Portuguese": " Base price 80F 70G, but thanks to portuguese bonus -> 80F 60G"
 		},
 		"note": "Portuguese unique siege unit. Releases 5 projectiles at once affecting a small area.",
-		"t": "organgun0 siege pierce Portuguese",
-		"avail": [
+		"available_to": [
 			"Portuguese"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -7129,11 +6680,10 @@
 			"Portuguese": " Base price 80F 70G, but thanks to portuguese bonus -> 80F 60G"
 		},
 		"note": "Portuguese elite unique siege unit. Releases 5 projectiles at once affecting a small area.",
-		"t": "organgun1 siege pierce Portuguese",
-		"avail": [
+		"available_to": [
 			"Portuguese"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -7190,13 +6740,12 @@
 			"Goths allies": "0:50 BT (20% faster barracks 1.2 work rate)"
 		},
 		"note": "Fast infantry with extensive sight; resists conversion; attack bonus vs. Monks",
-		"t": "eagle eg1 infantry melee Aztecs Incas Mayans",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Incas",
 			"Mayans"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Berbers",
 			"Britons",
 			"Burmese",
@@ -7251,13 +6800,12 @@
 			"Goths allies": "0:29.167 BT (20% faster barracks 1.2 work rate)"
 		},
 		"note": "Fast infantry with extensive sight; resists conversion; attack bonus vs. Monks",
-		"t": "eagle eg1.2 infantry melee Aztecs Incas Mayans",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Incas",
 			"Mayans"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Berbers",
 			"Britons",
 			"Burmese",
@@ -7311,11 +6859,10 @@
 			"Portuguese": "Base price 90W 40G, but thanks to portuguese bonus -> 90F 34G<br />Base HP 130, but thanks to portuguese bonus -> 143 HP"
 		},
 		"note": "Portuguese unique unit. Effective vs large fleets, because each shot damages multiple units in a straight line.",
-		"t": "caravel0 pierce ship unique Portuguese",
-		"avail": [
+		"available_to": [
 			"Portuguese"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -7371,11 +6918,10 @@
 			"Portuguese": " Base price 90W 40G, but thanks to portuguese bonus -> 90F 34G<br />Base HP 150, but thanks to portuguese bonus -> 165 HP"
 		},
 		"note": "Portuguese elite unique unit. Effective vs large fleets, because each shot damages multiple units in a straight line.",
-		"t": "caravel0 pierce ship unique Portuguese",
-		"avail": [
+		"available_to": [
 			"Portuguese"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -7427,11 +6973,10 @@
 			"attack bonus": "+2 eagles"
 		},
 		"note": "Ethiopian Unique unit. Cheap Infantry unit with high creation speed.",
-		"t": "shotelw0 infantry melee Ethiopians",
-		"avail": [
+		"available_to": [
 			"Ethiopians"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -7483,11 +7028,10 @@
 			"attack bonus": "+2 eagles, +1 vs standard buildings"
 		},
 		"note": "Ethiopian elite Unique unit. Cheap Infantry unit with high creation speed.",
-		"t": "shotelw1 infantry melee Ethiopians",
-		"avail": [
+		"available_to": [
 			"Ethiopians"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -7539,11 +7083,10 @@
 			"attack bonus": "+1 eagles"
 		},
 		"note": "Malian unique unit. Quick infantry unit with a high ranged attack.",
-		"t": "gbeto0 infantry melee Malians",
-		"avail": [
+		"available_to": [
 			"Malians"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -7595,11 +7138,10 @@
 			"attack bonus": "+1 eagles"
 		},
 		"note": "Malian elite unique unit. Quick infantry unit with a high ranged attack.",
-		"t": "gbeto1 infantry melee Malians",
-		"avail": [
+		"available_to": [
 			"Malians"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -7655,11 +7197,10 @@
 			"Indian ally": "+5 bonus attack vs buildings"
 		},
 		"note": "Berber unique unit. Cavalry archer with an attack bonus vs cavalry archers.",
-		"t": "camelarcher0 cavarcher cavalry archer camel pierce Berbers",
-		"avail": [
+		"available_to": [
 			"Berbers"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Britons",
 			"Burmese",
@@ -7715,11 +7256,10 @@
 			"Indian ally": "+5 bonus attack vs buildings"
 		},
 		"note": "Berber elite unique unit. Cavalry archer with an attack bonus vs cavalry archers.",
-		"t": "camelarcher1 cavarcher cavalry archer camel pierce Berbers",
-		"avail": [
+		"available_to": [
 			"Berbers"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Britons",
 			"Burmese",
@@ -7776,8 +7316,7 @@
 			"Portuguese": "Cost 200W 136G (-15% gold bonus)"
 		},
 		"note": "Siege weapon used to scale enemy walls; resistant to archer attack. Infantry, villagers and foot archer can garrison inside for transportation (max 10 units).",
-		"t": "ram siegetower0 siege weapon Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -7810,7 +7349,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Dock",
@@ -7839,8 +7378,7 @@
 			"Berbers": "MR 1.43 (+10% faster)"
 		},
 		"note": "Spews fire at other ships. Good at sinking galleys. Attack shows pierce attack.",
-		"t": "fire* pierce ship Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -7872,7 +7410,7 @@
 			"Turks",
 			"Vietnamese"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Vikings"
 		]
 	},
@@ -7905,8 +7443,7 @@
 			"Berbers": "MR 1.65 (+10% faster)"
 		},
 		"note": "Filled with explosives. Self-destructs when used. Pilot near enemy ships and detonate to wrest control of the sea from an entrenched opponent. Doesn't do full damage to its complete blast radius (damage increases based on proximity).",
-		"t": "demo* melee ship Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -7938,7 +7475,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Koreans"
 		]
 	},
@@ -7971,11 +7508,10 @@
 			"Huns with Berber ally": "Costs 32W 45F in Castle age (-10% bonus), 28W 40F in Imperial(-20% bonus)"
 		},
 		"note": "Berber unique unit. Mounted skirmisher. Effective against archers.",
-		"t": "genitour genitour0 cavarcher cavalry archer pierce Berbers",
-		"avail": [
+		"available_to": [
 			"Berbers"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Britons",
 			"Burmese",
@@ -8037,11 +7573,10 @@
 			"Huns with Berber ally": "Costs 28W 40F in Imperial(-20% bonus)"
 		},
 		"note": "Berber elite unique unit.Stronger than Genitour.",
-		"t": "genitour genitour1 cavarcher cavalry archer pierce Berbers",
-		"avail": [
+		"available_to": [
 			"Berbers"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Britons",
 			"Burmese",
@@ -8096,11 +7631,10 @@
 			"Huns and allies": "Base build time 0:26 BT, but 20% faster stable"
 		},
 		"note": "Available to huns after researching Marauders unique tech.",
-		"t": "tarkan tarkan0 cavalry melee Huns",
-		"avail": [
+		"available_to": [
 			"Huns"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -8155,11 +7689,10 @@
 			"Huns and allies": "Base build time 0:24 BT, but 20% faster stable (24/1.2)"
 		},
 		"note": "Available to huns after researching Marauders unique tech.",
-		"t": "tarkan tarkan1 cavalry melee Huns",
-		"avail": [
+		"available_to": [
 			"Huns"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -8220,11 +7753,10 @@
 			"Vietnamese": "42 HP (+20% bonus)"
 		},
 		"note": "Vietnamese team bonus unique unit. Stronger than Elite Skirmisher.",
-		"t": "skirm sk2 archery pierce Vietnamese",
-		"avail": [
+		"available_to": [
 			"Vietnamese"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -8282,14 +7814,13 @@
 			"Malay": "Cost * 0.75 = 90F 53G (25% cheaper)"
 		},
 		"note": "Slow and heavy cavalry. Classified as cavalry and all bonuses applied against war elephants apply against them as well.",
-		"t": "baele0 war elephant cavalry melee Burmese Khmer Malay Vietnamese",
-		"avail": [
+		"available_to": [
 			"Burmese",
 			"Khmer",
 			"Malay",
 			"Vietnamese"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -8345,14 +7876,13 @@
 			"Malay": "Cost * 0.8 = 96F 56G (20% cheaper)"
 		},
 		"note": "Stronger than Battle Elephant. Classified as cavalry and all bonuses applied against war elephants apply against them as well.",
-		"t": "baele1 war elephant cavalry melee Burmese Khmer Malay Vietnamese",
-		"avail": [
+		"available_to": [
 			"Burmese",
 			"Khmer",
 			"Malay",
 			"Vietnamese"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -8403,11 +7933,10 @@
 			"accuracy": "20%"
 		},
 		"note": "Burmese unique unit. Mounted dart thrower. Classified as a conquistador type (only archer armor upgrades apply from blacksmith, not range or attack). All bonuses against archers, cavalry archers, cavalry applies to them as well. ",
-		"t": "aram0 arambai cavarcher archer cavalry pierce Burmese",
-		"avail": [
+		"available_to": [
 			"Burmese"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -8461,11 +7990,10 @@
 			"accuracy": "30%"
 		},
 		"note": "Burmese unique unit. Stronger than Arambai. Classified as a conquistador type (only archer armor upgrades apply from blacksmith, not range or attack). All bonuses against archers, cavalry archers, cavalry applies to them as well. ",
-		"t": "aram1 elite arambai cavarcher archer cavalry pierce Burmese",
-		"avail": [
+		"available_to": [
 			"Burmese"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -8520,11 +8048,10 @@
 			"blast width": "0.1"
 		},
 		"note": "Khmer unique unit. Heavy cavalry equipped with a Scorpion. Can destroy trees. Classified as cavalry. All bonuses against cavalry, war elephants or siege weapons apply also to Ballista Elephants.",
-		"t": "ballista0 cavalry war elephant siege weapon pierce Khmer",
-		"avail": [
+		"available_to": [
 			"Khmer"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -8579,11 +8106,10 @@
 			"blast width": "0.1"
 		},
 		"note": "Khmer unique unit. Stronger than Ballista Elephant. Can destroy trees. Classified as cavalry. All bonuses against cavalry, war elephants or siege weapons apply also to Ballista Elephants.",
-		"t": "ballista1 cavalry war elephant siege weapon pierce Khmer",
-		"avail": [
+		"available_to": [
 			"Khmer"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -8635,11 +8161,10 @@
 			"attack bonus": "+2 eagles"
 		},
 		"note": "Malay unique unit. Cheap and weak infantry unit that only takes half a population slot.",
-		"t": "karambitw0 infantry melee Malay",
-		"avail": [
+		"available_to": [
 			"Malay"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -8691,11 +8216,10 @@
 			"attack bonus": "+2 eagles, +1 standard buildings"
 		},
 		"note": "Malay unique unit. Stronger than Karambit Warrior. Cheap and weak infantry unit that only takes half a population slot.",
-		"t": "karambitw1 infantry melee Malay",
-		"avail": [
+		"available_to": [
 			"Malay"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -8752,11 +8276,10 @@
 			"Saracen ally": "+2 attack against buildings"
 		},
 		"note": "Vietnamese unique unit. Heavily armored Archer.",
-		"t": "rattan0 archer pierce Vietnamese",
-		"avail": [
+		"available_to": [
 			"Vietnamese"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -8813,11 +8336,10 @@
 			"Saracen ally": "+2 attack against buildings"
 		},
 		"note": "Vietnamese unique unit. Stronger than Rattan Archer.",
-		"t": "rattan1 archer pierce Vietnamese",
-		"avail": [
+		"available_to": [
 			"Vietnamese"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",

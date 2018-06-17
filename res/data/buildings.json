@@ -19,8 +19,7 @@
 			"Slavs and allies": "Provides +5 population space",
 			"Malians": "Cost 149W (-15% bonus)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -53,7 +52,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -75,8 +74,7 @@
 			"Slavs and allies": "Provides +5 population space",
 			"Malians": "Cost 149W (-15% bonus)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -109,7 +107,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -131,8 +129,7 @@
 			"Slavs and allies": "Provides +5 population space",
 			"Malians": "Cost 149W (-15% bonus)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -165,7 +162,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -187,8 +184,7 @@
 			"Slavs and allies": "Provides +5 population space",
 			"Malians": "Cost 149W (-15% bonus)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -221,7 +217,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -244,8 +240,7 @@
 			"Malians": "Cost 128W (-15% bonus)",
 			"Malays and allies": "2x LOS"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -278,7 +273,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -301,8 +296,7 @@
 			"Malians": "Cost 128W (-15% bonus)",
 			"Malays and allies": "2x LOS"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -335,7 +329,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -358,8 +352,7 @@
 			"Malians": "Cost 128W (-15% bonus)",
 			"Malays and allies": "2x LOS"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -392,7 +385,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -415,8 +408,7 @@
 			"Malians": "Cost 128W (-15% bonus)",
 			"Malays and allies": "2x LOS"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -449,7 +441,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -471,8 +463,7 @@
 			"Teutons": "Cost 40W (33% cheaper)",
 			"Incas and allies": "bt 0:07.5 (-50% bonus)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -505,7 +496,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -527,8 +518,7 @@
 			"Malians": "Cost 21W (-15% bonus)",
 			"Khmer": "Villagers can be garrisoned inside"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -561,7 +551,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -583,8 +573,7 @@
 			"Malians": "Cost 21W (-15% bonus)",
 			"Khmer": "Villagers can be garrisoned inside"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -617,7 +606,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -639,8 +628,7 @@
 			"Malians": "Cost 21W (-15% bonus)",
 			"Khmer": "Villagers can be garrisoned inside"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -673,7 +661,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -695,8 +683,7 @@
 			"Malians": "Cost 21W (-15% bonus)",
 			"Khmer": "Villagers can be garrisoned inside"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -729,7 +716,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -750,8 +737,7 @@
 			"Japanese": "Cost 50W",
 			"Malians": "Cost 85W (-15% bonus)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -784,7 +770,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -805,8 +791,7 @@
 			"Japanese": "Cost 50W",
 			"Malians": "Cost 85W (-15% bonus)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -839,7 +824,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -860,8 +845,7 @@
 			"Japanese": "Cost 50W",
 			"Malians": "Cost 85W (-15% bonus)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -894,7 +878,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -915,8 +899,7 @@
 			"Japanese": "Cost 50W",
 			"Malians": "Cost 85W (-15% bonus)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -949,7 +932,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -970,8 +953,7 @@
 			"Japanese": "Cost 50W",
 			"Malians": "Cost 85W (-15% bonus)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -1004,7 +986,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -1025,8 +1007,7 @@
 			"Japanese": "Cost 50W",
 			"Malians": "Cost 85W (-15% bonus)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -1059,7 +1040,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -1080,8 +1061,7 @@
 			"Japanese": "Cost 50W",
 			"Malians": "Cost 85W (-15% bonus)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -1114,7 +1094,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -1135,8 +1115,7 @@
 			"Japanese": "Cost 50W",
 			"Malians": "Cost 85W (-15% bonus)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -1169,7 +1148,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -1190,8 +1169,7 @@
 			"Japanese": "Cost 50W",
 			"Malians": "Cost 85W (-15% bonus)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -1224,7 +1202,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -1245,8 +1223,7 @@
 			"Japanese": "Cost 50W",
 			"Malians": "Cost 85W (-15% bonus)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -1279,7 +1256,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -1300,8 +1277,7 @@
 			"Japanese": "Cost 50W",
 			"Malians": "Cost 85W (-15% bonus)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -1334,7 +1310,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -1355,8 +1331,7 @@
 			"Japanese": "Cost 50W",
 			"Malians": "Cost 85W (-15% bonus)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -1389,7 +1364,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -1411,8 +1386,7 @@
 			"Slavs and allies": "Provides +5 population space",
 			"Malians": "Cost 149W (-15% bonus)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -1445,7 +1419,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -1467,8 +1441,7 @@
 			"Slavs and allies": "Provides +5 population space",
 			"Malians": "Cost 149W (-15% bonus)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -1501,7 +1474,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -1523,8 +1496,7 @@
 			"Slavs and allies": "Provides +5 population space",
 			"Malians": "Cost 149W (-15% bonus)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -1557,7 +1529,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -1577,8 +1549,7 @@
 			"Byzantines": "2160 HP in Feudal (HP bonus)",
 			"Malians": "Cost 128W (-15% bonus)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -1611,7 +1582,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -1630,8 +1601,7 @@
 		"civb": {
 			"Byzantines": "2730 HP in Castle (HP bonus)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -1664,7 +1634,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -1683,8 +1653,7 @@
 		"civb": {
 			"Byzantines": "2940 HP in Imperial (HP bonus)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -1717,7 +1686,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -1738,7 +1707,40 @@
 			"Malians": "Cost 85W (-15% bonus)",
 			"Malay": "Cost 67W (-33% cheaper) and provide unlimited food (7e13)"
 		},
-		"t": ""
+		"available_to": [
+			"Aztecs",
+			"Berbers",
+			"Britons",
+			"Burmese",
+			"Byzantines",
+			"Celts",
+			"Chinese",
+			"Ethiopians",
+			"Franks",
+			"Goths",
+			"Huns",
+			"Incas",
+			"Indians",
+			"Italians",
+			"Japanese",
+			"Khmer",
+			"Koreans",
+			"Magyars",
+			"Malay",
+			"Malians",
+			"Mayans",
+			"Mongols",
+			"Persians",
+			"Portuguese",
+			"Saracens",
+			"Slavs",
+			"Spanish",
+			"Teutons",
+			"Turks",
+			"Vietnamese",
+			"Vikings"
+		],
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -1759,8 +1761,7 @@
 			"Saracens": "Cost 100W",
 			"Malians": "Cost 149W (-15% bonus)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -1793,7 +1794,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -1814,8 +1815,7 @@
 			"Saracens": "Cost 100W",
 			"Malians": "Cost 149W (-15% bonus)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -1848,7 +1848,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -1869,8 +1869,7 @@
 			"Saracens": "Cost 100W",
 			"Malians": "Cost 149W (-15% bonus)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -1903,7 +1902,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -1925,8 +1924,7 @@
 			"Slavs and allies": "Provides +5 population space",
 			"Malians": "Cost 149W (-15% bonus)"
 		},
-		"t": " Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Berbers",
 			"Britons",
 			"Burmese",
@@ -1956,7 +1954,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Incas",
 			"Mayans"
@@ -1982,8 +1980,7 @@
 			"Slavs and allies": "Provides +5 population space",
 			"Malians": "Cost 149W (-15% bonus)"
 		},
-		"t": " Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Berbers",
 			"Britons",
 			"Burmese",
@@ -2013,7 +2010,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Incas",
 			"Mayans"
@@ -2039,8 +2036,7 @@
 			"Slavs and allies": "Provides +5 population space",
 			"Malians": "Cost 149W (-15% bonus)"
 		},
-		"t": " Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Berbers",
 			"Britons",
 			"Burmese",
@@ -2070,7 +2066,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Incas",
 			"Mayans"
@@ -2096,8 +2092,7 @@
 			"Koreans": "build time 2:30 (-25% bonus)",
 			"Incas": "Cost 553S"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -2130,7 +2125,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -2150,8 +2145,7 @@
 			"Byzantines": "2730 HP in Castle (HP bonus)",
 			"Malians": "Cost 149W (-15% bonus)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -2184,7 +2178,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -2204,8 +2198,7 @@
 			"Byzantines": "2940 HP in Imperial (HP bonus)",
 			"Malians": "Cost 149W (-15% bonus)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -2238,7 +2231,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -2260,8 +2253,7 @@
 			"Slavs and allies": "Provides +5 population space",
 			"Malians": "Cost 170 (-15% bonus)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -2294,7 +2286,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -2316,8 +2308,7 @@
 			"Slavs and allies": "Provides +5 population space",
 			"Malians": "Cost 170 (-15% bonus)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -2350,7 +2341,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -2374,8 +2365,7 @@
 			"Malians": "Cost 234W 100S (-15% wood bonus)"
 		},
 		"GA": "15 units (supports 5 population), max 10 arrows <br /> +5 vs all buildings, +5 vs ships, +1 vs camels",
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -2408,7 +2398,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -2432,8 +2422,7 @@
 			"Malians": "Cost 234W 100S (-15% wood bonus)"
 		},
 		"GA": "15 units (supports 5 population), max 10 arrows <br /> +5 vs all buildings, +5 vs ships, +1 vs camels",
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -2466,7 +2455,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -2491,8 +2480,7 @@
 			"Malians": "Cost 234W 100S (-15% wood bonus)"
 		},
 		"GA": "15 units (supports 5 population), max 10 arrows <br /> +5 vs all buildings, +5 vs ships, +1 vs camels",
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -2525,7 +2513,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -2550,8 +2538,7 @@
 			"Malians": "Cost 234W 100S (-15% wood bonus)"
 		},
 		"GA": "15 units (supports 5 population), max 10 arrows <br /> +5 vs all buildings, +5 vs ships, +1 vs camels",
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -2584,7 +2571,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -2604,8 +2591,7 @@
 			"Byzantines": "2730 HP in Castle(HP bonus)",
 			"Malians": "Cost 170W (-15% bonus)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -2638,7 +2624,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -2658,8 +2644,7 @@
 			"Byzantines": "2940 HP in Imperial (HP bonus)",
 			"Malians": "Cost 170W (-15% bonus)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -2692,7 +2677,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Buildings",
@@ -2708,12 +2693,11 @@
 		"at": "-",
 		"ar": "3/10",
 		"GA": "",
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
 		"civb": {
 			"Incas": "Cost 1000WG 850S",
 			"Malians": "Cost 850W 1000G 1000S (-15% bonus)"
 		},
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -2746,7 +2730,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Defensive",
@@ -2769,8 +2753,7 @@
 			"Ethiopians and allies": "+3 LOS",
 			"Malians": "Cost 21W 5S (-15% bonus)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -2803,7 +2786,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Defensive",
@@ -2827,8 +2810,7 @@
 			"Ethiopians and allies": "+3 LOS",
 			"Malians": "Cost 21W 125S (-15% wood bonus)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -2861,7 +2843,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Defensive",
@@ -2885,8 +2867,7 @@
 			"Ethiopians and allies": "+3 LOS",
 			"Malians": "Cost 21W 125S (-15% wood bonus)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -2917,7 +2898,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Goths",
 			"Huns"
 		]
@@ -2944,8 +2925,7 @@
 			"Ethiopians and allies": "+3 LOS",
 			"Malians": "Cost 21W 125S (-15% wood bonus)"
 		},
-		"t": " Britons Burmese Byzantines Celts Chinese Ethiopians Incas Italians Japanese Khmer Koreans Malay Malians Mayans Portuguese Saracens Spanish Teutons Turks Vietnamese",
-		"avail": [
+		"available_to": [
 			"Britons",
 			"Burmese",
 			"Byzantines",
@@ -2967,7 +2947,7 @@
 			"Turks",
 			"Vietnamese"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Franks",
@@ -3000,8 +2980,7 @@
 			"Koreans": "build time 1:00 (-25% bonus)",
 			"Ethiopians and allies": "+3 LOS"
 		},
-		"t": " Byzantines Chinese Italians Koreans Malay Portuguese Spanish Teutons Turks Vietnamese",
-		"avail": [
+		"available_to": [
 			"Byzantines",
 			"Chinese",
 			"Italians",
@@ -3013,7 +2992,7 @@
 			"Turks",
 			"Vietnamese"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -3057,8 +3036,7 @@
 			"Koreans": "build time 0:03.75 (25% faster)",
 			"Malians": "Cost 2W (-15% wood bonus no effect)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -3091,7 +3069,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Defensive",
@@ -3113,8 +3091,7 @@
 			"Koreans": "build time 0:07.5",
 			"Incas": "Cost 4S"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -3146,7 +3123,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Goths"
 		]
 	},
@@ -3170,8 +3147,7 @@
 			"Incas": "Cost 4S",
 			"Koreans": "build time 0:07.5 (-25% bonus)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Incas Indians Italians Japanese Khmer Koreans Malians Mayans Mongols Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -3199,7 +3175,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Goths",
 			"Huns",
 			"Magyars",
@@ -3226,8 +3202,7 @@
 			"Incas": "Cost 26S",
 			"Koreans": "Build time 0:52.5"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -3259,7 +3234,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Goths"
 		]
 	},
@@ -3282,8 +3257,7 @@
 			"Malians": "Cost 17W (-15% wood bonus)",
 			"Malians with mayan ally": " Cost 9W (50% + 15% bonus)"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Goths Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -3316,7 +3290,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": []
+		"not_available_to": []
 	},
 	{
 		"type": "Defensive",
@@ -3338,8 +3312,7 @@
 			"Koreans": "Build time 0:07.5",
 			"Incas": "Cost 4s"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -3371,7 +3344,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Goths"
 		]
 	},
@@ -3394,8 +3367,7 @@
 			"Incas": "Cost 26S",
 			"Koreans": "Build time 0:52.5"
 		},
-		"t": " Aztecs Berbers Britons Burmese Byzantines Celts Chinese Ethiopians Franks Huns Incas Indians Italians Japanese Khmer Koreans Magyars Malay Malians Mayans Mongols Persians Portuguese Saracens Slavs Spanish Teutons Turks Vietnamese Vikings",
-		"avail": [
+		"available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -3427,7 +3399,7 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Goths"
 		]
 	},
@@ -3445,11 +3417,10 @@
 		"at": "-",
 		"ar": "3/10",
 		"GA": "Takes 20 population<br />Generates 0.8W 0.8F 0.45G 0.25S per second",
-		"t": " Portuguese",
-		"avail": [
+		"available_to": [
 			"Portuguese"
 		],
-		"noavail": [
+		"not_available_to": [
 			"Aztecs",
 			"Berbers",
 			"Britons",
@@ -3496,6 +3467,40 @@
 		"at": "6+ 3x 1",
 		"ar": "3/10",
 		"GA": "Malay unique tech. Fires arrows. LOS actually 10, but thanks to malay bonus it's 20. +13 attack vs ships. Also classified as stone defense. The 3 extra arrows only deal 1 damage each.",
-		"t": "stone defense"
+		"available_to": [
+			"Malay"
+		],
+		"not_available_to": [
+			"Aztecs",
+			"Berbers",
+			"Britons",
+			"Burmese",
+			"Byzantines",
+			"Celts",
+			"Chinese",
+			"Ethiopians",
+			"Franks",
+			"Goths",
+			"Huns",
+			"Incas",
+			"Indians",
+			"Italians",
+			"Japanese",
+			"Khmer",
+			"Koreans",
+			"Magyars",
+			"Malians",
+			"Mayans",
+			"Mongols",
+			"Persians",
+			"Portuguese",
+			"Saracens",
+			"Slavs",
+			"Spanish",
+			"Teutons",
+			"Turks",
+			"Vietnamese",
+			"Vikings"
+		]
 	}
 ]
