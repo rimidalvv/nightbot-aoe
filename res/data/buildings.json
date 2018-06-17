@@ -11,7 +11,7 @@
 		"hp": "1200",
 		"ra": "-",
 		"at": "-",
-		"ar": "0/7",
+		"ar": "0 / 7",
 		"GA": "10 created units",
 		"civb": {
 			"Byzantines": "1320 HP in Dark Age (HP bonus)",
@@ -66,7 +66,7 @@
 		"hp": "1500",
 		"ra": "-",
 		"at": "-",
-		"ar": "1/8",
+		"ar": "1 / 8",
 		"GA": "10 created units",
 		"civb": {
 			"Byzantines": "1800 HP in Feudal (HP bonus)",
@@ -121,7 +121,7 @@
 		"hp": "1800",
 		"ra": "-",
 		"at": "-",
-		"ar": "2/9",
+		"ar": "2 / 9",
 		"GA": "10 created units",
 		"civb": {
 			"Byzantines": "2340 HP in Castle Age (HP bonus)",
@@ -176,7 +176,7 @@
 		"hp": "2100",
 		"ra": "-",
 		"at": "-",
-		"ar": "3/10",
+		"ar": "3 / 10",
 		"GA": "10 created units",
 		"civb": {
 			"Byzantines": "2940 HP in Imperial Age (HP bonus)",
@@ -231,7 +231,7 @@
 		"hp": "1800",
 		"ra": "-",
 		"at": "-",
-		"ar": "0/7",
+		"ar": "0 / 7",
 		"GA": "10 created units",
 		"civb": {
 			"Byzantines": "1980 HP in Dark Age",
@@ -287,7 +287,7 @@
 		"hp": "1800",
 		"ra": "-",
 		"at": "-",
-		"ar": "1/8",
+		"ar": "1 / 8",
 		"GA": "10 created units",
 		"civb": {
 			"Byzantines": "2160 HP in Feudal (HP bonus)",
@@ -343,7 +343,7 @@
 		"hp": "1800",
 		"ra": "-",
 		"at": "-",
-		"ar": "2/9",
+		"ar": "2 / 9",
 		"GA": "10 created units",
 		"civb": {
 			"Byzantines": "2340 HP in Castle Age (HP bonus)",
@@ -399,7 +399,7 @@
 		"hp": "1800",
 		"ra": "-",
 		"at": "-",
-		"ar": "3/10",
+		"ar": "3 / 10",
 		"GA": "10 created units",
 		"civb": {
 			"Byzantines": "2520 HP in Imperial (HP bonus)",
@@ -455,7 +455,7 @@
 		"hp": "480",
 		"ra": "-",
 		"at": "-",
-		"ar": "0/0",
+		"ar": "0 / 0",
 		"GA": "Standard=175F<br />Horse Collar=250F<br />Heavy Plow=375F<br />Crop Rotation=550F",
 		"civb": {
 			"Byzantines": "528 HP in Dark, 576 HP in Feudal, 624 HP in Castle, 672 HP in Imperial (HP bonus)",
@@ -510,7 +510,7 @@
 		"hp": "550",
 		"ra": "-",
 		"at": "-",
-		"ar": "0/7",
+		"ar": "0 / 7",
 		"GA": "Supports 5 population",
 		"civb": {
 			"Byzantines": "605 HP",
@@ -565,7 +565,7 @@
 		"hp": "750",
 		"ra": "-",
 		"at": "-",
-		"ar": "1/8",
+		"ar": "1 / 8",
 		"GA": "Supports 5 population",
 		"civb": {
 			"Byzantines": "900 HP",
@@ -620,7 +620,7 @@
 		"hp": "900",
 		"ra": "-",
 		"at": "-",
-		"ar": "2/9",
+		"ar": "2 / 9",
 		"GA": "Supports 5 population",
 		"civb": {
 			"Byzantines": "1170 HP in Castle (HP bonus)",
@@ -675,7 +675,7 @@
 		"hp": "900",
 		"ra": "-",
 		"at": "-",
-		"ar": "3/10",
+		"ar": "3 / 10",
 		"GA": "Supports 5 population",
 		"civb": {
 			"Byzantines": "1260 HP in Imperial (HP bonus)",
@@ -730,7 +730,7 @@
 		"hp": "600",
 		"ra": "-",
 		"at": "-",
-		"ar": "0/7",
+		"ar": "0 / 7",
 		"GA": "",
 		"civb": {
 			"Byzantines": "660 HP",
@@ -784,7 +784,7 @@
 		"hp": "800",
 		"ra": "-",
 		"at": "-",
-		"ar": "1/8",
+		"ar": "1 / 8",
 		"GA": "",
 		"civb": {
 			"Byzantines": "960 HP",
@@ -838,7 +838,7 @@
 		"hp": "1000",
 		"ra": "-",
 		"at": "-",
-		"ar": "2/9",
+		"ar": "2 / 9",
 		"GA": "",
 		"civb": {
 			"Byzantines": "1300 HP in Castle (HP bonus)",
@@ -892,7 +892,7 @@
 		"hp": "1000",
 		"ra": "-",
 		"at": "-",
-		"ar": "3/10",
+		"ar": "3 / 10",
 		"GA": "",
 		"civb": {
 			"Byzantines": "1400 HP in Imperial (HP bonus)",
@@ -946,7 +946,7 @@
 		"hp": "600",
 		"ra": "-",
 		"at": "-",
-		"ar": "0/7",
+		"ar": "0 / 7",
 		"GA": "Max 40 farms queued",
 		"civb": {
 			"Byzantines": "660 HP",
@@ -1000,7 +1000,7 @@
 		"hp": "800",
 		"ra": "-",
 		"at": "-",
-		"ar": "1/8",
+		"ar": "1 / 8",
 		"GA": "Max 40 farms queued",
 		"civb": {
 			"Byzantines": "960 HP",
@@ -1054,7 +1054,7 @@
 		"hp": "1000",
 		"ra": "-",
 		"at": "-",
-		"ar": "2/9",
+		"ar": "2 / 9",
 		"GA": "Max 40 farms queued",
 		"civb": {
 			"Byzantines": "1300 HP in Castle (HP bonus)",
@@ -1108,7 +1108,7 @@
 		"hp": "1000",
 		"ra": "-",
 		"at": "-",
-		"ar": "3/10",
+		"ar": "3 / 10",
 		"GA": "Max 40 farms queued",
 		"civb": {
 			"Byzantines": "1400 HP in Imperial (HP bonus)",
@@ -1162,7 +1162,7 @@
 		"hp": "600",
 		"ra": "-",
 		"at": "-",
-		"ar": "0/7",
+		"ar": "0 / 7",
 		"GA": "",
 		"civb": {
 			"Byzantines": "660 HP",
@@ -1216,7 +1216,7 @@
 		"hp": "800",
 		"ra": "-",
 		"at": "-",
-		"ar": "1/8",
+		"ar": "1 / 8",
 		"GA": "",
 		"civb": {
 			"Byzantines": "960 HP",
@@ -1270,7 +1270,7 @@
 		"hp": "1000",
 		"ra": "-",
 		"at": "-",
-		"ar": "2/9",
+		"ar": "2 / 9",
 		"GA": "",
 		"civb": {
 			"Byzantines": "1300 HP in Castle (HP bonus)",
@@ -1324,7 +1324,7 @@
 		"hp": "1000",
 		"ra": "-",
 		"at": "-",
-		"ar": "3/10",
+		"ar": "3 / 10",
 		"GA": "",
 		"civb": {
 			"Byzantines": "1400 HP in Imperial (HP bonus)",
@@ -1378,7 +1378,7 @@
 		"hp": "1500",
 		"ra": "-",
 		"at": "-",
-		"ar": "1/8",
+		"ar": "1 / 8",
 		"GA": "10 created units",
 		"civb": {
 			"Byzantines": "1800 HP in Feudal (HP bonus)",
@@ -1433,7 +1433,7 @@
 		"hp": "1800",
 		"ra": "-",
 		"at": "-",
-		"ar": "2/9",
+		"ar": "2 / 9",
 		"GA": "10 created units",
 		"civb": {
 			"Byzantines": "2340 HP in Castle (HP bonus)",
@@ -1488,7 +1488,7 @@
 		"hp": "2100",
 		"ra": "-",
 		"at": "-",
-		"ar": "3/10",
+		"ar": "3 / 10",
 		"GA": "10 created units",
 		"civb": {
 			"Byzantines": "2940 HP in Imperial (HP bonus)",
@@ -1543,7 +1543,7 @@
 		"hp": "1800",
 		"ra": "-",
 		"at": "-",
-		"ar": "1/8",
+		"ar": "1 / 8",
 		"GA": "",
 		"civb": {
 			"Byzantines": "2160 HP in Feudal (HP bonus)",
@@ -1596,7 +1596,7 @@
 		"hp": "2100",
 		"ra": "-",
 		"at": "-",
-		"ar": "2/9",
+		"ar": "2 / 9",
 		"GA": "",
 		"civb": {
 			"Byzantines": "2730 HP in Castle (HP bonus)"
@@ -1648,7 +1648,7 @@
 		"hp": "2100",
 		"ra": "-",
 		"at": "-",
-		"ar": "3/10",
+		"ar": "3 / 10",
 		"GA": "",
 		"civb": {
 			"Byzantines": "2940 HP in Imperial (HP bonus)"
@@ -1700,7 +1700,7 @@
 		"hp": "50",
 		"ra": "-",
 		"at": "-",
-		"ar": "0/0",
+		"ar": "0 / 0",
 		"GA": "715 food",
 		"civb": {
 			"Byzantines": "55 HP in Dark, 60 HP in Feudal, 65 HP in Castle, 70 HP in Imperial (HP bonus)",
@@ -1754,7 +1754,7 @@
 		"hp": "1800",
 		"ra": "-",
 		"at": "-",
-		"ar": "1/8",
+		"ar": "1 / 8",
 		"GA": "-",
 		"civb": {
 			"Byzantines": "2160 HP in Feudal (HP bonus)",
@@ -1808,7 +1808,7 @@
 		"hp": "2100",
 		"ra": "-",
 		"at": "-",
-		"ar": "2/9",
+		"ar": "2 / 9",
 		"GA": "-",
 		"civb": {
 			"Byzantines": "2730 HP in Castle (HP bonus)",
@@ -1862,7 +1862,7 @@
 		"hp": "2100",
 		"ra": "-",
 		"at": "-",
-		"ar": "3/10",
+		"ar": "3 / 10",
 		"GA": "-",
 		"civb": {
 			"Byzantines": "2940 HP in Imperial (HP bonus)",
@@ -1916,7 +1916,7 @@
 		"hp": "1500",
 		"ra": "-",
 		"at": "-",
-		"ar": "1/8",
+		"ar": "1 / 8",
 		"GA": "10 created units",
 		"civb": {
 			"Byzantines": "1800 HP in Feudal (HP bonus)",
@@ -1972,7 +1972,7 @@
 		"hp": "1800",
 		"ra": "-",
 		"at": "-",
-		"ar": "2/9",
+		"ar": "2 / 9",
 		"GA": "10 created units",
 		"civb": {
 			"Byzantines": "2340 HP in Castle (HP bonus)",
@@ -2028,7 +2028,7 @@
 		"hp": "2100",
 		"ra": "-",
 		"at": "-",
-		"ar": "3/10",
+		"ar": "3 / 10",
 		"GA": "10 created units",
 		"civb": {
 			"Byzantines": "2940 HP in Imperial (HP bonus)",
@@ -2084,7 +2084,7 @@
 		"hp": "4800",
 		"ra": "1-8",
 		"at": "11/arrow",
-		"ar": "8/11",
+		"ar": "8 / 11",
 		"GA": "20 units (support 20 population), max 21 arrows, <br /> 1st arrow +2 against spearmen <br /> From 2nd arrow +11 damage vs ships, +11 vs stone defense, +1 damage to camels",
 		"civb": {
 			"Byzantines": "6240 HP in Castle, 6720 HP in Imperial (HP bonus)",
@@ -2139,7 +2139,7 @@
 		"hp": "2100",
 		"ra": "-",
 		"at": "-",
-		"ar": "2/9",
+		"ar": "2 / 9",
 		"GA": "10 created units",
 		"civb": {
 			"Byzantines": "2730 HP in Castle (HP bonus)",
@@ -2192,7 +2192,7 @@
 		"hp": "2100",
 		"ra": "-",
 		"at": "-",
-		"ar": "3/10",
+		"ar": "3 / 10",
 		"GA": "10 created units",
 		"civb": {
 			"Byzantines": "2940 HP in Imperial (HP bonus)",
@@ -2245,7 +2245,7 @@
 		"hp": "2100",
 		"ra": "-",
 		"at": "-",
-		"ar": "2/9",
+		"ar": "2 / 9",
 		"GA": "10 created units",
 		"civb": {
 			"Byzantines": "2730 HP in Castle (HP bonus)",
@@ -2300,7 +2300,7 @@
 		"hp": "2100",
 		"ra": "-",
 		"at": "-",
-		"ar": "3/10",
+		"ar": "3 / 10",
 		"GA": "10 created units",
 		"civb": {
 			"Byzantines": "2940 HP in Imperial (HP bonus)",
@@ -2355,7 +2355,7 @@
 		"hp": "2400",
 		"ra": "6",
 		"at": "5/arrow",
-		"ar": "3/5",
+		"ar": "3 / 5",
 		"civb": {
 			"Byzantines": "2640 HP in Dark Age (HP bonus)",
 			"Chinese": "12 LOS and search radius (+5); Supports 10 population",
@@ -2412,7 +2412,7 @@
 		"hp": "2400",
 		"ra": "6",
 		"at": "5/arrow",
-		"ar": "4/6",
+		"ar": "4 / 6",
 		"civb": {
 			"Byzantines": "2880 HP in Feudal (HP bonus)",
 			"Chinese": "12 LOS and search radius (+5); Supports 10 population",
@@ -2469,7 +2469,7 @@
 		"hp": "2400",
 		"ra": "6",
 		"at": "5/arrow",
-		"ar": "5/7",
+		"ar": "5 / 7",
 		"civb": {
 			"Britons": "cost 138W 100S",
 			"Byzantines": "3120 HP in Castle Age (HP bonus)",
@@ -2527,7 +2527,7 @@
 		"hp": "2400",
 		"ra": "6",
 		"at": "5/arrow",
-		"ar": "6/8",
+		"ar": "6 / 8",
 		"civb": {
 			"Britons": "cost 138W 100S",
 			"Byzantines": "3360 HP in Imperial (HP bonus)",
@@ -2585,7 +2585,7 @@
 		"hp": "2100",
 		"ra": "-",
 		"at": "-",
-		"ar": "2/9",
+		"ar": "2 / 9",
 		"GA": "",
 		"civb": {
 			"Byzantines": "2730 HP in Castle(HP bonus)",
@@ -2638,7 +2638,7 @@
 		"hp": "2100",
 		"ra": "-",
 		"at": "-",
-		"ar": "3/10",
+		"ar": "3 / 10",
 		"GA": "",
 		"civb": {
 			"Byzantines": "2940 HP in Imperial (HP bonus)",
@@ -2684,14 +2684,14 @@
 		"name": "Wonder",
 		"ver": "k",
 		"age": "3",
-		"cost": "1000WSG",
+		"cost": "1000W 1000G 1000S",
 		"bt": "58:23",
 		"fr": "-",
 		"los": "6",
 		"hp": "4800",
 		"ra": "-",
 		"at": "-",
-		"ar": "3/10",
+		"ar": "3 / 10",
 		"GA": "",
 		"civb": {
 			"Incas": "Cost 1000WG 850S",
@@ -2744,7 +2744,7 @@
 		"hp": "500",
 		"ra": "-",
 		"at": "-",
-		"ar": "0/0",
+		"ar": "0 / 0",
 		"GA": "+2 LOS per age",
 		"civb": {
 			"Byzantines": "550 HP in Dark, 600 HP in Feudal, 650 HP in Castle, 700 HP in Imperial (HP bonus)",
@@ -2800,7 +2800,7 @@
 		"hp": "1020",
 		"ra": "1-8",
 		"at": "5",
-		"ar": "1/7",
+		"ar": "1 / 7",
 		"GA": "garrison 5 units, +2 vs spearmen line, +7 damage vs ships, +1 vs camels, max 5 arrows",
 		"civb": {
 			"Byzantines": "1122 HP in Dark, 1224 HP in Feudal, 1326 HP in Castle, 1428 HP in Imperial (HP bonus)",
@@ -2857,7 +2857,7 @@
 		"hp": "1500",
 		"ra": "1-8",
 		"at": "7",
-		"ar": "2/8",
+		"ar": "2 / 8",
 		"GA": "garrison 5 units, +2 vs spearmen line, +9 damage vs ships, +1 vs camels, max 5 arrows",
 		"civb": {
 			"Byzantines": "1950 HP in Castle, 2100 HP in Imperial (HP bonus)",
@@ -2915,7 +2915,7 @@
 		"hp": "2250",
 		"ra": "1-8",
 		"at": "8",
-		"ar": "3/9",
+		"ar": "3 / 9",
 		"GA": "garrison 5 units, +2 vs spearmen line, +10 damage vs ships, +1 vs camels, max 5 arrows",
 		"civb": {
 			"Byzantines": "3108 HP in Imperial (HP bonus)",
@@ -2973,7 +2973,7 @@
 		"hp": "2220",
 		"ra": "1-8",
 		"at": "120",
-		"ar": "3/9",
+		"ar": "3 / 9",
 		"GA": "garrison 5 units, +40 damage vs ships, +1 vs camels, pierce attack",
 		"civb": {
 			"Byzantines": "3108 HP in Imperial (HP bonus)",
@@ -3028,7 +3028,7 @@
 		"hp": "250",
 		"ra": "-",
 		"at": "-",
-		"ar": "2/5",
+		"ar": "2 / 5",
 		"GA": "",
 		"civb": {
 			"Byzantines": "275 HP in Dark, 300 HP in Feudal, 325 HP in Castle, 350 HP in Imperial (HP bonus)",
@@ -3083,7 +3083,7 @@
 		"hp": "900",
 		"ra": "-",
 		"at": "-",
-		"ar": "8/10",
+		"ar": "8 / 10",
 		"GA": "",
 		"civb": {
 			"Byzantines": "1080 HP in Feudal",
@@ -3139,7 +3139,7 @@
 		"hp": "3000",
 		"ra": "-",
 		"at": "-",
-		"ar": "12/12",
+		"ar": "1 2 /12",
 		"GA": "",
 		"civb": {
 			"Byzantines": "3900 HP in Castle, 4200 HP in Imperial (HP bonus)",
@@ -3195,7 +3195,7 @@
 		"hp": "1375",
 		"ra": "-",
 		"at": "-",
-		"ar": "6/6",
+		"ar": "6 / 6",
 		"GA": "",
 		"civb": {
 			"Mayans and allies": "Cost 15S (50% cheaper)",
@@ -3250,7 +3250,7 @@
 		"hp": "400",
 		"ra": "-",
 		"at": "-",
-		"ar": "2/2",
+		"ar": "2 / 2",
 		"GA": "",
 		"civb": {
 			"Mayans and allies": "Cost 10W (50% cheaper)",
@@ -3304,7 +3304,7 @@
 		"hp": "1800",
 		"ra": "-",
 		"at": "-",
-		"ar": "8/10",
+		"ar": "8 / 10",
 		"GA": "",
 		"civb": {
 			"Byzantines": "2340 HP in Castle, 2520 HP in Imperial (HP bonus)",
@@ -3360,7 +3360,7 @@
 		"hp": "2750",
 		"ra": "-",
 		"at": "-",
-		"ar": "6/6",
+		"ar": "6 / 6",
 		"GA": "+1250 HP with Fortified Wall",
 		"civb": {
 			"Mayans and allies": "Cost 15S (50% cheaper)",
@@ -3415,7 +3415,7 @@
 		"hp": "5200",
 		"ra": "-",
 		"at": "-",
-		"ar": "3/10",
+		"ar": "3 / 10",
 		"GA": "Takes 20 population<br />Generates 0.8W 0.8F 0.45G 0.25S per second",
 		"available_to": [
 			"Portuguese"
@@ -3465,7 +3465,7 @@
 		"hp": "2000",
 		"ra": "7",
 		"at": "6+ 3x 1",
-		"ar": "3/10",
+		"ar": "3 / 10",
 		"GA": "Malay unique tech. Fires arrows. LOS actually 10, but thanks to malay bonus it's 20. +13 attack vs ships. Also classified as stone defense. The 3 extra arrows only deal 1 damage each.",
 		"available_to": [
 			"Malay"

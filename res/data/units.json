@@ -13,7 +13,7 @@
 		"hp": "40",
 		"ra": "-",
 		"at": "4",
-		"ar": "0/1",
+		"ar": "0 / 1",
 		"note": "Basic infantry swordsman. Quick and cheap to create.",
 		"civb": {
 			"Aztec": "0:17.85 BT (15% bonus 0.85*bT)",
@@ -76,7 +76,7 @@
 		"hp": "45",
 		"ra": "-",
 		"at": "6",
-		"ar": "0/1",
+		"ar": "0 / 1",
 		"note": "Stronger than Militia. Attack bonus vs. buildings.",
 		"extra": {
 			"attack bonus": "+2 eagles, +2 buildings"
@@ -142,7 +142,7 @@
 		"hp": "60",
 		"ra": "-",
 		"at": "9",
-		"ar": "0/1",
+		"ar": "0 / 1",
 		"note": "Stronger than Man-at-Arms. Attack bonus vs. buildings.",
 		"extra": {
 			"attack bonus": "+6 eagles, +3 buildings"
@@ -208,7 +208,7 @@
 		"hp": "60",
 		"ra": "-",
 		"at": "12",
-		"ar": "0/1",
+		"ar": "0 / 1",
 		"note": "Stronger than Long Swordsman. Attack bonus vs. buildings.",
 		"extra": {
 			"attack bonus": "+8 eagles, +4 buildings",
@@ -276,7 +276,7 @@
 		"hp": "70",
 		"ra": "-",
 		"at": "13",
-		"ar": "1/1",
+		"ar": "1 / 1",
 		"note": "Stronger than Two-Handed Swordsman. ",
 		"extra": {
 			"attack bonus": "+8 eagles, +4 buildings",
@@ -344,7 +344,7 @@
 		"hp": "45",
 		"ra": "-",
 		"at": "3",
-		"ar": "0/0",
+		"ar": "0 / 0",
 		"extra": {
 			"attack bonus": "+1 eagles, +1 buildings, +15 war elephants, +15 cavalry, +12 camels, +9 vs ships"
 		},
@@ -410,7 +410,7 @@
 		"hp": "55",
 		"ra": "-",
 		"at": "4",
-		"ar": "0/0",
+		"ar": "0 / 0",
 		"extra": {
 			"attack bonus": "+1 eagles, +1 buildings, +25 war elephants, +22 cavalry, +18 camels, +16 ships"
 		},
@@ -477,7 +477,7 @@
 		"hp": "60",
 		"ra": "-",
 		"at": "6",
-		"ar": "0/0",
+		"ar": "0 / 0",
 		"extra": {
 			"attack bonus": "+1 eagles, +1 buildings, +28 war elephants, +32 cavalry, +26 camels, +17 vs ships"
 		},
@@ -533,8 +533,8 @@
 		"name": "Eagle Scout",
 		"ver": "f",
 		"age": "0",
-		"cost": "-",
-		"bt": "-",
+		"cost": "20F 50G",
+		"bt": "0:32 (1:00 in Feudal)",
 		"fr": "2",
 		"ad": "0",
 		"mr": "1.1",
@@ -542,7 +542,7 @@
 		"hp": "50",
 		"ra": "-",
 		"at": "4",
-		"ar": "0/2",
+		"ar": "0 / 2",
 		"extra": {
 			"attack bonus": "+8 monks, +3 siege"
 		},
@@ -597,7 +597,7 @@
 		"hp": "55",
 		"ra": "-",
 		"at": "7",
-		"ar": "0/3",
+		"ar": "0 / 3",
 		"extra": {
 			"attack bonus": "+8 monks, +3 siege, +3 cavalry, +1 ships, +2 camels"
 		},
@@ -657,7 +657,7 @@
 		"hp": "60",
 		"ra": "-",
 		"at": "9",
-		"ar": "0/4",
+		"ar": "0 / 4",
 		"extra": {
 			"attack bonus": "+10 monks, +5 siege, +4 cavalry, +2 ships, +3 camels"
 		},
@@ -717,7 +717,7 @@
 		"hp": "30",
 		"ra": "4",
 		"at": "4",
-		"ar": "0/0",
+		"ar": "0 / 0",
 		"extra": {
 			"attack bonus": "+3 spearmen",
 			"accuracy": "80%"
@@ -784,7 +784,7 @@
 		"hp": "35",
 		"ra": "5",
 		"at": "5",
-		"ar": "0/0",
+		"ar": "0 / 0",
 		"extra": {
 			"attack bonus": "+3 spearmen",
 			"accuracy": "85%"
@@ -852,7 +852,7 @@
 		"hp": "40",
 		"ra": "5",
 		"at": "6",
-		"ar": "0/0",
+		"ar": "0 / 0",
 		"extra": {
 			"attack bonus": "+3 spearmen",
 			"accuracy": "90%"
@@ -920,7 +920,7 @@
 		"hp": "50",
 		"ra": "4",
 		"at": "6",
-		"ar": "0/0",
+		"ar": "0 / 0",
 		"extra": {
 			"attack bonus": "+2 spearmen",
 			"accuracy": "50%",
@@ -986,7 +986,7 @@
 		"hp": "60",
 		"ra": "4",
 		"at": "7",
-		"ar": "1/0",
+		"ar": "1 / 0",
 		"extra": {
 			"attack bonus": "+2 spearmen",
 			"accuracy": "50%"
@@ -1050,7 +1050,7 @@
 		"hp": "35",
 		"ra": "7",
 		"at": "17",
-		"ar": "1/0",
+		"ar": "1 / 0",
 		"extra": {
 			"attack bonus": "+1 spearmen, +10 infantry, +2 rams",
 			"accuracy": "65%"
@@ -1115,7 +1115,7 @@
 		"hp": "30",
 		"ra": "1-4",
 		"at": "2",
-		"ar": "0/3",
+		"ar": "0 / 3",
 		"extra": {
 			"attack bonus": "+3 spearmen, +3 archers/hand cannon/skirms/conquistadors",
 			"accuracy": "90%"
@@ -1177,7 +1177,7 @@
 		"hp": "35",
 		"ra": "1-5",
 		"at": "3",
-		"ar": "0/4",
+		"ar": "0 / 4",
 		"extra": {
 			"attack bonus": "+3 spearmen, +4 archers/hand cannon/skirms/conquistadors, +2 against cavalry archers",
 			"accuracy": "90%"
@@ -1231,8 +1231,8 @@
 		"name": "Scout Cavalry",
 		"ver": "k",
 		"age": "0",
-		"cost": "-",
-		"bt": "-",
+		"cost": "80F",
+		"bt": "0:30",
 		"fr": "2",
 		"ad": "0",
 		"mr": "1.2",
@@ -1240,7 +1240,7 @@
 		"hp": "45",
 		"ra": "-",
 		"at": "3",
-		"ar": "0/2",
+		"ar": "0 / 2",
 		"extra": {
 			"attack bonus": "+6 monks"
 		},
@@ -1298,7 +1298,7 @@
 		"hp": "45",
 		"ra": "-",
 		"at": "5",
-		"ar": "0/2",
+		"ar": "0 / 2",
 		"extra": {
 			"attack bonus": "+6 monks"
 		},
@@ -1360,7 +1360,7 @@
 		"hp": "60",
 		"ra": "-",
 		"at": "7",
-		"ar": "0/2",
+		"ar": "0 / 2",
 		"extra": {
 			"attack bonus": "+10 monks"
 		},
@@ -1423,7 +1423,7 @@
 		"hp": "75",
 		"ra": "-",
 		"at": "7",
-		"ar": "0/2",
+		"ar": "0 / 2",
 		"extra": {
 			"attack bonus": "+12 monks"
 		},
@@ -1485,7 +1485,7 @@
 		"hp": "100",
 		"ra": "-",
 		"at": "10",
-		"ar": "2/2",
+		"ar": "2 / 2",
 		"civb": {
 			"Franks": "+2 LOS 120 HP (20% extra)",
 			"Huns and allies": "0:25 BT (20% faster stable)",
@@ -1544,7 +1544,7 @@
 		"hp": "120",
 		"ra": "-",
 		"at": "12",
-		"ar": "2/2",
+		"ar": "2 / 2",
 		"civb": {
 			"Franks": "+2 LOS 144 HP (20% extra)",
 			"Huns and allies": "0:25 BT (20% faster stable)",
@@ -1603,7 +1603,7 @@
 		"hp": "160",
 		"ra": "-",
 		"at": "14",
-		"ar": "2/3",
+		"ar": "2 / 3",
 		"civb": {
 			"Franks": "+2 LOS 192 HP (20% extra)",
 			"Huns and allies": "0:25 BT (20% faster stable)",
@@ -1660,7 +1660,7 @@
 		"hp": "100",
 		"ra": "-",
 		"at": "6",
-		"ar": "0/0",
+		"ar": "0 / 0",
 		"extra": {
 			"attack bonus": "+9 against cavalry, +5 ships, +5 camels"
 		},
@@ -1722,7 +1722,7 @@
 		"hp": "120",
 		"ra": "-",
 		"at": "7",
-		"ar": "0/0",
+		"ar": "0 / 0",
 		"extra": {
 			"attack bonus": "+18 against cavalry, +9 ships, +9 camels",
 			"search radius": "4"
@@ -1785,7 +1785,7 @@
 		"hp": "50",
 		"ra": "3-7",
 		"at": "40",
-		"ar": "0/6",
+		"ar": "0 / 6",
 		"extra": {
 			"attack bonus": "+35 buildings, +12 siege",
 			"blast radius": "1"
@@ -1848,7 +1848,7 @@
 		"hp": "60",
 		"ra": "3-8",
 		"at": "50",
-		"ar": "0/7",
+		"ar": "0 / 7",
 		"extra": {
 			"attack bonus": "+45 buildings, +12 siege",
 			"blast radius": "1.25"
@@ -1912,7 +1912,7 @@
 		"hp": "70",
 		"ra": "3-8",
 		"at": "75",
-		"ar": "0/8",
+		"ar": "0 / 8",
 		"extra": {
 			"attack bonus": "+60 buildings, +12 siege",
 			"blast radius": "1.5"
@@ -1975,7 +1975,7 @@
 		"hp": "40",
 		"ra": "2-7",
 		"at": "12",
-		"ar": "0/7",
+		"ar": "0 / 7",
 		"extra": {
 			"attack bonus": "+2 buildings, +6 war elephants, +0 melee, +1 rams",
 			"accuracy": "100"
@@ -2038,7 +2038,7 @@
 		"hp": "50",
 		"ra": "2-7",
 		"at": "16",
-		"ar": "0/7",
+		"ar": "0 / 7",
 		"extra": {
 			"attack bonus": "+4 buildings, +8 war elephants, +0 melee, +2 rams",
 			"accuracy": "100"
@@ -2100,7 +2100,7 @@
 		"hp": "175",
 		"ra": "0",
 		"at": "2",
-		"ar": "0/180",
+		"ar": "0 / 180",
 		"extra": {
 			"attack bonus": "+125 (+165 full) buildings, +40 siege, +150 (+190 full) with siege engineers buildings",
 			"armor bonus": "-3 melee",
@@ -2163,7 +2163,7 @@
 		"hp": "200",
 		"ra": "0",
 		"at": "3",
-		"ar": "0/190",
+		"ar": "0 / 190",
 		"extra": {
 			"attack bonus": "+150 (+200 full) buildings, +50 siege, +180 (+230 full) with siege engineers buildings",
 			"armor bonus": "-3 melee, +1 ram armor",
@@ -2226,7 +2226,7 @@
 		"hp": "270",
 		"ra": "0",
 		"at": "4",
-		"ar": "0/195",
+		"ar": "0 / 195",
 		"extra": {
 			"attack bonus": "+200 (+260 full) buildings, +65 siege, +240 (+300 full) with siege engineers buildings",
 			"armor bonus": "-3 melee, +2 ram armor",
@@ -2289,7 +2289,7 @@
 		"hp": "80",
 		"ra": "5-12",
 		"at": "40",
-		"ar": "2/5",
+		"ar": "2 / 5",
 		"extra": {
 			"attack bonus": "+200 buildings, +40 siege, +20 siege, +40 stone defense",
 			"blast radius": "0.5",
@@ -2355,7 +2355,7 @@
 		"hp": "150",
 		"ra": "4-16 (-)",
 		"at": "200 (-)",
-		"ar": "1/150 (2/8)",
+		"ar": "1 / 150 (2/8)",
 		"extra": {
 			"attack bonus": "+250 all buildings",
 			"armor bonus": "+0 ram (only unpacked)",
@@ -2419,7 +2419,7 @@
 		"hp": "50",
 		"ra": "-",
 		"at": "25",
-		"ar": "0/2",
+		"ar": "0 / 2",
 		"extra": {
 			"attack bonus": "+500 buildings, +100 castle, +60 siege, +900 walls & gates",
 			"blast radius": "0.5"
@@ -2478,7 +2478,7 @@
 		"hp": "75",
 		"ra": "-",
 		"at": "-",
-		"ar": "0/0",
+		"ar": "0 / 0",
 		"note": "Cannot be produced, so cost and build time just for the sake of interest.",
 		"available_to": [
 			"Aztecs",
@@ -2529,7 +2529,7 @@
 		"hp": "61",
 		"ra": "-",
 		"at": "9",
-		"ar": "0/1",
+		"ar": "0 / 1",
 		"extra": {
 			"attack bonus": "+2 eagles, +2 buildings",
 			"regeneration": "1 HP every 3 seconds"
@@ -2588,7 +2588,7 @@
 		"hp": "75",
 		"ra": "-",
 		"at": "14",
-		"ar": "2/1",
+		"ar": "2 / 1",
 		"extra": {
 			"attack bonus": "+3 eagles, +3 buildings",
 			"regeneration": "1 HP every 3 seconds"
@@ -2647,7 +2647,7 @@
 		"hp": "110",
 		"ra": "-",
 		"at": "9",
-		"ar": "2/1",
+		"ar": "2 / 1",
 		"extra": {
 			"attack bonus": "+9 infantry",
 			"armor bonus": "+12 cavalry"
@@ -2703,7 +2703,7 @@
 		"hp": "150",
 		"ra": "-",
 		"at": "12",
-		"ar": "2/1",
+		"ar": "2 / 1",
 		"extra": {
 			"attack bonus": "+12 infantry",
 			"armor bonus": "+16 cavalry"
@@ -2759,7 +2759,7 @@
 		"hp": "45",
 		"ra": "4",
 		"at": "8",
-		"ar": "0/0",
+		"ar": "0 / 0",
 		"extra": {
 			"attack bonus": "+2 spearmen +0 melee +0 rams",
 			"accuracy": "85%",
@@ -2820,7 +2820,7 @@
 		"hp": "50",
 		"ra": "6",
 		"at": "8",
-		"ar": "0/0",
+		"ar": "0 / 0",
 		"extra": {
 			"attack bonus": "+2 spearmen +0 melee +0 rams",
 			"accuracy": "85%",
@@ -2881,7 +2881,7 @@
 		"hp": "55",
 		"ra": "6",
 		"at": "16",
-		"ar": "2/2",
+		"ar": "2 / 2",
 		"extra": {
 			"attack bonus": "+4 rams",
 			"accuracy": "65%"
@@ -2937,7 +2937,7 @@
 		"hp": "70",
 		"ra": "6",
 		"at": "18",
-		"ar": "2/2",
+		"ar": "2 / 2",
 		"extra": {
 			"attack bonus": "+6 rams +2 buildings",
 			"accuracy": "70%"
@@ -2993,7 +2993,7 @@
 		"hp": "60",
 		"ra": "-",
 		"at": "10",
-		"ar": "0/6",
+		"ar": "0 / 6",
 		"extra": {
 			"attack bonus": "+2 eagles, +2 buildings, +6 archers/hand cannoneers"
 		},
@@ -3051,7 +3051,7 @@
 		"hp": "70",
 		"ra": "-",
 		"at": "12",
-		"ar": "0/8",
+		"ar": "0 / 8",
 		"extra": {
 			"attack bonus": "+3 eagles, +3 buildings, +10 archers/hand cannoneers"
 		},
@@ -3109,7 +3109,7 @@
 		"hp": "50",
 		"ra": "-",
 		"at": "10",
-		"ar": "1/1",
+		"ar": "1 / 1",
 		"extra": {
 			"attack bonus": "+2 eagles, +2 buildings, +10 infantry"
 		},
@@ -3167,7 +3167,7 @@
 		"hp": "75",
 		"ra": "-",
 		"at": "12",
-		"ar": "2/1",
+		"ar": "2 / 1",
 		"extra": {
 			"attack bonus": "+2 eagles, +2 buildings, +11 infantry"
 		},
@@ -3225,7 +3225,7 @@
 		"hp": "44",
 		"ra": "8",
 		"at": "17",
-		"ar": "1/0",
+		"ar": "1 / 0",
 		"extra": {
 			"attack bonus": "+2 rams",
 			"accuracy": "50%"
@@ -3284,7 +3284,7 @@
 		"hp": "50",
 		"ra": "8",
 		"at": "22",
-		"ar": "2/0",
+		"ar": "2 / 0",
 		"extra": {
 			"attack bonus": "+3 rams",
 			"accuracy": "50%"
@@ -3343,7 +3343,7 @@
 		"hp": "35",
 		"ra": "6",
 		"at": "6",
-		"ar": "0/0",
+		"ar": "0 / 0",
 		"extra": {
 			"attack bonus": "+2 spearmen +0 rams",
 			"accuracy": "70%"
@@ -3404,7 +3404,7 @@
 		"hp": "40",
 		"ra": "8",
 		"at": "7",
-		"ar": "0/1",
+		"ar": "0 / 1",
 		"extra": {
 			"attack bonus": "+2 spearmen +0 rams",
 			"accuracy": "80%"
@@ -3465,7 +3465,7 @@
 		"hp": "65",
 		"ra": "3",
 		"at": "8",
-		"ar": "0/0",
+		"ar": "0 / 0",
 		"extra": {
 			"attack bonus": "+9 cavalry",
 			"armor bonus": "+11 cavalry"
@@ -3524,7 +3524,7 @@
 		"hp": "80",
 		"ra": "3",
 		"at": "10",
-		"ar": "1/0",
+		"ar": "1 / 0",
 		"extra": {
 			"attack bonus": "+12 cavalry",
 			"armor bonus": "+11 cavalry"
@@ -3583,7 +3583,7 @@
 		"hp": "60",
 		"ra": "4",
 		"at": "6",
-		"ar": "0/0",
+		"ar": "0 / 0",
 		"extra": {
 			"attack bonus": "+1 spearmen, +3 siege weapons",
 			"reload time base": "2.1, but with mongol bonus 2.1*0.8 (20% faster) = 1.68",
@@ -3644,7 +3644,7 @@
 		"hp": "60",
 		"ra": "4",
 		"at": "8",
-		"ar": "1/0",
+		"ar": "1 / 0",
 		"extra": {
 			"attack bonus": "+1 spearmen, +5 siege wapons",
 			"reload time base": "2.1, but with mongol bonus 2.1*0.8 (20% faster) = 1.68",
@@ -3705,7 +3705,7 @@
 		"hp": "50",
 		"ra": "4",
 		"at": "5",
-		"ar": "0/1",
+		"ar": "0 / 1",
 		"extra": {
 			"attack bonus": "+1 infantry, +2 spearmen, +0 rams",
 			"accuracy": "80"
@@ -3766,7 +3766,7 @@
 		"hp": "65",
 		"ra": "5",
 		"at": "5",
-		"ar": "0/2",
+		"ar": "0 / 2",
 		"extra": {
 			"attack bonus": "+2 infantry, +2 spearmen, +0 rams",
 			"accuracy": "80"
@@ -3827,7 +3827,7 @@
 		"hp": "60",
 		"ra": "-",
 		"at": "8",
-		"ar": "1/1",
+		"ar": "1 / 1",
 		"extra": {
 			"attack bonus": "+2 eagles, +2 buildings, +10 unique units",
 			"base reload time": "1.9, but with japanese bonus 1.9*0.75 = 1.425"
@@ -3886,7 +3886,7 @@
 		"hp": "80",
 		"ra": "-",
 		"at": "12",
-		"ar": "1/1",
+		"ar": "1 / 1",
 		"extra": {
 			"attack bonus": "+3 eagles, +3 buildings, +12 unique units",
 			"base reload time": "1.9, but with japanese bonus 1.9*0.75 = 1.425"
@@ -3945,7 +3945,7 @@
 		"hp": "100",
 		"ra": "-",
 		"at": "8",
-		"ar": "1/3",
+		"ar": "1 / 3",
 		"extra": {
 			"attack bonus": "+10 castle, +8 buildings, +12 stone defense, +8 walls and gates"
 		},
@@ -4000,7 +4000,7 @@
 		"hp": "150",
 		"ra": "-",
 		"at": "11",
-		"ar": "1/4",
+		"ar": "1 / 4",
 		"extra": {
 			"attack bonus": "+10 castle, +10 buildings, +12 stone defense, +10 walls and gates"
 		},
@@ -4055,7 +4055,7 @@
 		"hp": "80",
 		"ra": "-",
 		"at": "12",
-		"ar": "5/2",
+		"ar": "5 / 2",
 		"extra": {
 			"attack bonus": "+4 eagles, +4 buildings"
 		},
@@ -4110,7 +4110,7 @@
 		"hp": "100",
 		"ra": "-",
 		"at": "17",
-		"ar": "10/2",
+		"ar": "1 0 /2",
 		"extra": {
 			"attack bonus": "+4 eagles, +4 buildings"
 		},
@@ -4165,7 +4165,7 @@
 		"hp": "60",
 		"ra": "3",
 		"at": "7",
-		"ar": "0/0",
+		"ar": "0 / 0",
 		"extra": {
 			"attack bonus": "+1 eagles, +1 buildings"
 		},
@@ -4220,7 +4220,7 @@
 		"hp": "70",
 		"ra": "4",
 		"at": "8",
-		"ar": "1/0",
+		"ar": "1 / 0",
 		"extra": {
 			"attack bonus": "+2 eagles, +2 buildings"
 		},
@@ -4275,7 +4275,7 @@
 		"hp": "450",
 		"ra": "-",
 		"at": "15",
-		"ar": "1/2",
+		"ar": "1 / 2",
 		"extra": {
 			"attack bonus": "+7 buildings, +7 stone defense",
 			"blast radius": "0.5"
@@ -4331,7 +4331,7 @@
 		"hp": "600",
 		"ra": "-",
 		"at": "20",
-		"ar": "1/3",
+		"ar": "1 / 3",
 		"extra": {
 			"attack bonus": "+10 buildings, +10 stone defense",
 			"blast radius": "0.5"
@@ -4387,7 +4387,7 @@
 		"hp": "150",
 		"ra": "4",
 		"at": "9",
-		"ar": "0/3",
+		"ar": "0 / 3",
 		"extra": {
 			"attack bonus": "+5 buildings",
 			"accuracy": "100",
@@ -4444,7 +4444,7 @@
 		"hp": "200",
 		"ra": "5",
 		"at": "9",
-		"ar": "0/4",
+		"ar": "0 / 4",
 		"extra": {
 			"attack bonus": "+5 buildings",
 			"accuracy": "100",
@@ -4501,7 +4501,7 @@
 		"hp": "65",
 		"ra": "-",
 		"at": "8",
-		"ar": "0/1",
+		"ar": "0 / 1",
 		"extra": {
 			"attack bonus": "+2 eagles, +2 buildings",
 			"base movement rate": "1.2, but because of the celts bonus 1.2*1.15 = 1.38"
@@ -4557,7 +4557,7 @@
 		"hp": "80",
 		"ra": "-",
 		"at": "13",
-		"ar": "0/1",
+		"ar": "0 / 1",
 		"extra": {
 			"attack bonus": "+3 eagles, +3 buildings",
 			"base movement rate": "1.2, but because of the celts bonus 1.2*1.15 = 1.38"
@@ -4613,7 +4613,7 @@
 		"hp": "60",
 		"ra": "-",
 		"at": "-",
-		"ar": "0/4",
+		"ar": "0 / 4",
 		"extra": {
 			"search radius": "12"
 		},
@@ -4674,7 +4674,7 @@
 		"hp": "80",
 		"ra": "-",
 		"at": "-",
-		"ar": "0/6",
+		"ar": "0 / 6",
 		"civb": {
 			"Persians": "0:32.73 BT in Feudal, 0:31.3 BT in Castle, 0:30 BT in Imperial",
 			"Spanish": "+25% gold",
@@ -4731,7 +4731,7 @@
 		"hp": "100",
 		"ra": "-",
 		"at": "-",
-		"ar": "4/8",
+		"ar": "4 / 8",
 		"civb": {
 			"Persians": "0:40.91 BT in Feudal, 0:39.13 BT in Castle, 0:37.5 BT in Imperial",
 			"Saracens": "200 HP, Garrison 10 inside (15 with careening, 25 with dry dock)",
@@ -4789,7 +4789,7 @@
 		"hp": "120",
 		"ra": "5",
 		"at": "6",
-		"ar": "0/6",
+		"ar": "0 / 6",
 		"extra": {
 			"attack bonus": "+6 buildings, +8 ships, +3 rams"
 		},
@@ -4852,7 +4852,7 @@
 		"hp": "135",
 		"ra": "6",
 		"at": "7",
-		"ar": "0/6",
+		"ar": "0 / 6",
 		"extra": {
 			"attack bonus": "+7 buildings, +9 ships, +4 rams"
 		},
@@ -4915,7 +4915,7 @@
 		"hp": "165",
 		"ra": "7",
 		"at": "8",
-		"ar": "0/8",
+		"ar": "0 / 8",
 		"extra": {
 			"attack bonus": "+8 buildings, +11 ships, +4 rams"
 		},
@@ -4978,7 +4978,7 @@
 		"hp": "120",
 		"ra": "2.49",
 		"at": "2",
-		"ar": "0/6",
+		"ar": "0 / 6",
 		"extra": {
 			"attack bonus": "+2 buildings, +3 ships, +2 turtle ships, +1 melee",
 			"armor bonus": "+6 ships"
@@ -5041,7 +5041,7 @@
 		"hp": "140",
 		"ra": "2.49",
 		"at": "3",
-		"ar": "0/8",
+		"ar": "0 / 8",
 		"extra": {
 			"attack bonus": "+3 buildings, +4 ships, +3 turtle ships, +1 melee",
 			"armor bonus": "+9 ships"
@@ -5103,7 +5103,7 @@
 		"hp": "60",
 		"ra": "-",
 		"at": "110",
-		"ar": "0/3",
+		"ar": "0 / 3",
 		"extra": {
 			"attack bonus": "+220 buildings",
 			"armor bonus": "+3 ships",
@@ -5167,7 +5167,7 @@
 		"hp": "70",
 		"ra": "-",
 		"at": "140",
-		"ar": "0/3",
+		"ar": "0 / 3",
 		"extra": {
 			"attack bonus": "+280 buildings",
 			"armor bonus": "+5 ships",
@@ -5232,7 +5232,7 @@
 		"hp": "120",
 		"ra": "3-13",
 		"at": "35",
-		"ar": "0/6",
+		"ar": "0 / 6",
 		"extra": {
 			"attack bonus": "+200 buildings, +15 infantry, +15 archers, +15 cavalry, +40 siege",
 			"accuracy": "50%"
@@ -5299,7 +5299,7 @@
 		"hp": "150",
 		"ra": "3-15",
 		"at": "45",
-		"ar": "0/8",
+		"ar": "0 / 8",
 		"extra": {
 			"attack bonus": "+275 buildings, +15 infantry, +15 archers, +15 cavalry, +40 siege",
 			"accuracy": "50%"
@@ -5366,7 +5366,7 @@
 		"hp": "130",
 		"ra": "6",
 		"at": "7",
-		"ar": "0/6",
+		"ar": "0 / 6",
 		"extra": {
 			"attack bonus": "+7 buildings, +9 ships, +4 rams",
 			"reload time": "3, but because of the multiple arrows it get delayed",
@@ -5426,7 +5426,7 @@
 		"hp": "160",
 		"ra": "7",
 		"at": "8",
-		"ar": "0/8",
+		"ar": "0 / 8",
 		"extra": {
 			"attack bonus": "+8 buildings, +11 ships, +4 rams",
 			"reload time": "3, but because of the multiple arrows it get delayed",
@@ -5486,7 +5486,7 @@
 		"hp": "200",
 		"ra": "6",
 		"at": "50",
-		"ar": "6/5",
+		"ar": "6 / 5",
 		"extra": {
 			"armor bonus": "+8 ships",
 			"blast radius": "0.5"
@@ -5545,7 +5545,7 @@
 		"hp": "300",
 		"ra": "6",
 		"at": "50",
-		"ar": "8/6",
+		"ar": "8 / 6",
 		"extra": {
 			"armor bonus": "+11 ships, +1 turtle ship armor, ",
 			"blast radius": "0.5"
@@ -5604,7 +5604,7 @@
 		"hp": "25",
 		"ra": "-",
 		"at": "3",
-		"ar": "0/0",
+		"ar": "0 / 0",
 		"extra": {
 			"attack bonus": "+3 buildings, +6 stone defense",
 			"loom": "40 HP 1/2 armor",
@@ -5676,7 +5676,7 @@
 		"hp": "30",
 		"ra": "9",
 		"at": "0",
-		"ar": "0/0",
+		"ar": "0 / 0",
 		"extra": {
 			"Heal range": "4",
 			"rejuvenation": "1:02",
@@ -5740,7 +5740,7 @@
 		"hp": "30",
 		"ra": "7",
 		"at": "0",
-		"ar": "0/0",
+		"ar": "0 / 0",
 		"note": "mounted monk, affected by bloodlines",
 		"available_to": [
 			"Spanish"
@@ -5792,7 +5792,7 @@
 		"hp": "70",
 		"ra": "-",
 		"at": "-",
-		"ar": "0/0",
+		"ar": "0 / 0",
 		"extra": {
 			"Caravan": "*1.5 MR",
 			"DLCs": "Trade Carts in DLCs have a smaller collision radius (less blockages on trade routes).",
@@ -5852,7 +5852,7 @@
 		"hp": "60",
 		"ra": "1",
 		"at": "7",
-		"ar": "0/0",
+		"ar": "0 / 0",
 		"extra": {
 			"attack bonus": "+8 cavalry, +6 camels, +20 elephants"
 		},
@@ -5907,7 +5907,7 @@
 		"hp": "80",
 		"ra": "1",
 		"at": "8",
-		"ar": "1/0",
+		"ar": "1 / 0",
 		"extra": {
 			"attack bonus": "+12 cavalry, +10 camels, +20 elephants",
 			"search radius": "4"
@@ -5963,7 +5963,7 @@
 		"hp": "40",
 		"ra": "1-5",
 		"at": "5",
-		"ar": "0/0",
+		"ar": "0 / 0",
 		"extra": {
 			"attack bonus": "+1 spearmen, +1 rams, +10 infantry",
 			"accuracy": "90%"
@@ -6024,7 +6024,7 @@
 		"hp": "280",
 		"ra": "4",
 		"at": "6",
-		"ar": "0/3",
+		"ar": "0 / 3",
 		"extra": {
 			"attack bonus": "+3 standard buildings, +3 stone defense",
 			"armor bonus": "-2 archer armor",
@@ -6082,7 +6082,7 @@
 		"hp": "330",
 		"ra": "4",
 		"at": "7",
-		"ar": "0/3",
+		"ar": "0 / 3",
 		"extra": {
 			"attack bonus": "+4 standard buildings, +4 stone defense",
 			"armor bonus": "-2 archer armor",
@@ -6140,7 +6140,7 @@
 		"hp": "140",
 		"ra": "-",
 		"at": "9",
-		"ar": "0/0",
+		"ar": "0 / 0",
 		"extra": {
 			"attack bonus": "+18 against cavalry, +9 ships, +9 camels",
 			"search radius": "4"
@@ -6201,7 +6201,7 @@
 		"hp": "45",
 		"ra": "4",
 		"at": "6",
-		"ar": "1/0",
+		"ar": "1 / 0",
 		"extra": {
 			"attack bonus": "+5 cavalry, +4 ships, +4 camels, +5 war elephants",
 			"accuracy": "100",
@@ -6262,7 +6262,7 @@
 		"hp": "50",
 		"ra": "4",
 		"at": "6",
-		"ar": "1/0",
+		"ar": "1 / 0",
 		"extra": {
 			"attack bonus": "+7 cavalry, +5 ships, +6 camels, +7 war elephants",
 			"accuracy": "100",
@@ -6323,7 +6323,7 @@
 		"hp": "80",
 		"ra": "-",
 		"at": "9",
-		"ar": "1/0",
+		"ar": "1 / 0",
 		"extra": {
 			"attack bonus": "+2 standard buildings, +10 gunpowder",
 			"armor bonus": "+10 anti-infantry armor (only against damage from gunpowder units)"
@@ -6390,7 +6390,7 @@
 		"hp": "70",
 		"ra": "-",
 		"at": "9",
-		"ar": "0/2",
+		"ar": "0 / 2",
 		"extra": {
 			"attack bonus": "+1 rams, +5 siege weapons",
 			"search radius": "4"
@@ -6446,7 +6446,7 @@
 		"hp": "85",
 		"ra": "-",
 		"at": "10",
-		"ar": "0/2",
+		"ar": "0 / 2",
 		"extra": {
 			"attack bonus": "+2 rams, +8 siege weapons",
 			"search radius": "5"
@@ -6502,7 +6502,7 @@
 		"hp": "100",
 		"ra": "-",
 		"at": "12",
-		"ar": "4/1",
+		"ar": "4 / 1",
 		"extra": {
 			"search radius": "4"
 		},
@@ -6557,7 +6557,7 @@
 		"hp": "130",
 		"ra": "-",
 		"at": "14",
-		"ar": "6/2",
+		"ar": "6 / 2",
 		"extra": {
 			"search radius": "4"
 		},
@@ -6612,7 +6612,7 @@
 		"hp": "60",
 		"ra": "1-7",
 		"at": "16",
-		"ar": "2/4",
+		"ar": "2 / 4",
 		"extra": {
 			"attack bonus": "+1 rams. The additional bullets do 2 damage to any unit (1 if they hit another unit).",
 			"accuracy": "50%"
@@ -6671,7 +6671,7 @@
 		"hp": "70",
 		"ra": "1-7",
 		"at": "20",
-		"ar": "2/6",
+		"ar": "2 / 6",
 		"extra": {
 			"attack bonus": "+1 rams. The additional bullets do 2 damage to any unit (1 if they hit another unit).",
 			"accuracy": "50%"
@@ -6730,7 +6730,7 @@
 		"hp": "50",
 		"ra": "-",
 		"at": "4",
-		"ar": "0/2",
+		"ar": "0 / 2",
 		"extra": {
 			"attack bonus": "+8 monks, +3 siege"
 		},
@@ -6790,7 +6790,7 @@
 		"hp": "50",
 		"ra": "-",
 		"at": "7",
-		"ar": "0/2",
+		"ar": "0 / 2",
 		"extra": {
 			"attack bonus": "+8 monks, +3 siege, +2 cavalry, +1 ship, +1 camels"
 		},
@@ -6850,7 +6850,7 @@
 		"hp": "143",
 		"ra": "6",
 		"at": "6",
-		"ar": "0/8",
+		"ar": "0 / 8",
 		"extra": {
 			"attack bonus": "+8 vs all buildings, +6 vs ships, +4 vs rams",
 			"accuracy": "100%"
@@ -6909,7 +6909,7 @@
 		"hp": "165",
 		"ra": "7",
 		"at": "8",
-		"ar": "0/8",
+		"ar": "0 / 8",
 		"extra": {
 			"attack bonus": "+9 vs all buildings, +7 vs ships, +4 vs rams",
 			"accuracy": "100%"
@@ -6968,7 +6968,7 @@
 		"hp": "40",
 		"ra": "-",
 		"at": "16",
-		"ar": "0/0",
+		"ar": "0 / 0",
 		"extra": {
 			"attack bonus": "+2 eagles"
 		},
@@ -7023,7 +7023,7 @@
 		"hp": "50",
 		"ra": "-",
 		"at": "18",
-		"ar": "0/1",
+		"ar": "0 / 1",
 		"extra": {
 			"attack bonus": "+2 eagles, +1 vs standard buildings"
 		},
@@ -7078,7 +7078,7 @@
 		"hp": "30",
 		"ra": "5",
 		"at": "10",
-		"ar": "0/0",
+		"ar": "0 / 0",
 		"extra": {
 			"attack bonus": "+1 eagles"
 		},
@@ -7133,7 +7133,7 @@
 		"hp": "45",
 		"ra": "6",
 		"at": "13",
-		"ar": "0/0",
+		"ar": "0 / 0",
 		"extra": {
 			"attack bonus": "+1 eagles"
 		},
@@ -7188,7 +7188,7 @@
 		"hp": "55",
 		"ra": "4",
 		"at": "7",
-		"ar": "0/1",
+		"ar": "0 / 1",
 		"extra": {
 			"attack bonus": "+4 cavalry archers",
 			"accuracy": "95"
@@ -7247,7 +7247,7 @@
 		"hp": "60",
 		"ra": "4",
 		"at": "8",
-		"ar": "1/1",
+		"ar": "1 / 1",
 		"extra": {
 			"attack bonus": "+6 cavalry archers",
 			"accuracy": "95"
@@ -7306,7 +7306,7 @@
 		"hp": "220",
 		"ra": "-",
 		"at": "-",
-		"ar": "-2/100",
+		"ar": "- 2 /100",
 		"extra": {
 			"armor bonus": "0 ram armor"
 		},
@@ -7365,7 +7365,7 @@
 		"hp": "100",
 		"ra": "2.49",
 		"at": "1",
-		"ar": "0/4",
+		"ar": "0 / 4",
 		"extra": {
 			"attack bonus": "+1 buildings, +3 ships, +1 turtle ships",
 			"armor bonus": "+6 ships"
@@ -7428,7 +7428,7 @@
 		"hp": "45",
 		"ra": "-",
 		"at": "90",
-		"ar": "0/2",
+		"ar": "0 / 2",
 		"extra": {
 			"attack bonus": "+180 buildings",
 			"armor bonus": "+1 ships",
@@ -7493,7 +7493,7 @@
 		"hp": "50",
 		"ra": "1-4",
 		"at": "3",
-		"ar": "0/3",
+		"ar": "0 / 3",
 		"extra": {
 			"attack bonus": "+4 archers/hand cannon/skirms",
 			"armor bonus": "+1 cavalry archer armor",
@@ -7558,7 +7558,7 @@
 		"hp": "55",
 		"ra": "1-4",
 		"at": "4",
-		"ar": "0/4",
+		"ar": "0 / 4",
 		"extra": {
 			"attack bonus": "+5 archers/hand cannon/skirms, +2 vs cavalry archers",
 			"armor bonus": "+1 cavalry archer armor",
@@ -7623,7 +7623,7 @@
 		"hp": "100",
 		"ra": "-",
 		"at": "8",
-		"ar": "1/3",
+		"ar": "1 / 3",
 		"extra": {
 			"attack bonus": "+10 castle, +8 buildings, +12 stone defense, +8 walls and gates"
 		},
@@ -7681,7 +7681,7 @@
 		"hp": "150",
 		"ra": "-",
 		"at": "11",
-		"ar": "1/4",
+		"ar": "1 / 4",
 		"extra": {
 			"attack bonus": "+10 castle, +10 buildings, +12 stone defense, +10 walls and gates"
 		},
@@ -7739,7 +7739,7 @@
 		"hp": "35",
 		"ra": "1-5",
 		"at": "4",
-		"ar": "0/4",
+		"ar": "0 / 4",
 		"extra": {
 			"attack bonus": "+5 archers/hand cannon/skirms, +3 vs cavalry archers, +3 vs spearman",
 			"accuracy": "90%"
@@ -7803,7 +7803,7 @@
 		"hp": "250",
 		"ra": "-",
 		"at": "12",
-		"ar": "1/2",
+		"ar": "1 / 2",
 		"extra": {
 			"attack bonus": "+7 all buildings, +7 stone defense",
 			"blast radius": "0.4"
@@ -7864,7 +7864,7 @@
 		"hp": "300",
 		"ra": "-",
 		"at": "16",
-		"ar": "1/3",
+		"ar": "1 / 3",
 		"extra": {
 			"attack bonus": "+10 all buildings, +10 stone defense",
 			"search radius": "4",
@@ -7926,7 +7926,7 @@
 		"hp": "60",
 		"ra": "5",
 		"at": "18",
-		"ar": "0/1",
+		"ar": "0 / 1",
 		"extra": {
 			"attack bonus": "+2 rams",
 			"armor bonus": "+0 cavalry, +0 cavalry archer, +0 archer",
@@ -7983,7 +7983,7 @@
 		"hp": "65",
 		"ra": "5",
 		"at": "20",
-		"ar": "0/2",
+		"ar": "0 / 2",
 		"extra": {
 			"attack bonus": "+2 rams",
 			"armor bonus": "+0 cavalry, +0 cavalry archer, +0 archer",
@@ -8040,7 +8040,7 @@
 		"hp": "250",
 		"ra": "5",
 		"at": "8",
-		"ar": "0/3",
+		"ar": "0 / 3",
 		"extra": {
 			"search radius": "6",
 			"attack bonus": "+3 standard buildings, +3 stone defense, +2 all buildings, +8 ships, +100 trees",
@@ -8098,7 +8098,7 @@
 		"hp": "290",
 		"ra": "5",
 		"at": "9",
-		"ar": "0/3",
+		"ar": "0 / 3",
 		"extra": {
 			"search radius": "6",
 			"attack bonus": "+3 standard buildings, +4 stone defense, +4 all buildings, +8 ships, +100 trees",
@@ -8156,7 +8156,7 @@
 		"hp": "30",
 		"ra": "-",
 		"at": "6",
-		"ar": "0/1",
+		"ar": "0 / 1",
 		"extra": {
 			"attack bonus": "+2 eagles"
 		},
@@ -8211,7 +8211,7 @@
 		"hp": "40",
 		"ra": "-",
 		"at": "7",
-		"ar": "1/1",
+		"ar": "1 / 1",
 		"extra": {
 			"attack bonus": "+2 eagles, +1 standard buildings"
 		},
@@ -8266,7 +8266,7 @@
 		"hp": "35",
 		"ra": "4",
 		"at": "6",
-		"ar": "0/4",
+		"ar": "0 / 4",
 		"extra": {
 			"attack bonus": "+2 spearmen, +0 rams",
 			"accuracy": "80%"
@@ -8326,7 +8326,7 @@
 		"hp": "35",
 		"ra": "5",
 		"at": "7",
-		"ar": "0/6",
+		"ar": "0 / 6",
 		"extra": {
 			"attack bonus": "+2 spearmen, +0 rams",
 			"accuracy": "90%"

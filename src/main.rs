@@ -18,6 +18,7 @@ mod data;
 mod tech;
 mod unit;
 mod available;
+mod building;
 
 use std::env;
 use std::sync::RwLock;
@@ -57,7 +58,7 @@ fn main() {
 	rocket::ignite()
 		.manage(api)
 		.manage(data)
-		.mount("/", routes![elo::elo, elo::elo_with_ladder, tech::tech, unit::unit, available::available])
+		.mount("/", routes![elo::elo, elo::elo_with_ladder, tech::tech, unit::unit, available::available, building::building])
 		.catch(errors![not_found])
 		.launch();
 }
