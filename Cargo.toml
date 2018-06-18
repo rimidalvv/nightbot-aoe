@@ -1,6 +1,6 @@
 [package]
 name = "nightbot-voobly"
-version = "1.0.0"
+version = "1.4.0"
 authors = ["Johannes Boczek <johannes.boczek@web.de>"]
 
 [dependencies]

@@ -481,7 +481,7 @@ dependencies = [
 
 [[package]]
 name = "nightbot-voobly"
-version = "1.0.0"
+version = "1.4.0"
 dependencies = [
  "reqwest 0.8.6 (registry+https://github.com/rust-lang/crates.io-index)",
  "rocket 0.3.13 (registry+https://github.com/rust-lang/crates.io-index)",
