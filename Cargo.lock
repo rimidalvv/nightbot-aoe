@@ -483,6 +483,7 @@ dependencies = [
 name = "nightbot-voobly"
 version = "1.4.0"
 dependencies = [
+ "cookie 0.9.2 (registry+https://github.com/rust-lang/crates.io-index)",
  "reqwest 0.8.6 (registry+https://github.com/rust-lang/crates.io-index)",
  "rocket 0.3.13 (registry+https://github.com/rust-lang/crates.io-index)",
  "rocket_codegen 0.3.13 (registry+https://github.com/rust-lang/crates.io-index)",
