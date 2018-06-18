@@ -56,7 +56,10 @@ pub fn parse_nightbot_user_param<S>(params: S) -> HashMap<String, String> where 
 	let params = params.as_ref();
 	let mut map = HashMap::new();
 	
+	println!("=== NIGHTBOT HEADER FIELDS ===");
 	for (k, v) in form_urlencoded::parse(params.as_bytes()) {
+		println!("{}: {}", k, v);
+		
 		map.insert(k.to_string(), v.to_string());
 	}
 	
