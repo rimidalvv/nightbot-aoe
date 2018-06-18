@@ -7,7 +7,6 @@ use reqwest::{
 	Response,
 	RedirectPolicy,
 	header::{
-		self,
 		Headers,
 		Cookie as CookieHeader,
 		SetCookie as SetCookieHeader,
@@ -15,9 +14,7 @@ use reqwest::{
 		Connection,
 		Accept,
 		CacheControl,
-		CacheDirective,
-		AcceptEncoding,
-		Encoding
+		CacheDirective
 	}
 };
 use cookie::{
@@ -28,15 +25,14 @@ use cookie::{
 fn create_client() -> Client {
 	let mut headers = Headers::new();
 	
-	headers.set(UserAgent::new("Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0"));
+	headers.set(UserAgent::new("Application"));
 	headers.set(Connection::keep_alive());
 	headers.set(Accept::text());
 	headers.set(CacheControl(vec![CacheDirective::NoCache]));
-	headers.set(AcceptEncoding(vec![header::qitem(Encoding::Gzip), header::qitem(Encoding::Deflate), header::qitem(Encoding::Brotli)]));
 	
 	ClientBuilder::new()
-		.redirect(RedirectPolicy::none())
 		.default_headers(headers)
+		.redirect(RedirectPolicy::none())
 		.build()
 		.unwrap()
 }
@@ -55,7 +51,11 @@ fn update_cookies(cookie_jar: &mut CookieJar, set_cookie_header: &SetCookieHeade
 	for set_cookie in set_cookie_header.iter() {
 		let cookie = Cookie::parse(set_cookie).unwrap().into_owned();
 		
-		cookie_jar.add(cookie);
+		if cookie.value() == "deleted" {
+			cookie_jar.remove(cookie);
+		} else {
+			cookie_jar.add(cookie);
+		}
 	}
 }
 
