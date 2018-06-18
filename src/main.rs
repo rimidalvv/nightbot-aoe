@@ -20,6 +20,7 @@ mod tech;
 mod unit;
 mod available;
 mod building;
+mod score;
 
 use std::env;
 use std::sync::RwLock;
@@ -66,7 +67,7 @@ fn main() {
 	rocket::ignite()
 		.manage(api)
 		.manage(data)
-		.mount("/", routes![elo::elo, elo::elo_with_ladder, tech::tech, unit::unit, available::available, building::building])
+		.mount("/", routes![elo::elo, elo::elo_with_ladder, tech::tech, unit::unit, available::available, building::building, score::score])
 		.catch(errors![not_found])
 		.launch();
 }

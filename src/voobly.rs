@@ -93,13 +93,13 @@ impl VooblyApi {
 		elo
 	}
 	
-	pub fn score<S>(&mut self, id: S) -> Option<String> where S: AsRef<str> {
+	pub fn matches<S>(&mut self, id: S) -> Option<String> where S: AsRef<str> {
 		let mut cookie_jar = CookieJar::new();
 		let url = format!("https://www.voobly.com/profile/view/{}/Matches", id.as_ref());
 		let form_data = vec![("username", self.username.as_str()), ("password", self.password.as_str())];
 		
 		request::get_with_cookies("https://www.voobly.com", &mut cookie_jar);
-		request::post_with_cookies("https://www.voobly.com", &mut cookie_jar, form_data);
+		request::post_with_cookies("https://www.voobly.com/login/auth", &mut cookie_jar, form_data);
 		
 		request::get_with_cookies(&url, &mut cookie_jar)
 	}
