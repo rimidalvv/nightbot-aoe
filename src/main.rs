@@ -51,7 +51,14 @@ fn main() {
 		
 		Default::default()
 	};
-	let api = VooblyApi::new(api_key);
+	let (user, pass) = if let (Ok(user), Ok(pass)) = (env::var("VOOBLY_USER"), env::var("VOOBLY_PASS")) {
+		(user, pass)
+	} else {
+		eprintln!("VOOBLY_USER and / or VOOBLY_PASS environment variables not set!");
+		
+		Default::default()
+	};
+	let api = VooblyApi::new(api_key, user, pass);
 	let api = RwLock::new(api);
 	let data = GameData::new(BUILDING_DATA, CIV_DATA, TECH_DATA, UNIT_DATA);
 	let data = RwLock::new(data);

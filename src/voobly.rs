@@ -5,12 +5,15 @@ use std::time::{
 };
 
 use request;
+use cookie::CookieJar;
 
 /*
  * The Voobly API struct.
  */
 pub struct VooblyApi {
 	key: String,
+	username: String,
+	password: String,
 	id_cache: HashMap<String, (String, String)>,
 	elo_cache: HashMap<(String, String), (String, Instant)>
 }
@@ -26,9 +29,11 @@ impl VooblyApi {
 	/*
 	 * Creates a new struct with the given API key.
 	 */
-	pub fn new<S>(key: S) -> Self where S: Into<String> {
+	pub fn new<S, T, U>(key: S, username: T, password: U) -> Self where S: Into<String>, T: Into<String>, U: Into<String> {
 		VooblyApi {
 			key: key.into(),
+			username: username.into(),
+			password: password.into(),
 			id_cache: HashMap::new(),
 			elo_cache: HashMap::new()
 		}
@@ -86,6 +91,17 @@ impl VooblyApi {
 		}
 		
 		elo
+	}
+	
+	pub fn score<S>(&mut self, id: S) -> Option<String> where S: AsRef<str> {
+		let mut cookie_jar = CookieJar::new();
+		let url = format!("https://www.voobly.com/profile/view/{}/Matches", id.as_ref());
+		let form_data = vec![("username", self.username.as_str()), ("password", self.password.as_str())];
+		
+		request::get_with_cookies("https://www.voobly.com", &mut cookie_jar);
+		request::post_with_cookies("https://www.voobly.com", &mut cookie_jar, form_data);
+		
+		request::get_with_cookies(&url, &mut cookie_jar)
 	}
 }
 
