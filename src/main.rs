@@ -7,6 +7,8 @@ extern crate serde_json;
 extern crate serde;
 extern crate url;
 extern crate cookie;
+extern crate table_extract;
+extern crate time;
 
 #[macro_use]
 extern crate serde_derive;

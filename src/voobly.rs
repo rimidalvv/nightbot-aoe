@@ -6,6 +6,7 @@ use std::time::{
 
 use request;
 use cookie::CookieJar;
+use table_extract::Table;
 
 /*
  * The Voobly API struct.
@@ -45,7 +46,7 @@ impl VooblyApi {
 	pub fn user_info<S>(&mut self, name: S) -> Option<(String, String)> where S: AsRef<str> {
 		let name = name.as_ref();
 		
-		if let Some(id_name) = self.id_cache.get(name) {
+		if let Some(id_name) = self.id_cache.get(&name.to_uppercase()) {
 			return Some(id_name.clone());
 		}
 		
@@ -56,9 +57,9 @@ impl VooblyApi {
 		let actual_name = response.get("name").map(ToString::to_string)?;
 		
 		if !id.is_empty() && !actual_name.is_empty() {
-			self.id_cache.insert(name.to_string(), (id.clone(), actual_name.clone()));
+			self.id_cache.insert(name.to_uppercase(), (id.clone(), actual_name.clone()));
 		} else {
-			self.id_cache.remove(name);
+			self.id_cache.remove(&name.to_uppercase());
 		}
 		
 		Some((id, actual_name))
@@ -71,7 +72,7 @@ impl VooblyApi {
 	pub fn elo<S, T>(&mut self, id: S, ladder: T) -> Option<String> where S: AsRef<str>, T: AsRef<str> {
 		let id = id.as_ref();
 		let ladder = ladder.as_ref();
-		let id_ladder_tuple = (id.to_string(), ladder.to_string());
+		let id_ladder_tuple = (id.to_uppercase(), ladder.to_uppercase());
 		
 		if let Some((elo, timestamp)) = self.elo_cache.remove(&id_ladder_tuple) {
 			if timestamp.elapsed() < Self::ELO_CACHE_DURATION {
@@ -93,15 +94,18 @@ impl VooblyApi {
 		elo
 	}
 	
-	pub fn matches<S>(&mut self, id: S) -> Option<String> where S: AsRef<str> {
+	pub fn matches<S>(&mut self, id: S, page: u16) -> Option<Table> where S: AsRef<str> {
+		let id = id.as_ref();
 		let mut cookie_jar = CookieJar::new();
-		let url = format!("https://www.voobly.com/profile/view/{}/Matches", id.as_ref());
+		let url = format!("https://www.voobly.com/profile/view/{}/Matches/games/matches/user/{}/0/{}", id, id, page);
 		let form_data = vec![("username", self.username.as_str()), ("password", self.password.as_str())];
 		
 		request::get_with_cookies("https://www.voobly.com", &mut cookie_jar);
 		request::post_with_cookies("https://www.voobly.com/login/auth", &mut cookie_jar, form_data);
 		
-		request::get_with_cookies(&url, &mut cookie_jar)
+		let matches = request::get_with_cookies(&url, &mut cookie_jar)?;
+		
+		Table::find_first(&matches)
 	}
 }
 

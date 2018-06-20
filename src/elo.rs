@@ -2,7 +2,10 @@ use std::sync::RwLock;
 
 use rocket::State;
 
-use util::{self, NightbotHeaderFields};
+use util::{
+	self,
+	NightbotHeaderFields
+};
 use voobly::VooblyApi;
 
 /*
@@ -17,10 +20,10 @@ pub struct VooblyLadderInfo {
  * Parses passed ladder into (ladder id, canonical name).
  */
 fn parse_ladder(ladder: &VooblyLadderInfo) -> (String, String) {
-	let (ladder, canonical) = match ladder.ladder.as_ref().map(String::as_str) {
-		Some("rmtg") => (VooblyApi::RM_TG, "RM TG"),
-		Some("dm1v1") => (VooblyApi::DM_1_V_1, "DM 1v1"),
-		Some("dmtg") => (VooblyApi::DM_TG, "DM TG"),
+	let (ladder, canonical) = match ladder.ladder.as_ref().map(|s| s.to_uppercase()).as_ref().map(String::as_str) {
+		Some("RMTG") => (VooblyApi::RM_TG, "RM TG"),
+		Some("DM1V1") => (VooblyApi::DM_1_V_1, "DM 1v1"),
+		Some("DMTG") => (VooblyApi::DM_TG, "DM TG"),
 		_ => (VooblyApi::RM_1_V_1, "RM 1v1")
 	};
 	

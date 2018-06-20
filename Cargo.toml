@@ -1,6 +1,6 @@
 [package]
-name = "nightbot-voobly"
-version = "1.4.0"
+name = "nightbot-aoe2"
+version = "1.5.0"
 authors = ["Johannes Boczek <johannes.boczek@web.de>"]
 
 [dependencies]
@@ -12,3 +12,5 @@ serde = "*"
 serde_derive = "*"
 url = "*"
 cookie = "*"
+table-extract = "*"
+time = "*"

@@ -2,7 +2,10 @@ use std::sync::RwLock;
 
 use rocket::State;
 
-use util::{self, NightbotHeaderFields};
+use util::{
+	self,
+	NightbotHeaderFields
+};
 use data::GameData;
 
 /*
