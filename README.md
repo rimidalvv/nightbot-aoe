@@ -1,17 +1,17 @@
 # Nightbot API for Voobly info
 
 ## Resource endpoints
-* ### `/elo/<user>[?ladder=...]`
+* `/elo/<user>[?ladder=...]`
 	* Checks the Voobly elo of the specified user
 	* If ladder is given, it looks up elo in the specified ladder
 	* Ladder can be one of `rmtg`, `dm1v1`, `dmtg` and defaults to `rm1v1`
-* ### `/tech/<tech>`
+* `/tech/<tech>`
 	* Returns info for the specified tech
-* ### `/unit/<unit>`
+* `/unit/<unit>`
 	* Returns info for the specified unit
-* ### `/building/<building>`
+* `/building/<building>`
 	* Returns info for the specified building
-* ### `/available/<civ>/<tech,unit,building>`
+* `/available/<civ>/<tech,unit,building>`
 	* Checks if the specified civ has a tech / unit / building
 
 All resources require the Nightbot headers in production environment.
