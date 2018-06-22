@@ -13,7 +13,7 @@ use util::{
 };
 use voobly::VooblyApi;
 
-const MATCH_TIME_DIFFERENCE_THRESHOLD_HOURS: i64 = 5;
+const MATCH_TIME_DIFFERENCE_THRESHOLD_HOURS: i64 = 3;
 
 struct MatchData {
 	time: Tm,
