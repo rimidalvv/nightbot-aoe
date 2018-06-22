@@ -16,7 +16,8 @@ pub struct VooblyApi {
 	username: String,
 	password: String,
 	id_cache: HashMap<String, (String, String)>,
-	elo_cache: HashMap<(String, String), (String, Instant)>
+	elo_cache: HashMap<(String, String), (String, Instant)>,
+	match_cache: HashMap<String, (Table, Instant)>
 }
 
 impl VooblyApi {
@@ -26,6 +27,7 @@ impl VooblyApi {
 	pub const DM_TG: &'static str = "162";
 	
 	const ELO_CACHE_DURATION: Duration = Duration::from_secs(180);
+	const MATCH_CACHE_DURATION: Duration = Duration::from_secs(180);
 	
 	/*
 	 * Creates a new struct with the given API key.
@@ -36,7 +38,8 @@ impl VooblyApi {
 			username: username.into(),
 			password: password.into(),
 			id_cache: HashMap::new(),
-			elo_cache: HashMap::new()
+			elo_cache: HashMap::new(),
+			match_cache: HashMap::new()
 		}
 	}
 	
@@ -96,16 +99,30 @@ impl VooblyApi {
 	
 	pub fn matches<S>(&mut self, id: S, page: u16) -> Option<Table> where S: AsRef<str> {
 		let id = id.as_ref();
+		
+		if let Some((match_data, timestamp)) = self.match_cache.remove(id) {
+			if timestamp.elapsed() < Self::MATCH_CACHE_DURATION {
+				self.match_cache.insert(id.to_uppercase(), (match_data.clone(), timestamp));
+				
+				return Some(match_data);
+			}
+		}
+		
 		let mut cookie_jar = CookieJar::new();
 		let url = format!("https://www.voobly.com/profile/view/{}/Matches/games/matches/user/{}/0/{}", id, id, page);
 		let form_data = vec![("username", self.username.as_str()), ("password", self.password.as_str())];
 		
-		request::get_with_cookies("https://www.voobly.com", &mut cookie_jar);
-		request::post_with_cookies("https://www.voobly.com/login/auth", &mut cookie_jar, form_data);
+		request::get_with_cookies("https://www.voobly.com", &mut cookie_jar)?;
+		request::post_with_cookies("https://www.voobly.com/login/auth", &mut cookie_jar, form_data)?;
 		
 		let matches = request::get_with_cookies(&url, &mut cookie_jar)?;
+		let match_data = Table::find_first(&matches);
 		
-		Table::find_first(&matches)
+		if let Some(match_data) = match_data.clone() {
+			self.match_cache.insert(id.to_uppercase(), (match_data, Instant::now()));
+		}
+		
+		match_data
 	}
 }
 
