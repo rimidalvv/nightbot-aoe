@@ -77,7 +77,7 @@ impl VooblyApi {
 		let ladder = ladder.as_ref();
 		let id_ladder_tuple = (id.to_uppercase(), ladder.to_uppercase());
 		
-		if let Some((elo, timestamp)) = self.elo_cache.remove(&id_ladder_tuple) {
+		if let Some((id_ladder_tuple, (elo, timestamp))) = self.elo_cache.remove_entry(&id_ladder_tuple) {
 			if timestamp.elapsed() < Self::ELO_CACHE_DURATION {
 				self.elo_cache.insert(id_ladder_tuple, (elo.clone(), timestamp));
 				
@@ -100,9 +100,9 @@ impl VooblyApi {
 	pub fn matches<S>(&mut self, id: S, page: u16) -> Option<Table> where S: AsRef<str> {
 		let id = id.as_ref();
 		
-		if let Some((match_data, timestamp)) = self.match_cache.remove(id) {
+		if let Some((id, (match_data, timestamp))) = self.match_cache.remove_entry(id) {
 			if timestamp.elapsed() < Self::MATCH_CACHE_DURATION {
-				self.match_cache.insert(id.to_uppercase(), (match_data.clone(), timestamp));
+				self.match_cache.insert(id, (match_data.clone(), timestamp));
 				
 				return Some(match_data);
 			}
