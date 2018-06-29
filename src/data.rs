@@ -30,8 +30,7 @@ pub struct Civ {
 	#[serde(rename = "tb")]
 	pub team_bonus: String,
 	#[serde(rename = "bs")]
-	pub boni: String,
-	pub tt: String//Kinda like the name, but again?
+	pub boni: String
 }
 
 #[derive(Serialize, Deserialize)]
@@ -90,8 +89,10 @@ pub struct Unit {
 	pub cost: String,
 	#[serde(rename = "bt")]
 	pub time: String,
-	pub fr: String,//???
-	pub ad: String,//???
+	#[serde(rename = "fr")]
+	pub attack_speed: String,
+	#[serde(rename = "ad")]
+	pub attack_delay: String,
 	#[serde(rename = "mr")]
 	pub movement_speed: String,
 	#[serde(rename = "los")]

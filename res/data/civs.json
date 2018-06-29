@@ -6,8 +6,7 @@
 		"uu": "Jaguar Warrior",
 		"ut": "Atlatl(Castle), Garland Wars(Imperial)",
 		"tb": "Relics generate +33% gold",
-		"bs": "<ul><li>villagers carry +5</li><li>Military units (except Monks) created 15% faster</li><li>+5 Monk hit points for each Monastery technology</li><li>Start with +50 gold</li></ul>",
-		"tt": "aztecs"
+		"bs": "<ul><li>villagers carry +5</li><li>Military units (except Monks) created 15% faster</li><li>+5 Monk hit points for each Monastery technology</li><li>Start with +50 gold</li></ul>"
 	},
 	{
 		"name": "Britons",
@@ -16,8 +15,7 @@
 		"uu": "Longbowman",
 		"ut": "Yeomen(Castle), Warwolf(Imperial)",
 		"tb": "Archery Ranges work 20% faster",
-		"bs": "<ul><li>Town Centers cost -50% wood upon reaching the Castle Age</li><li>Foot archers (excluding Skirmishers) have +1 range in Castle Age, +1 in Imperial Age (for +2 total)</li><li>Shepherds work 25% faster</li></ul>",
-		"tt": "britons"
+		"bs": "<ul><li>Town Centers cost -50% wood upon reaching the Castle Age</li><li>Foot archers (excluding Skirmishers) have +1 range in Castle Age, +1 in Imperial Age (for +2 total)</li><li>Shepherds work 25% faster</li></ul>"
 	},
 	{
 		"name": "Byzantines",
@@ -26,8 +24,7 @@
 		"uu": "Cataphract",
 		"ut": "Greek Fire(Castle), Logistica(Imperial)",
 		"tb": "Monks +50% heal speed",
-		"bs": "<ul><li>Buildings (except gates) have +10% HP in Dark Age, +20% HP in Feudal Age,+30% in Castle Age, +40% in Imperial Age.</li><li>Spearman, skirmisher and camel lines cost 25% less</li><li>Fire Ships attack 20% faster.</li><li>Imperial Age costs -33%.</li><li>Town Watch is free.</li></ul>",
-		"tt": "byzantines"
+		"bs": "<ul><li>Buildings (except gates) have +10% HP in Dark Age, +20% HP in Feudal Age,+30% in Castle Age, +40% in Imperial Age.</li><li>Spearman, skirmisher and camel lines cost 25% less</li><li>Fire Ships attack 20% faster.</li><li>Imperial Age costs -33%.</li><li>Town Watch is free.</li></ul>"
 	},
 	{
 		"name": "Celts",
@@ -36,8 +33,7 @@
 		"uu": "Woad Raider",
 		"ut": "Stronghold(Castle), Furor Celtica(Imperial)",
 		"tb": "Siege Workshops work 20% faster.",
-		"bs": "<ul><li>Infantry move 15% faster.</li><li>Lumberjacks work 15% faster.</li><li>Siege weapons reload 20% faster.</li><li>Sheep cannot be stolen if within one Celt unit's line of sight.</li></ul>",
-		"tt": "celts"
+		"bs": "<ul><li>Infantry move 15% faster.</li><li>Lumberjacks work 15% faster.</li><li>Siege weapons reload 20% faster.</li><li>Sheep cannot be stolen if within one Celt unit's line of sight.</li></ul>"
 	},
 	{
 		"name": "Chinese",
@@ -46,8 +42,7 @@
 		"uu": "Chu Ko Nu",
 		"ut": "Great Wall(Castle), Rocketry(Imperial)",
 		"tb": "Farms provide +45 food.",
-		"bs": "<ul><li>Start game with 3 extra villagers but -50 wood and -200 food.</li><li>Technologies cost -10% in Feudal Age, -15% in Castle Age,-20% in Imperial Age.</li><li>Town Centers support 10 population instead of 5.</li><li>Town Center +5 LOS</li><li>Demolition Ships have +50% HP</li></ul>",
-		"tt": "chinese"
+		"bs": "<ul><li>Start game with 3 extra villagers but -50 wood and -200 food.</li><li>Technologies cost -10% in Feudal Age, -15% in Castle Age,-20% in Imperial Age.</li><li>Town Centers support 10 population instead of 5.</li><li>Town Center +5 LOS</li><li>Demolition Ships have +50% HP</li></ul>"
 	},
 	{
 		"name": "Franks",
@@ -56,8 +51,7 @@
 		"uu": "Throwing Axeman",
 		"ut": "Chivalry(Castle), Bearded Axe(Imperial)",
 		"tb": "Knights have +2 line of sight",
-		"bs": "<ul><li>Foragers work 25% faster</li><li>Castles are 25% cheaper.</li><li>Cavalry has +20% HP.</li><li>Farm upgrades are free (Mill is required to receive bonus).</li></ul>",
-		"tt": "franks"
+		"bs": "<ul><li>Foragers work 25% faster</li><li>Castles are 25% cheaper.</li><li>Cavalry has +20% HP.</li><li>Farm upgrades are free (Mill is required to receive bonus).</li></ul>"
 	},
 	{
 		"name": "Goths",
@@ -66,8 +60,7 @@
 		"uu": "Huskarl",
 		"ut": "Anarchy(Castle), Perfusion(Imperial)",
 		"tb": "Barracks operate 20% faster",
-		"bs": "<ul> <li>Infantry cost 35% less (starting in Feudal Age)</li> <li>Infantry have +1 attack against buildings.</li> <li>Villagers have +5 attack versus wild boar.</li> <li>Hunters carry +15 meat.</li> <li>+10 to population limit in Imperial Age.</li> </ul>",
-		"tt": "goths"
+		"bs": "<ul> <li>Infantry cost 35% less (starting in Feudal Age)</li> <li>Infantry have +1 attack against buildings.</li> <li>Villagers have +5 attack versus wild boar.</li> <li>Hunters carry +15 meat.</li> <li>+10 to population limit in Imperial Age.</li> </ul>"
 	},
 	{
 		"name": "Huns",
@@ -76,8 +69,7 @@
 		"uu": "Tarkan",
 		"ut": "Marauders(Castle), Atheism(Imperial)",
 		"tb": "Stables are 20% faster.",
-		"bs": "<ul> <li>Houses are not required to support population, start game with -100 Wood.</li> <li>Cavalry Archers cost -10% in Castle Age, -20% in Imperial Age.</li> <li>Trebuchets are 35% more accurate.</li> </ul>",
-		"tt": "huns"
+		"bs": "<ul> <li>Houses are not required to support population, start game with -100 Wood.</li> <li>Cavalry Archers cost -10% in Castle Age, -20% in Imperial Age.</li> <li>Trebuchets are 35% more accurate.</li> </ul>"
 	},
 	{
 		"name": "Japanese",
@@ -86,8 +78,7 @@
 		"uu": "Samurai",
 		"ut": "Yasama(Castle), Kataparuto(Imperial)",
 		"tb": "Galleys have +50% line of sight",
-		"bs": "<ul> <li>Fishing Ships have 2x HP and +2 pierce armor.</li> <li>Fishing Ships work +5% faster in Dark Age, +10% in Feudal Age, +15% in Castle Age, +20% in Imperial Age.</li> <li>Lumber Camps, Mining Camps, and Mills are 50% cheaper.</li> <li>Infantry attack 25% faster (starting in Feudal Age).</li> </ul>",
-		"tt": "japanese"
+		"bs": "<ul> <li>Fishing Ships have 2x HP and +2 pierce armor.</li> <li>Fishing Ships work +5% faster in Dark Age, +10% in Feudal Age, +15% in Castle Age, +20% in Imperial Age.</li> <li>Lumber Camps, Mining Camps, and Mills are 50% cheaper.</li> <li>Infantry attack 25% faster (starting in Feudal Age).</li> </ul>"
 	},
 	{
 		"name": "Koreans",
@@ -96,8 +87,7 @@
 		"uu": "War Wagon, Turtle Ship",
 		"ut": "Panokseon(Castle), Shinkichon(Imperial)",
 		"tb": "Mangonel line minimum range reduced to 1 (from 3)",
-		"bs": "<ul><li>Villagers have +3 line of sight.</li> <li>Stone miners work 20% faster.</li> <li>Guard Tower and Keep upgrades are free.</li> <li>Towers (except bombard towers) have +1 range in Castle Age, +2 in Imperial Age.</li><li>Fortifications (walls, gates, castles, towers) are built 25% faster</ul>",
-		"tt": "koreans"
+		"bs": "<ul><li>Villagers have +3 line of sight.</li> <li>Stone miners work 20% faster.</li> <li>Guard Tower and Keep upgrades are free.</li> <li>Towers (except bombard towers) have +1 range in Castle Age, +2 in Imperial Age.</li><li>Fortifications (walls, gates, castles, towers) are built 25% faster</ul>"
 	},
 	{
 		"name": "Mayans",
@@ -106,8 +96,7 @@
 		"uu": "Plumed Archer",
 		"ut": "Obsidian Arrow(Castle), El Dorado(Imperial)",
 		"tb": "Walls are 50% cheaper",
-		"bs": "<ul><li>Start game with 1 extra villager, -50 food.</li> <li>Natural resources last 15% longer.</li> <li>Archers cost -10% in Feudal Age, -20% in Castle Age, -30% in Imperial Age.</li> </ul>",
-		"tt": "mayans"
+		"bs": "<ul><li>Start game with 1 extra villager, -50 food.</li> <li>Natural resources last 15% longer.</li> <li>Archers cost -10% in Feudal Age, -20% in Castle Age, -30% in Imperial Age.</li> </ul>"
 	},
 	{
 		"name": "Mongols",
@@ -116,8 +105,7 @@
 		"uu": "Mangudai",
 		"ut": "Nomads(Castle), Drill(Imperial)",
 		"tb": "Scout line has +2 LOS",
-		"bs": "<ul> <li>Cavalry Archers reload 20% faster.</li> <li>Light Cavalry and Hussars have +30% HP.</li> <li>Hunters work 50% faster.</li> </ul>",
-		"tt": "mongols"
+		"bs": "<ul> <li>Cavalry Archers reload 20% faster.</li> <li>Light Cavalry and Hussars have +30% HP.</li> <li>Hunters work 50% faster.</li> </ul>"
 	},
 	{
 		"name": "Persians",
@@ -126,8 +114,7 @@
 		"uu": "War Elephant",
 		"ut": "Boiling Oil(Castle), Mahouts(Imperial)",
 		"tb": "Knights have +2 attack versus Archers",
-		"bs": "<ul> <li>Start game with +50 wood and food.</li> <li>Town Center and Docks have 2x HP.</li> <li>Town Centers and Docks operate +10% faster in Feudal Age,  +15% in Castle Age, +20% in Imperial Age.</li> </ul>",
-		"tt": "persians"
+		"bs": "<ul> <li>Start game with +50 wood and food.</li> <li>Town Center and Docks have 2x HP.</li> <li>Town Centers and Docks operate +10% faster in Feudal Age,  +15% in Castle Age, +20% in Imperial Age.</li> </ul>"
 	},
 	{
 		"name": "Saracens",
@@ -136,8 +123,7 @@
 		"uu": "Mameluke",
 		"ut": "Madrasah(Castle), Zealotry(Imperial)",
 		"tb": "Foot archers have +2 attack bonus against buildings",
-		"bs": "<ul> <li>Market costs -75W</li><li>Market trade cost is only 5%</li> <li>Transport Ships have 2x HP and carry capacity.</li> <li>Galleys attack 20% faster.</li> <li>Cavalry Archers have +4 attack bonus against buildings.</li> </ul>",
-		"tt": "saracens"
+		"bs": "<ul> <li>Market costs -75W</li><li>Market trade cost is only 5%</li> <li>Transport Ships have 2x HP and carry capacity.</li> <li>Galleys attack 20% faster.</li> <li>Cavalry Archers have +4 attack bonus against buildings.</li> </ul>"
 	},
 	{
 		"name": "Spanish",
@@ -146,8 +132,7 @@
 		"uu": "Conquistador, Missionary",
 		"ut": "Inquisition(Castle), Supremacy(Imperial)",
 		"tb": "Trade units generate +25% Gold",
-		"bs": "<ul> <li>Villagers construct buildings 30% faster.</li> <li>Blacksmith upgrades do not cost any gold.</li> <li>Cannon Galleons benefit from Ballistics (less reload time and more accuracy).</li> <li>Hand Cannoneers and Bombard Cannons reload 15% faster.</li> </ul>",
-		"tt": "spanish"
+		"bs": "<ul> <li>Villagers construct buildings 30% faster.</li> <li>Blacksmith upgrades do not cost any gold.</li> <li>Cannon Galleons benefit from Ballistics (less reload time and more accuracy).</li> <li>Hand Cannoneers and Bombard Cannons reload 15% faster.</li> </ul>"
 	},
 	{
 		"name": "Teutons",
@@ -156,8 +141,7 @@
 		"uu": "Teutonic Knight",
 		"ut": "Ironclad(Castle), Crenellations(Imperial)",
 		"tb": "Units are more resistant to conversion",
-		"bs": "<ul> <li>Monks have 2x healing range.</li> <li>Towers can garrison 2x units (more arrows).</li> <li>Murder Holes is free.</li> <li>Farms cost 33% less.</li> <li>Town Centers garrison +10 units (total 25), total amount of arrows +5 (max 16).</li> </ul>",
-		"tt": "teutons"
+		"bs": "<ul> <li>Monks have 2x healing range.</li> <li>Towers can garrison 2x units (more arrows).</li> <li>Murder Holes is free.</li> <li>Farms cost 33% less.</li> <li>Town Centers garrison +10 units (total 25), total amount of arrows +5 (max 16).</li> </ul>"
 	},
 	{
 		"name": "Turks",
@@ -166,8 +150,7 @@
 		"uu": "Janissary",
 		"ut": "Sipahi(Castle), Artillery(Imperial)",
 		"bs": "<ul> <li>Gunpowder Units have +25% HP</li> <li>Gunpowder technologies cost 50% less</li> <li>Chemistry is free</li> <li>Gold miners work 20% faster</li> <li>Light Cavalry and Hussar upgrades are free</li> </ul>",
-		"tb": "Gunpowder units are created 20% faster",
-		"tt": "turks"
+		"tb": "Gunpowder units are created 20% faster"
 	},
 	{
 		"name": "Vikings",
@@ -176,8 +159,7 @@
 		"uu": "Berserk, Longboat",
 		"ut": "Chieftains(Castle), Berserkergang(Imperial)",
 		"tb": "Docks are -15% cheaper",
-		"bs": "<ul> <li>Warships cost -15% in Feudal/Castle, -20% in Imperial Age</li> <li>Infantry have +10% HP in Feudal Age, +15% in Castle Age,  +20% in Imperial Age</li> <li>Wheelbarrow and Hand Cart are free</li> </ul>",
-		"tt": "vikings"
+		"bs": "<ul> <li>Warships cost -15% in Feudal/Castle, -20% in Imperial Age</li> <li>Infantry have +10% HP in Feudal Age, +15% in Castle Age,  +20% in Imperial Age</li> <li>Wheelbarrow and Hand Cart are free</li> </ul>"
 	},
 	{
 		"name": "Incas",
@@ -186,8 +168,7 @@
 		"uu": "Kamayuk, Slinger(Archery Range)",
 		"ut": "Andean Sling(Castle), Couriers(Imperial)",
 		"tb": "Farms built 50% faster",
-		"bs": "<ul> <li>Start with free llama</li><li>Villagers affected by blacksmith upgrades</li><li>Houses support 10 population</li><li>Buildings cost -15% stone</li> </ul>",
-		"tt": "incas"
+		"bs": "<ul> <li>Start with free llama</li><li>Villagers affected by blacksmith upgrades</li><li>Houses support 10 population</li><li>Buildings cost -15% stone</li> </ul>"
 	},
 	{
 		"name": "Indians",
@@ -196,8 +177,7 @@
 		"uu": "Elephant Archer, Imperial Camel(Stable)",
 		"ut": "Sultans(Castle), Shatagni(Imperial)",
 		"tb": "Camels +6 attack vs buildings, Mamelukes and Camel Archers +5 vs buildings",
-		"bs": "<ul> <li>Villagers Cost -10% in Dark, -15% in Feudal, -20% in Castle, -25% in Imperial</li><li>Fishermen(villagers) work 15% faster and carry +15</li><li>Camels +1/+1 armor</li> </ul>",
-		"tt": "indians"
+		"bs": "<ul> <li>Villagers Cost -10% in Dark, -15% in Feudal, -20% in Castle, -25% in Imperial</li><li>Fishermen(villagers) work 15% faster and carry +15</li><li>Camels +1/+1 armor</li> </ul>"
 	},
 	{
 		"name": "Italians",
@@ -206,8 +186,7 @@
 		"uu": "Genoese Crossbowman, Condottiero(Barracks)",
 		"ut": "Pavise(Castle), Silk Road(Imperial)",
 		"tb": "Condottiero available in imperial barracks",
-		"bs": "<ul> <li>Advancing to the next age costs -15%</li><li>Dock techs cost -50%</li><li>Fishing ships cost -15W</li><li>Gunpowder units cost -20%</li> </ul>",
-		"tt": "italians"
+		"bs": "<ul> <li>Advancing to the next age costs -15%</li><li>Dock techs cost -50%</li><li>Fishing ships cost -15W</li><li>Gunpowder units cost -20%</li> </ul>"
 	},
 	{
 		"name": "Magyars",
@@ -216,8 +195,7 @@
 		"uu": "Magyar Huszar",
 		"ut": "Mercenaries(Castle), Recurve bow(Imperial)",
 		"tb": "Foot archers (not skirmishers) +2 LOS",
-		"bs": "<ul> <li>Villagers kill wolves in 1 strike</li><li>Melee upgrades (forging, iron casting, blast furnace) in blacksmith free</li><li>Scout line costs -15%</li> </ul>",
-		"tt": "magyars"
+		"bs": "<ul> <li>Villagers kill wolves in 1 strike</li><li>Melee upgrades (forging, iron casting, blast furnace) in blacksmith free</li><li>Scout line costs -15%</li> </ul>"
 	},
 	{
 		"name": "Slavs",
@@ -226,8 +204,7 @@
 		"uu": "Boyar",
 		"ut": "Orthodoxy(Castle), Druzhina(Imperial)",
 		"tb": "Military buildings (barracks, archery ranges, siege workshops and stables) provide +5 population",
-		"bs": "<ul> <li>Farmers work ~15% faster</li><li>Tracking free</li><li>Siege units from siege workshop 15% cheaper</li> </ul>",
-		"tt": "slavs"
+		"bs": "<ul> <li>Farmers work ~15% faster</li><li>Tracking free</li><li>Siege units from siege workshop 15% cheaper</li> </ul>"
 	},
 	{
 		"name": "Portuguese",
@@ -236,8 +213,7 @@
 		"uu": "Organ Gun, Caravel (dock)",
 		"ut": "Carrack(Castle), Arquebus(Imperial)",
 		"tb": "Free cartography from Dark Age",
-		"bs": "<ul> <li>All units cost -15% gold (0.85*cost)</li> <li>All ships 1.1*HP (+10%)</li> <li> Get Feitoria </li> </ul>",
-		"tt": "portuguese"
+		"bs": "<ul> <li>All units cost -15% gold (0.85*cost)</li> <li>All ships 1.1*HP (+10%)</li> <li> Get Feitoria </li> </ul>"
 	},
 	{
 		"name": "Ethiopians",
@@ -246,8 +222,7 @@
 		"uu": "Shotel Warrior",
 		"ut": "Royal Heirs(Castle), Torsion Engines(Imperial)",
 		"tb": "Towers, outposts +3 LOS",
-		"bs": "<ul> <li>Receive 100F 100G upon advancing to next age</li> <li>Pikeman upgrade free</li> <li>Foot archers reload time *0.85 (-15%)</li> </ul>",
-		"tt": "ethiopians"
+		"bs": "<ul> <li>Receive 100F 100G upon advancing to next age</li> <li>Pikeman upgrade free</li> <li>Foot archers reload time *0.85 (-15%)</li> </ul>"
 	},
 	{
 		"name": "Malians",
@@ -256,8 +231,7 @@
 		"uu": "Gbeto",
 		"ut": "Tigui(Castle), Farimba(Imperial)",
 		"tb": "University works 1.8x faster (80% faster)",
-		"bs": "<ul> <li>Barracks units get +1 pierce armor per age</li> <li>buildings (except Farms) wood cost *0.85 (15% cheaper)</li> <li>Free Gold Mining</li> </ul>",
-		"tt": "malians"
+		"bs": "<ul> <li>Barracks units get +1 pierce armor per age</li> <li>buildings (except Farms) wood cost *0.85 (15% cheaper)</li> <li>Free Gold Mining</li> </ul>"
 	},
 	{
 		"name": "Berbers",
@@ -266,8 +240,7 @@
 		"uu": "Camel Archer, Genitour(archery range)",
 		"ut": "Kasbah(Castle), Maghrabi Camels(Imperial)",
 		"tb": "Genitour available in Archery Range",
-		"bs": "<ul> <li>Villagers movement speed *1.1 (10% faster)</li> <li>Ships movement speed *1.1 (10% faster)</li> <li>Stable units cost *0.85 (15% cheaper) in Castle Age and *0.8 (20% cheaper) in Imperial Age</li></ul>",
-		"tt": "berbers"
+		"bs": "<ul> <li>Villagers movement speed *1.1 (10% faster)</li> <li>Ships movement speed *1.1 (10% faster)</li> <li>Stable units cost *0.85 (15% cheaper) in Castle Age and *0.8 (20% cheaper) in Imperial Age</li></ul>"
 	},
 	{
 		"name": "Burmese",
@@ -276,8 +249,7 @@
 		"uu": "Arambai",
 		"ut": "Howdah(Castle), Manipur Cavalry(Imperial)",
 		"tb": "Relics visible on map (3x3 square, all visible)",
-		"bs": "<ul> <li>Free Lumbercamp upgrades</li> <li>Infantry +1 attack per Age (starting in Feudal)</li> <li>Monastery techs cost *0.5 (50% cheaper)</li></ul>",
-		"tt": "burmese"
+		"bs": "<ul> <li>Free Lumbercamp upgrades</li> <li>Infantry +1 attack per Age (starting in Feudal)</li> <li>Monastery techs cost *0.5 (50% cheaper)</li></ul>"
 	},
 	{
 		"name": "Khmer",
@@ -286,8 +258,7 @@
 		"uu": "Ballista Elephant",
 		"ut": "Tusk Swords(Castle), Double Crossbow(Imperial)",
 		"tb": "Scorpions +1 range",
-		"bs": "<ul> <li>No buildings required to advance through Ages or unlock other buildings</li> <li>Battle Elephants speed *1.15 (15% faster)</li> <li>Villagers can garrison in Houses</li></ul>",
-		"tt": "khmer"
+		"bs": "<ul> <li>No buildings required to advance through Ages or unlock other buildings</li> <li>Battle Elephants speed *1.15 (15% faster)</li> <li>Villagers can garrison in Houses</li></ul>"
 	},
 	{
 		"name": "Malay",
@@ -296,8 +267,7 @@
 		"uu": "Karambit Warrior",
 		"ut": "Thalassocracy(Castle), Forced Levy(Imperial)",
 		"tb": "Docks 2x LOS",
-		"bs": "<ul> <li>Advancing to ages 80% faster</li> <li>Fish Traps cost -33%</li> <li>Fish Traps provide unlimited food</li> <li>Battle Elephants cost *0.70 (30% cheaper)</li></ul>",
-		"tt": "malay"
+		"bs": "<ul> <li>Advancing to ages 80% faster</li> <li>Fish Traps cost -33%</li> <li>Fish Traps provide unlimited food</li> <li>Battle Elephants cost *0.70 (30% cheaper)</li></ul>"
 	},
 	{
 		"name": "Vietnamese",
@@ -306,7 +276,6 @@
 		"uu": "Rattan Archer, Imperial Skirmisher(archery range)",
 		"ut": "Chatras(Castle), Paper Money(Imperial)",
 		"tb": "Access to Imperial Skirmisher upgrade",
-		"bs": "<ul> <li>Reveal enemy positions at game start</li> <li>Archery Range units +10% HP in Feudal, +15% in Castle, +20% in Imperial Age</li> <li>Free Conscription</li></ul>",
-		"tt": "vietnamese"
+		"bs": "<ul> <li>Reveal enemy positions at game start</li> <li>Archery Range units +10% HP in Feudal, +15% in Castle, +20% in Imperial Age</li> <li>Free Conscription</li></ul>"
 	}
 ]
