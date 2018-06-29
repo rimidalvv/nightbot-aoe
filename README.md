@@ -1,4 +1,4 @@
-# Nightbot API for Voobly info
+# Nightbot API for Age of Empires 2 info
 
 ## Resource endpoints
 * `/elo/<user>[?ladder=...]`
