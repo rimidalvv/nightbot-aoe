@@ -24,3 +24,7 @@ cargo run
 
 Currently configured to be deployed on Heroku (see [Procfile](Procfile)).
 Easiest way is to use the [Rust buildpack for Heroku](https://github.com/emk/heroku-buildpack-rust).
+
+---
+
+Contributions welcome!
