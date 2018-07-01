@@ -529,7 +529,6 @@
 			"Ethiopians",
 			"Franks",
 			"Goths",
-			"Huns",
 			"Incas",
 			"Indians",
 			"Italians",
@@ -551,7 +550,9 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"not_available_to": []
+		"not_available_to": [
+			"Huns"
+		]
 	},
 	{
 		"type": "Buildings",
@@ -584,7 +585,6 @@
 			"Ethiopians",
 			"Franks",
 			"Goths",
-			"Huns",
 			"Incas",
 			"Indians",
 			"Italians",
@@ -606,7 +606,9 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"not_available_to": []
+		"not_available_to": [
+			"Huns"
+		]
 	},
 	{
 		"type": "Buildings",
@@ -639,7 +641,6 @@
 			"Ethiopians",
 			"Franks",
 			"Goths",
-			"Huns",
 			"Incas",
 			"Indians",
 			"Italians",
@@ -661,7 +662,9 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"not_available_to": []
+		"not_available_to": [
+			"Huns"
+		]
 	},
 	{
 		"type": "Buildings",
@@ -694,7 +697,6 @@
 			"Ethiopians",
 			"Franks",
 			"Goths",
-			"Huns",
 			"Incas",
 			"Indians",
 			"Italians",
@@ -716,7 +718,9 @@
 			"Vietnamese",
 			"Vikings"
 		],
-		"not_available_to": []
+		"not_available_to": [
+			"Huns"
+		]
 	},
 	{
 		"type": "Buildings",
