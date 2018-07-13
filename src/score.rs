@@ -15,12 +15,19 @@ use voobly::VooblyApi;
 
 const MATCH_TIME_DIFFERENCE_THRESHOLD_HOURS: i64 = 5;
 
+/*
+ * Info for match data.
+ * Contains the time played and the winners / losers (clan tag, name).
+ */
 struct MatchData {
 	time: Tm,
 	winners: Vec<(Option<String>, String)>,
 	losers: Vec<(Option<String>, String)>
 }
 
+/*
+ * Extracts names (clan tag, name) from links in the voobly match table.
+ */
 fn extract_names(s: &str) -> Vec<(Option<String>, String)> {
 	let names_iter = s.split("<br>");
 	let mut names = Vec::new();
@@ -49,6 +56,9 @@ fn extract_names(s: &str) -> Vec<(Option<String>, String)> {
 	names
 }
 
+/*
+ * Parses a Voobly match time string into a time struct.
+ */
 fn parse_time(s: &str) -> Option<Tm> {
 	if s.starts_with("Today, ") {
 		let then = &s[7 ..];
@@ -90,6 +100,9 @@ fn parse_time(s: &str) -> Option<Tm> {
 	}
 }
 
+/*
+ * Parses raw match data into the match data struct.
+ */
 fn parse_match_data<'a>(time_str: &'a str, winners_str: &'a str, losers_str: &'a str) -> Option<MatchData> {
 	let time = parse_time(time_str.as_ref());
 	let winners = extract_names(winners_str.as_ref());
@@ -104,6 +117,10 @@ fn parse_match_data<'a>(time_str: &'a str, winners_str: &'a str, losers_str: &'a
 	})
 }
 
+/*
+ * Calculates the win and loss count of a player from an arbitrary amount of matches.
+ * Stops iterating when a match has been played five hours or more before the preceding match.
+ */
 fn parse_score(name: &str, matches: &Vec<MatchData>) -> (u32, u32) {
 	let match_time_threshold = Duration::hours(MATCH_TIME_DIFFERENCE_THRESHOLD_HOURS);
 	let last_match_time = &mut time::now();
@@ -129,6 +146,11 @@ fn parse_score(name: &str, matches: &Vec<MatchData>) -> (u32, u32) {
 	(score, score_opponent)
 }
 
+/*
+ * Resource to fetch the score for the last games played by someone.
+ * "api_lock" is the Voobly API struct kept persistent between requests by Rocket.
+ * Only accepts the request if the Nightbot headers are present.
+ */
 #[get("/score/<voobly_user>")]
 pub fn score(api_lock: State<RwLock<VooblyApi>>, voobly_user: String, nightbot_headers: NightbotHeaderFields) -> String {
 	let mut api = api_lock.write().unwrap();
@@ -137,6 +159,7 @@ pub fn score(api_lock: State<RwLock<VooblyApi>>, voobly_user: String, nightbot_h
 	let response = if let Some((name, matches)) = name_and_matches {
 		let mut match_list = Vec::new();
 		
+		/* Extract raw match data from match table */
 		for match_row in matches.iter().skip(1) {
 			let mut entries = match_row.iter().skip(2);
 			
