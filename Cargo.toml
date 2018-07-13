@@ -1,6 +1,6 @@
 [package]
 name = "nightbot-aoe2"
-version = "1.5.1"
+version = "1.5.2"
 authors = ["Johannes Boczek <johannes.boczek@web.de>"]
 
 [dependencies]
