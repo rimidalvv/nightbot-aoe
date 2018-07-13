@@ -13,7 +13,7 @@ use util::{
 };
 use voobly::VooblyApi;
 
-const MATCH_TIME_DIFFERENCE_THRESHOLD_HOURS: i64 = 3;
+const MATCH_TIME_DIFFERENCE_THRESHOLD_HOURS: i64 = 5;
 
 struct MatchData {
 	time: Tm,
@@ -159,8 +159,13 @@ pub fn score(api_lock: State<RwLock<VooblyApi>>, voobly_user: String, nightbot_h
 		} else {
 			format!("{} losses", losses)
 		};
+		let note = if wins + losses == 10 {
+			"Last 10 games: "
+		} else {
+			""
+		};
 		
-		format!("{}, {}", win_answer, loss_answer)
+		format!("{}{}, {}", note, win_answer, loss_answer)
 	} else {
 		String::from("That user doesn't exist.")
 	};
